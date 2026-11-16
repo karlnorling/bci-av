@@ -1,0 +1,164 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  # Publish a single package by hand to prove npm trusted publishing works
+  # before a release puts it in front of every package at once. This has to
+  # live in ci.yml: npm's trusted publisher config names the workflow *file*,
+  # so a publish from any other workflow is rejected with a 404 on PUT, which
+  # reads like an auth failure but is a filename mismatch.
+  workflow_dispatch:
+    inputs:
+      smoke-test-package:
+        description: 'Publish only this package (e.g. core) to verify OIDC'
+        required: true
+        type: string
+
+concurrency:
+  group: ci-${{ github.ref }}
+  # Supersede stale PR runs, but never cancel a run on main: it may be
+  # mid-publish, and killing npm publish between packages leaves a partial
+  # release for the next run to untangle.
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  quality:
+    name: Quality checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Enable Corepack (Yarn 4)
+        run: corepack enable
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Workspace integrity check (manypkg)
+        run: yarn check
+
+      # GitHub Actions only *warns* when an action is passed an input it does
+      # not declare, so an action major bump that renames inputs fails silently.
+      # changesets/action v1 -> v2 did exactly that in the sibling repos and
+      # broke publishing for four pushes. Fails on an undeclared input.
+      - name: Audit GitHub Action inputs
+        run: yarn audit-actions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check formatting (oxfmt)
+        run: yarn format:check
+
+      - name: Lint (oxlint)
+        run: yarn lint
+
+      # @bci-av/react imports types from @bci-av/core, which only exist once it
+      # has been compiled. Without this, a clean checkout fails type-check with
+      # "Cannot find module '@bci-av/core'".
+      - name: Compile workspace packages
+        run: yarn compile
+
+      - name: Type check
+        run: yarn type-check
+
+      - name: Type check bin/
+        run: yarn type-check:bin
+
+      - name: Test
+        run: yarn test
+
+      # The registry is generated from data/, which is git-ignored, so CI cannot
+      # regenerate it to prove it is current. Instead assert it was generated
+      # from the edition bin/lib/upstream.ts declares — which catches a bumped
+      # EDITION that nobody re-ran `yarn update` for.
+      - name: Registry matches the declared BCI-AV edition
+        run: |
+          declared=$(grep -oE "EDITION = '[^']+'" bin/lib/upstream.ts | cut -d"'" -f2)
+          built=$(grep -oE "EDITION = '[^']+'" packages/@bci-av/core/src/symbols.generated.ts | cut -d"'" -f2)
+          echo "declared: $declared   built from: $built"
+          if [ "$declared" != "$built" ]; then
+            echo "::error::bin/lib/upstream.ts declares BCI-AV $declared but the registry was generated from $built. Run 'yarn update'."
+            exit 1
+          fi
+
+  release:
+    name: Version or publish
+    needs: quality
+    if: >-
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # push version commits and create releases
+      pull-requests: write # open and update the Version Packages PR
+      id-token: write # OIDC token for npm trusted publishing
+    steps:
+      # secrets.GITHUB_TOKEN cannot open the Version Packages PR: the run fails
+      # with "GitHub Actions is not permitted to create or approve pull
+      # requests", and even with that setting enabled a GITHUB_TOKEN-authored PR
+      # triggers no workflows, so it would never get its required status check.
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.BCI_AV_APP_ID }}
+          private-key: ${{ secrets.BCI_AV_PRIVATE_KEY }}
+
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # changesets compares against the base branch
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Enable Corepack (Yarn 4)
+        run: corepack enable
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          registry-url: 'https://registry.npmjs.org'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Compile workspace packages
+        run: yarn compile
+
+      # A dispatch bypasses changesets entirely: nothing is versioned or tagged,
+      # one already-versioned package goes to npm through the same credentials
+      # path a real release uses.
+      - name: Smoke-test trusted publishing
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          set -euo pipefail
+          dir="packages/@bci-av/${{ inputs.smoke-test-package }}"
+          test -f "$dir/package.json" || { echo "::error::no such package: $dir"; exit 1; }
+          (cd "$dir" && npm publish --provenance --access public)
+
+      - name: Create Version PR or publish
+        if: github.event_name == 'push'
+        uses: changesets/action@v2
+        with:
+          # v2 takes the token as an input and refuses to run when a mismatched
+          # GITHUB_TOKEN is also in the environment; setting the env var does
+          # not configure it at all, which is how v1 worked.
+          github-token: ${{ steps.app-token.outputs.token }}
+          publish-script: bash scripts/publish.sh
+          # NOT a bare `changeset version`: that rewrites internal dependency
+          # ranges in package.json but not yarn.lock, so the Version PR then
+          # fails `yarn install --immutable` (YN0028). @bci-av/react depends on
+          # core by a real semver range, so this will fire on the first release.
+          version-script: yarn version-packages
+          commit-message: 'chore: version packages'
+          pr-title: 'chore: version packages'

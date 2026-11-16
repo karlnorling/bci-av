@@ -1,0 +1,61 @@
+{
+  "name": "@bci-av/core",
+  "version": "0.1.0",
+  "description": "TypeScript registry and lookup helpers for the BCI Authorized Vocabulary of Blissymbolics — 6,500+ symbols with inline SVG, glosses in 19 languages and BCI derivations",
+  "keywords": [
+    "aac",
+    "accessibility",
+    "augmentative-communication",
+    "bci",
+    "bci-av",
+    "bliss",
+    "blissymbolics",
+    "blissymbols",
+    "icons",
+    "pictogram",
+    "semantic-language",
+    "svg",
+    "symbols",
+    "typescript"
+  ],
+  "homepage": "https://github.com/karlnorling/bci-av",
+  "bugs": "https://github.com/karlnorling/bci-av/issues",
+  "license": "MIT",
+  "author": "Karl Norling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/bci-av.git",
+    "directory": "packages/@bci-av/core"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', JSON.stringify({type:'commonjs'})); require('fs').writeFileSync('dist/esm/package.json', JSON.stringify({type:'module'}))\"",
+    "test": "jest --passWithNoTests",
+    "type-check": "tsc --noEmit -p tsconfig.cjs.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.6"
+  }
+}
