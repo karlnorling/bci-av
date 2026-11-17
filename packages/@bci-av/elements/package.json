@@ -1,6 +1,6 @@
 {
   "name": "@bci-av/elements",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Framework-free custom element for Blissymbolics from the BCI Authorized Vocabulary",
   "keywords": [
     "aac",
@@ -48,7 +48,7 @@
     "type-check": "tsc --noEmit -p tsconfig.cjs.json"
   },
   "dependencies": {
-    "@bci-av/core": "^0.1.0"
+    "@bci-av/core": "^0.0.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",

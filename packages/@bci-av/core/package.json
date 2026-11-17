@@ -1,6 +1,6 @@
 {
   "name": "@bci-av/core",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "TypeScript registry and lookup helpers for the BCI Authorized Vocabulary of Blissymbolics — 6,500+ symbols with inline SVG, glosses in 19 languages and BCI derivations",
   "keywords": [
     "aac",
