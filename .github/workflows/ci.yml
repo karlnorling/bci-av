@@ -82,9 +82,19 @@ jobs:
       # EDITION that nobody re-ran `yarn update` for.
       - name: Registry matches the declared BCI-AV edition
         run: |
-          declared=$(grep -oE "EDITION = '[^']+'" bin/lib/upstream.ts | cut -d"'" -f2)
-          built=$(grep -oE "EDITION = '[^']+'" packages/@bci-av/core/src/symbols.generated.ts | cut -d"'" -f2)
+          # Quote-agnostic: upstream.ts is formatted by oxfmt and uses single
+          # quotes, while symbols.generated.ts is oxfmt-ignored and keeps the
+          # double quotes JSON.stringify emits. Matching only one of those is
+          # how this check first shipped, and it compared against an empty
+          # string rather than failing loudly.
+          edition_of() { grep -oE "EDITION = ['\"][^'\"]+['\"]" "$1" | head -1 | tr -d "'\";" | awk '{print $NF}'; }
+          declared=$(edition_of bin/lib/upstream.ts)
+          built=$(edition_of packages/@bci-av/core/src/symbols.generated.ts)
           echo "declared: $declared   built from: $built"
+          if [ -z "$declared" ] || [ -z "$built" ]; then
+            echo "::error::could not read EDITION from one of the files (declared='$declared' built='$built')"
+            exit 1
+          fi
           if [ "$declared" != "$built" ]; then
             echo "::error::bin/lib/upstream.ts declares BCI-AV $declared but the registry was generated from $built. Run 'yarn update'."
             exit 1
