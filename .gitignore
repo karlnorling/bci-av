@@ -28,3 +28,6 @@ apps/docs/.astro/
 
 # Upstream BCI-AV download (archive + reference spreadsheet), fetched by `yarn update`
 data/
+
+# Symbol SVGs copied into the docs site by its prebuild step
+apps/docs/public/symbols/

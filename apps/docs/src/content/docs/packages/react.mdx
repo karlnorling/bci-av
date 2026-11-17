@@ -1,0 +1,36 @@
+---
+title: '@bci-av/react'
+description: One accessible React component for rendering a Blissymbol.
+---
+
+```sh
+npm install @bci-av/core @bci-av/react
+```
+
+```tsx
+import { getSymbol } from '@bci-av/core';
+import { BlissSymbolView } from '@bci-av/react';
+
+const symbol = getSymbol('house-work')!;
+
+<BlissSymbolView symbol={symbol} size={96} language="de" />;
+```
+
+## Props
+
+| Prop                  | Default                     |                                            |
+| --------------------- | --------------------------- | ------------------------------------------ |
+| `symbol`              | —                           | The symbol, from `@bci-av/core`. Required. |
+| `size`                | `64`                        | Sets both width and height.                |
+| `width` / `height`    | `size`                      | Override individually.                     |
+| `language`            | `'en'`                      | ISO 639-1 code for the accessible name.    |
+| `title`               | `getName(symbol, language)` | Overrides the accessible name.             |
+| `description`         | `symbol.derivation`         | Overrides the accessible description.      |
+| `className` / `style` | —                           | Applied to the wrapping `<span>`.          |
+| `aria-label`          | —                           | Applied to the wrapper.                    |
+
+## Why there is no component per symbol
+
+The sibling `@ghs-hazard-pictograms` packages generate one component per
+pictogram, which works for 38 of them. With 6,551 it would mean thousands of
+modules for no benefit, so you pass a symbol from the registry instead.

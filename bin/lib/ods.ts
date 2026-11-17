@@ -11,6 +11,10 @@
  *     column after the first repeat.
  *   - a cell's text can be split across several `<text:p>` / `<text:span>`
  *     children, so the value is the concatenation of its descendants.
+ *   - a cell can carry an `<office:annotation>` — a spreadsheet comment —
+ *     whose own date and body are descendants of the cell. Concatenating those
+ *     too corrupted one row's part of speech into
+ *     "2025-11-17T00:00:00Because a group is blueBLUE".
  *
  * Pulling in a spreadsheet library for one file of one known shape would be a
  * much larger dependency than the ~40 lines it replaces.
@@ -30,13 +34,21 @@ export type Sheet = string[][];
  */
 const MAX_REPEAT = 64;
 
+/**
+ * Keys whose contents are not part of a cell's value.
+ *
+ * `office:annotation` is a spreadsheet comment: it lives inside the cell and
+ * carries its own `<dc:date>` and body text.
+ */
+const NOT_CELL_TEXT = new Set(['office:annotation']);
+
 const textOf = (node: unknown): string => {
   if (node === null || node === undefined) return '';
   if (typeof node === 'string' || typeof node === 'number') return String(node);
   if (Array.isArray(node)) return node.map(textOf).join('');
   if (typeof node === 'object') {
     return Object.entries(node as Record<string, unknown>)
-      .filter(([key]) => !key.startsWith('@_'))
+      .filter(([key]) => !key.startsWith('@_') && !NOT_CELL_TEXT.has(key))
       .map(([, value]) => textOf(value))
       .join('');
   }

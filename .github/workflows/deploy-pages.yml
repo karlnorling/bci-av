@@ -1,0 +1,59 @@
+name: Deploy Docs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # The gallery copies 6,551 SVGs into the site, so allow a re-deploy without
+  # pushing a commit.
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: write # peaceiris/actions-gh-pages pushes to the gh-pages branch
+
+jobs:
+  deploy:
+    name: Build and deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Enable Corepack (Yarn 4)
+        run: corepack enable
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      # The docs import from @bci-av/core, so its dist/ has to exist before
+      # Astro resolves anything.
+      - name: Compile workspace packages
+        run: yarn compile
+
+      # The gallery renders <img> cells pointing at files in public/symbols,
+      # which this generates from the registry. Without it the site builds
+      # cleanly and every one of the 6,551 images 404s.
+      - name: Generate symbol assets
+        run: yarn generate-assets
+
+      - name: Build docs
+        run: yarn build-docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: apps/docs/dist
+          # The site is ~5.8MB, most of it the 6,551 symbol files, so keeping
+          # gh-pages history would add a fresh copy on every push. road-signs
+          # needed this at 470MB; it is cheap insurance here.
+          force_orphan: true

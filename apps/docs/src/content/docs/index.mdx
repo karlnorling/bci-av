@@ -1,0 +1,50 @@
+---
+title: Blissymbolics
+description: The BCI Authorized Vocabulary as typed packages for React, Vue 3, Web Components, CSS and static SVG.
+template: splash
+hero:
+  tagline: 6,551 Blissymbols with inline SVG, glosses in 19 languages, and BCI's derivations.
+  actions:
+    - text: Getting started
+      link: getting-started/
+      icon: right-arrow
+    - text: Symbol gallery
+      link: gallery/
+      variant: minimal
+    - text: GitHub
+      link: https://github.com/karlnorling/bci-av
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+Blissymbolics is a semantic graphical language used in augmentative and
+alternative communication. Unlike an icon set it is **generative**: symbols
+compose into new words, and BCI records how each compound is built.
+
+<CardGrid>
+  <Card title="Not just pictures" icon="puzzle">
+    Every symbol carries BCI's derivation, so `housework` tells you it is `work + house` — real
+    semantic structure, not a filename.
+  </Card>
+  <Card title="19 languages" icon="translate">
+    Glosses in English, Swedish, Norwegian, Finnish, Hungarian, German, Dutch, Afrikaans, Russian,
+    Icelandic, Lithuanian, Latvian, Polish, French, Spanish, Portuguese, Italian, Danish and
+    Esperanto.
+  </Card>
+  <Card title="Accessible by default" icon="approve-check">
+    All three renderers inject the accessible name and description into the SVG itself, so assistive
+    technology reads the graphic rather than a wrapper.
+  </Card>
+  <Card title="Versioned against BCI" icon="seti:clock">
+    The registry records which Authorized Vocabulary edition it was built from, and CI fails if the
+    two drift apart.
+  </Card>
+</CardGrid>
+
+:::caution[The symbols are not public domain]
+The artwork and metadata are **CC BY-SA 4.0** by Blissymbolics Communication
+International. Shipping them obliges you to attribute BCI, and to share alike
+if you modify the symbols. See [Licensing](/bci-av/licensing/).
+:::

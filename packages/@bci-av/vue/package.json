@@ -11,7 +11,7 @@
     "symbols",
     "vue"
   ],
-  "homepage": "https://github.com/karlnorling/bci-av",
+  "homepage": "https://karlnorling.github.io/bci-av/",
   "bugs": "https://github.com/karlnorling/bci-av/issues",
   "license": "MIT",
   "author": "Karl Norling",
@@ -51,9 +51,11 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "@typescript/native": "npm:typescript@^7.0.2",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.0.0",
     "ts-jest": "^29.4.6",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
     "vue": "^3.5.0"
   },
   "peerDependencies": {

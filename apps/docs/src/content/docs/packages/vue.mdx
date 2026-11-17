@@ -1,0 +1,35 @@
+---
+title: '@bci-av/vue'
+description: One accessible Vue 3 component for rendering a Blissymbol.
+---
+
+```sh
+npm install @bci-av/core @bci-av/vue
+```
+
+```vue
+<script setup lang="ts">
+import { getSymbol } from '@bci-av/core';
+import { BlissSymbolView } from '@bci-av/vue';
+
+const symbol = getSymbol('house-work')!;
+</script>
+
+<template>
+  <BlissSymbolView :symbol="symbol" :size="96" language="de" class="my-symbol" />
+</template>
+```
+
+## Props
+
+| Prop               | Default                     |                                            |
+| ------------------ | --------------------------- | ------------------------------------------ |
+| `symbol`           | —                           | The symbol, from `@bci-av/core`. Required. |
+| `size`             | `64`                        | Sets both width and height.                |
+| `width` / `height` | `size`                      | Override individually.                     |
+| `language`         | `'en'`                      | ISO 639-1 code for the accessible name.    |
+| `title`            | `getName(symbol, language)` | Overrides the accessible name.             |
+| `description`      | `symbol.derivation`         | Overrides the accessible description.      |
+
+`inheritAttrs` is `false` and attributes are applied to the wrapping `<span>`,
+so `class` and `style` land where you would expect.
