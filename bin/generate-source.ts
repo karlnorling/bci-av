@@ -270,7 +270,9 @@ const main = (): void => {
     `// Source: BCI Authorized Vocabulary ${EDITION}, Blissymbolics Communication International.`,
     '// Blissymbols are licensed CC BY-SA 4.0 by BCI. See NOTICE.',
     '',
-    "import type { BlissSymbol } from './types';",
+    // The .js extension is required: Node resolves ESM specifiers exactly, so
+    // an extensionless relative import only works inside a bundler.
+    "import type { BlissSymbol } from './types.js';",
     '',
     `/** The BCI-AV edition this registry was generated from. */`,
     `export const EDITION = ${JSON.stringify(EDITION)};`,

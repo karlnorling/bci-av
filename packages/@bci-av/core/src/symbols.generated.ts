@@ -6,7 +6,7 @@
 // Source: BCI Authorized Vocabulary 2026-09-12, Blissymbolics Communication International.
 // Blissymbols are licensed CC BY-SA 4.0 by BCI. See NOTICE.
 
-import type { BlissSymbol } from './types';
+import type { BlissSymbol } from './types.js';
 
 /** The BCI-AV edition this registry was generated from. */
 export const EDITION = "2026-09-12";

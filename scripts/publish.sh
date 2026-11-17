@@ -54,5 +54,8 @@ done
 echo
 echo "${published} published, ${skipped} skipped"
 
-# Creates the local annotated tags that changesets/action then pushes.
-yarn changeset tag
+# No `yarn changeset tag` here. It appends to CHANGESETS_OUTPUT as well, so
+# every tag is recorded twice and the action tries to create each GitHub
+# release twice — the second attempt failing with already_exists. The action
+# creates the tags itself, through the API, from the events recorded above.
+# ghs hit this and fixed it the same way.

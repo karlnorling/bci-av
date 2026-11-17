@@ -10,7 +10,7 @@ import { getSymbol } from '@bci-av/core';
 import * as React from 'react';
 import { act } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BlissSymbolView } from '../index';
+import { BlissSymbolView } from '../index.js';
 
 const symbol = getSymbol('house-work')!;
 

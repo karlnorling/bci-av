@@ -8,7 +8,7 @@ import {
   getSymbolsByGloss,
   searchSymbols,
   symbols,
-} from '../index';
+} from '../index.js';
 
 describe('registry', () => {
   // BCI states 6,551 symbols for the 2026-09-12 edition. The generator joins

@@ -19,6 +19,7 @@
     "build-docs": "yarn workspace @bci-av-docs/app build",
     "changeset": "changeset",
     "check": "manypkg check",
+    "check-esm": "node scripts/check-esm.mjs",
     "compile": "yarn workspaces foreach -A --topological-dev run compile",
     "dependabot-sweep": "bash scripts/dependabot-sweep.sh",
     "docs": "yarn workspace @bci-av-docs/app dev",
