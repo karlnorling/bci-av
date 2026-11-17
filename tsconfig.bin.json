@@ -3,7 +3,11 @@
   "compilerOptions": {
     "module": "esnext",
     "moduleResolution": "bundler",
-    "noEmit": true
+    "noEmit": true,
+    // bin/ uses `node:`-prefixed specifiers, which TypeScript only resolves
+    // with the Node types declared. Without this every `import fs from
+    // 'node:fs'` fails with "Cannot find name 'node:fs'".
+    "types": ["node"]
   },
-  "include": ["bin/**/*", "packages/@ghs-hazard-pictograms/core/src/types.ts"]
+  "include": ["bin/**/*", "packages/@bci-av/core/src/types.ts"]
 }

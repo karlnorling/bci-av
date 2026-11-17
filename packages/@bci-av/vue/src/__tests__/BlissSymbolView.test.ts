@@ -8,7 +8,7 @@
 import { getSymbol } from '@bci-av/core';
 import { createApp, h } from 'vue';
 import type { Component } from 'vue';
-import { BlissSymbolView } from '../index';
+import { BlissSymbolView } from '../index.js';
 
 const symbol = getSymbol('house-work')!;
 

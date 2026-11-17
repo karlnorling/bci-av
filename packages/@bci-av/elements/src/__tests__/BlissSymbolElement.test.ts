@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import { getSymbol } from '@bci-av/core';
-import { BlissSymbolElement, defineBlissSymbol } from '../index';
+import { BlissSymbolElement, defineBlissSymbol } from '../index.js';
 
 const symbol = getSymbol('house-work')!;
 

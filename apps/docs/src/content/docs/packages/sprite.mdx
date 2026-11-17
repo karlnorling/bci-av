@@ -1,0 +1,36 @@
+---
+title: '@bci-av/sprite'
+description: An SVG symbol sheet with every symbol, plus an id map.
+---
+
+```sh
+npm install @bci-av/sprite
+```
+
+One 2.3 MB file containing all 6,551 symbols as `<symbol>` elements, referenced
+by id:
+
+```html
+<svg width="64" height="64">
+  <use href="node_modules/@bci-av/sprite/sprite.svg#bliss-house-work" />
+</svg>
+```
+
+Ids are `bliss-` plus the symbol's `id`. `sprite-ids.json` maps registry ids to
+sheet ids if you need to resolve them programmatically:
+
+```ts
+import ids from '@bci-av/sprite/sprite-ids.json';
+
+ids['house-work']; //=> "bliss-house-work"
+```
+
+## When to use this over CSS
+
+One request for the whole vocabulary, no second package, and the symbol
+inherits `currentColor` where the artwork allows it. The cost is that the
+browser fetches all 2.3 MB up front, whereas the CSS approach fetches
+individual files on demand.
+
+For a page showing a handful of symbols, prefer a component package. For one
+showing hundreds, the sheet is usually the better trade.

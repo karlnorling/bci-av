@@ -1,0 +1,43 @@
+---
+title: '@bci-av/elements'
+description: A framework-free custom element for rendering a Blissymbol.
+---
+
+```sh
+npm install @bci-av/core @bci-av/elements
+```
+
+```ts
+import { getSymbol } from '@bci-av/core';
+import { defineBlissSymbol } from '@bci-av/elements';
+import type { BlissSymbolElement } from '@bci-av/elements';
+
+defineBlissSymbol(); // registers <bliss-symbol>
+
+const el = document.createElement('bliss-symbol') as BlissSymbolElement;
+el.symbol = getSymbol('house-work')!;
+el.setAttribute('size', '96');
+el.setAttribute('language', 'de');
+document.body.append(el);
+```
+
+`defineBlissSymbol(tagName?)` takes an optional name and is safe to call more
+than once — `customElements.define` throws on a duplicate, so it checks first.
+
+## The symbol is a property, not an attribute
+
+There is no `symbol-id` attribute. An attribute would mean the element had to
+look the symbol up, which would mean shipping all 6,551 of them to the page.
+Setting `.symbol` keeps the registry a build-time concern.
+
+## Attributes
+
+| Attribute          | Default        |                                         |
+| ------------------ | -------------- | --------------------------------------- |
+| `size`             | `64`           | Sets both width and height.             |
+| `width` / `height` | `size`         | Override individually.                  |
+| `language`         | `en`           | ISO 639-1 code for the accessible name. |
+| `title`            | the gloss      | Overrides the accessible name.          |
+| `description`      | the derivation | Overrides the accessible description.   |
+
+Nothing renders until `.symbol` is set.

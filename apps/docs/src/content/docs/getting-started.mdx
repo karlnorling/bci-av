@@ -1,0 +1,106 @@
+---
+title: Getting started
+description: Install the packages and render your first Blissymbol.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+## Install
+
+<Tabs>
+  <TabItem label="React">```sh npm install @bci-av/core @bci-av/react ```</TabItem>
+  <TabItem label="Vue 3">```sh npm install @bci-av/core @bci-av/vue ```</TabItem>
+  <TabItem label="Web Components">```sh npm install @bci-av/core @bci-av/elements ```</TabItem>
+  <TabItem label="CSS">```sh npm install @bci-av/css @bci-av/assets ```</TabItem>
+</Tabs>
+
+`@bci-av/core` holds the registry and is the only package with no peer
+dependencies. Everything else builds on it.
+
+## Look a symbol up
+
+```ts
+import { getSymbol, getSymbolByBciAv, searchSymbols } from '@bci-av/core';
+
+getSymbol('house-work'); // by slug
+getSymbolByBciAv('23536'); // by BCI-AV number — stable across editions
+searchSymbols('haus', 'de'); // substring search, in German
+```
+
+Prefer `getSymbolByBciAv` when you persist a reference. BCI-AV numbers are not
+reused between editions; slugs follow their gloss and can change.
+
+## Render it
+
+<Tabs>
+  <TabItem label="React">
+
+```tsx
+import { getSymbol } from '@bci-av/core';
+import { BlissSymbolView } from '@bci-av/react';
+
+const symbol = getSymbol('house-work')!;
+
+<BlissSymbolView symbol={symbol} size={96} language="de" />;
+```
+
+  </TabItem>
+  <TabItem label="Vue 3">
+
+```vue
+<script setup lang="ts">
+import { getSymbol } from '@bci-av/core';
+import { BlissSymbolView } from '@bci-av/vue';
+
+const symbol = getSymbol('house-work')!;
+</script>
+
+<template>
+  <BlissSymbolView :symbol="symbol" :size="96" language="de" />
+</template>
+```
+
+  </TabItem>
+  <TabItem label="Web Components">
+
+```ts
+import { getSymbol } from '@bci-av/core';
+import { defineBlissSymbol } from '@bci-av/elements';
+import type { BlissSymbolElement } from '@bci-av/elements';
+
+defineBlissSymbol();
+
+const el = document.createElement('bliss-symbol') as BlissSymbolElement;
+el.symbol = getSymbol('house-work')!;
+el.setAttribute('size', '96');
+document.body.append(el);
+```
+
+The symbol is set as a **property**, not an attribute — an attribute would mean
+shipping all 6,551 symbols to the page just so the element could look one up.
+
+  </TabItem>
+  <TabItem label="CSS">
+
+```html
+<link rel="stylesheet" href="node_modules/@bci-av/css/sprite.css" />
+<span class="bliss-house-work" style="display:inline-block;width:96px;height:96px"></span>
+```
+
+Backgrounds resolve into `@bci-av/assets`, so install both.
+
+  </TabItem>
+</Tabs>
+
+## Accessible names
+
+All three renderers inject a `<title>` and `<desc>` into the SVG and point
+`aria-labelledby` at them, so screen readers describe the graphic itself.
+
+The description defaults to BCI's derivation, which for a compound symbol is
+genuinely useful: `house-work` reads as
+_"(work + house: work to maintain a house)"_.
+
+Use `getName(symbol, language)` rather than reading `names[language]` directly —
+the entry is absent for untranslated symbols, and where present it holds every
+synonym in one comma-separated string.

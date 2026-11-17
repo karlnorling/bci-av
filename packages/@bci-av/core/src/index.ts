@@ -12,11 +12,11 @@
  * @module @bci-av/core
  */
 
-import { symbols } from './symbols.generated';
-import type { BlissSymbol } from './types';
+import { symbols } from './symbols.generated.js';
+import type { BlissSymbol } from './types.js';
 
-export type { BlissSymbol } from './types';
-export { EDITION, symbols } from './symbols.generated';
+export type { BlissSymbol } from './types.js';
+export { EDITION, symbols } from './symbols.generated.js';
 
 /** Returns every symbol. The array is a copy, so callers may sort it. */
 export const getAllSymbols = (): BlissSymbol[] => [...symbols];

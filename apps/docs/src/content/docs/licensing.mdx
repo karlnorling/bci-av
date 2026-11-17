@@ -1,0 +1,60 @@
+---
+title: Licensing
+description: The code is MIT. The symbols are CC BY-SA 4.0 by BCI. Keep them apart.
+---
+
+This project packages two separately licensed things.
+
+## The code — MIT
+
+The generators, build configuration, components and documentation are MIT.
+
+## The symbols — CC BY-SA 4.0, by BCI
+
+The artwork and all accompanying metadata — BCI-AV numbers, glosses, derivations,
+part-of-speech classifications — come from the
+[BCI Authorized Vocabulary](https://www.blissymbolics.org/), published by
+**Blissymbolics Communication International** under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+### What that obliges you to do
+
+1. **Attribute BCI.** Credit "Blissymbolics Communication International" and
+   link the licence. Crediting this package instead does not satisfy it.
+2. **Share alike.** If you _modify the symbols_ — redraw, recolour, build new
+   symbols from them — release those modifications under CC BY-SA 4.0 too.
+3. **Indicate changes** if you made any.
+
+### What it does not oblige you to do
+
+Share-alike attaches to the **symbols**, not to your application. Rendering
+them in a user interface does not make your code CC BY-SA. Editing the artwork
+and redistributing it does.
+
+:::note
+This is the only one of these pictogram libraries whose artwork is not public
+domain. If you have used the GHS, ISO 7010, ISO 7001 or road sign packages,
+do not assume the terms carry over.
+:::
+
+## Which edition
+
+The registry records the edition it was generated from:
+
+```ts
+import { EDITION } from '@bci-av/core';
+
+EDITION; //=> "2026-09-12"
+```
+
+BCI publishes a new Authorized Vocabulary periodically. CI fails if the
+committed registry and the declared edition drift apart, so the value above is
+always what the symbols were actually built from.
+
+## Talking to BCI
+
+BCI is a non-profit that exists to standardise Blissymbolics, and they
+deliberately licensed it for reuse. If you are building something substantial,
+they are worth contacting: [blissymbolics.org](https://www.blissymbolics.org/).
+
+This is an unofficial packaging. BCI are not responsible for it.

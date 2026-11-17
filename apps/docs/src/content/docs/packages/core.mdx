@@ -1,0 +1,65 @@
+---
+title: '@bci-av/core'
+description: The registry, types and lookup helpers. No dependencies.
+---
+
+```sh
+npm install @bci-av/core
+```
+
+Holds the whole vocabulary and is the only package with no peer dependencies.
+
+## The shape of a symbol
+
+```ts
+import { getSymbol } from '@bci-av/core';
+
+getSymbol('house-work');
+// {
+//   bciAv: "23536",
+//   derivation: "(work + house: work to maintain a house)",
+//   gloss: "house_work",
+//   id: "house-work",
+//   names: { en: "house_work,housekeeping,housework", de: "Haushaltsführung", … },
+//   pos: "YELLOW",
+//   svg: "<svg viewBox=…",
+//   synonyms: ["house_work", "housekeeping", "housework"],
+// }
+```
+
+| Field        |                                                                               |
+| ------------ | ----------------------------------------------------------------------------- |
+| `bciAv`      | BCI-AV number. **Stable across editions** — use it for persisted references.  |
+| `id`         | Slug from the primary gloss. Unique, but follows the gloss, so it can change. |
+| `gloss`      | Primary English gloss.                                                        |
+| `synonyms`   | Every English gloss, primary first.                                           |
+| `names`      | Gloss by ISO 639-1 code, as BCI writes it — see the warning below.            |
+| `derivation` | How BCI composes the symbol. Present for 6,550 of 6,551.                      |
+| `pos`        | Part of speech, as a colour. Bliss encodes grammatical class by colour.       |
+| `svg`        | Inline SVG with a `viewBox` and no physical dimensions.                       |
+
+## Lookups
+
+```ts
+getSymbol('house-work'); // by slug
+getSymbolByBciAv('23536'); // by BCI-AV number
+getSymbolsByGloss('housekeeping'); // exact synonym match
+searchSymbols('house', 'de'); // substring, English + one other language
+getAllSymbols(); // a copy of the whole registry
+getLanguages(); // the 19 ISO 639-1 codes present
+getName(symbol, 'de'); // one displayable name
+EDITION; // the BCI-AV edition this was built from
+```
+
+`getSymbolsByGloss` is an exact synonym match, not a search: `"housekeeping"`
+and `"housework"` both resolve to the same symbol, while `"house"` resolves to
+its own.
+
+:::caution[Use getName, not names[lang]]
+`names` keeps BCI's text verbatim, which means every synonym in that language
+as one comma-separated string — `"hushållsarbete, hemarbete"`. It is also
+absent entirely for symbols BCI has not translated.
+
+`getName(symbol, lang)` returns a single displayable name and falls back to
+English, then to the gloss.
+:::

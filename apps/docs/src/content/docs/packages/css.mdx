@@ -1,0 +1,35 @@
+---
+title: '@bci-av/css'
+description: One background-image class per symbol.
+---
+
+```sh
+npm install @bci-av/css @bci-av/assets
+```
+
+Both packages are needed: the stylesheet's backgrounds resolve into
+`@bci-av/assets`, which is what the `peerDependency` declares.
+
+```html
+<link rel="stylesheet" href="node_modules/@bci-av/css/sprite.css" />
+
+<span class="bliss-house-work" style="display:inline-block;width:64px;height:64px"></span>
+```
+
+Classes are `bliss-` plus the symbol's `id`. The element needs an explicit size,
+since a background image gives it no intrinsic dimensions.
+
+## Why not data URIs
+
+Embedding all 6,551 symbols as base64 would make `sprite.css` about **4.1 MB**;
+referencing the assets package keeps it at **1.1 MB**. The trade is that you
+install two packages instead of one.
+
+If you need a single self-contained file, [the SVG sprite](/bci-av/packages/sprite/)
+is one request and works without a second package.
+
+## No accessible name
+
+A CSS background is decorative as far as assistive technology is concerned. If
+the symbol carries meaning, use one of the component packages, which inject a
+`<title>` and `<desc>` into the SVG, or add your own text alternative.

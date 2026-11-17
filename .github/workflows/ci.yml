@@ -67,6 +67,14 @@ jobs:
       - name: Compile workspace packages
         run: yarn compile
 
+      # Loads every package's ESM and CJS build the way a consumer would.
+      # Catches imports that only resolve inside a bundler — a relative import
+      # without a .js extension loads fine under CommonJS and fails under ESM,
+      # so `compile` and `test` both pass while the published package is broken
+      # for anyone using `import`.
+      - name: Check the published builds load in Node
+        run: yarn check-esm
+
       - name: Type check
         run: yarn type-check
 

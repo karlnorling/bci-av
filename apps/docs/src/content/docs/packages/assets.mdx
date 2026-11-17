@@ -1,0 +1,32 @@
+---
+title: '@bci-av/assets'
+description: One SVG file per symbol.
+---
+
+```sh
+npm install @bci-av/assets
+```
+
+6,551 individual files, named after the symbol's `id`:
+
+```
+node_modules/@bci-av/assets/assets/house-work.svg
+```
+
+```html
+<img src="node_modules/@bci-av/assets/assets/house-work.svg" alt="housework" width="64" />
+```
+
+Useful when a build step needs the files on disk, when serving them from a CDN,
+or alongside [`@bci-av/css`](/bci-av/packages/css/), whose backgrounds point
+into this package.
+
+## No raster variants
+
+The sibling pictogram libraries also ship jpg, png and webp at five sizes each.
+This one does not, deliberately: 6,551 symbols times fifteen variants is 98,265
+files, and the equivalent tree in the road-signs repo reached 16 GB and
+produced tarballs npm refused.
+
+Blissymbols are line drawings. They scale perfectly as SVG, so there is nothing
+a raster would add.
