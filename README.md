@@ -32,10 +32,31 @@ genuinely informative rather than filler.
 
 ## Packages
 
-| Package         | What it is                                         |
-| --------------- | -------------------------------------------------- |
-| `@bci-av/core`  | The registry, types, and lookups. No dependencies. |
-| `@bci-av/react` | One accessible React component.                    |
+| Package            | What it is                                |
+| ------------------ | ----------------------------------------- |
+| `@bci-av/core`     | The registry, types and lookups. No deps. |
+| `@bci-av/react`    | One accessible React component.           |
+| `@bci-av/vue`      | One accessible Vue 3 component.           |
+| `@bci-av/elements` | A framework-free custom element.          |
+| `@bci-av/assets`   | One `.svg` file per symbol.               |
+| `@bci-av/sprite`   | An SVG symbol sheet plus an id map.       |
+| `@bci-av/css`      | One `background-image` class per symbol.  |
+
+```html
+<!-- sprite: one request, then reference any symbol by id -->
+<svg width="64" height="64">
+  <use href="node_modules/@bci-av/sprite/sprite.svg#bliss-house-work" />
+</svg>
+
+<!-- css: install @bci-av/assets alongside; backgrounds resolve into it -->
+<link rel="stylesheet" href="node_modules/@bci-av/css/sprite.css" />
+<span class="bliss-house-work" style="display:inline-block;width:64px;height:64px"></span>
+```
+
+There are **no raster variants**. The sibling repos rasterise every pictogram to
+jpg/png/webp at five sizes, which here would be 98,265 files — the pattern that
+left road-signs with a 16GB asset tree and tarballs npm refused. Blissymbols are
+line drawings that scale perfectly as SVG.
 
 There is deliberately **no component per symbol**. With 6,551 entries that would
 mean thousands of modules for no benefit, so you pass a symbol from the registry

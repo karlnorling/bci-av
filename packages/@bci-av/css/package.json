@@ -1,0 +1,49 @@
+{
+  "name": "@bci-av/css",
+  "version": "0.1.0",
+  "description": "CSS sprite for the BCI Authorized Vocabulary of Blissymbolics — one class per symbol",
+  "keywords": [
+    "aac",
+    "accessibility",
+    "blissymbolics",
+    "blissymbols",
+    "css",
+    "sprite",
+    "svg",
+    "symbols"
+  ],
+  "homepage": "https://github.com/karlnorling/bci-av",
+  "bugs": "https://github.com/karlnorling/bci-av/issues",
+  "license": "MIT",
+  "author": "Karl Norling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/bci-av.git",
+    "directory": "packages/@bci-av/css"
+  },
+  "files": [
+    "sprite.css",
+    "package.json",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "exports": {
+    "./sprite.css": "./sprite.css"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "compile": "echo 'css package — no compilation needed'",
+    "test": "echo 'css package — no tests'",
+    "type-check": "echo 'css package — no type-check'"
+  },
+  "devDependencies": {
+    "@bci-av/assets": "workspace:^"
+  },
+  "peerDependencies": {
+    "@bci-av/assets": "^0.1.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@bci-av/assets",
+  "version": "0.1.0",
+  "description": "Blissymbol SVG files from the BCI Authorized Vocabulary — one file per symbol",
+  "keywords": [
+    "aac",
+    "accessibility",
+    "assets",
+    "blissymbolics",
+    "blissymbols",
+    "svg",
+    "symbols"
+  ],
+  "homepage": "https://github.com/karlnorling/bci-av",
+  "bugs": "https://github.com/karlnorling/bci-av/issues",
+  "license": "MIT",
+  "author": "Karl Norling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/bci-av.git",
+    "directory": "packages/@bci-av/assets"
+  },
+  "files": [
+    "assets/",
+    "package.json",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "exports": {
+    "./assets/*": "./assets/*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "compile": "echo 'assets package — no compilation needed'",
+    "test": "echo 'assets package — no tests'",
+    "type-check": "echo 'assets package — no type-check'"
+  }
+}

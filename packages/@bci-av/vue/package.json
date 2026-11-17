@@ -1,0 +1,61 @@
+{
+  "name": "@bci-av/vue",
+  "version": "0.1.0",
+  "description": "Accessible Vue 3 component for Blissymbolics from the BCI Authorized Vocabulary",
+  "keywords": [
+    "aac",
+    "accessibility",
+    "blissymbolics",
+    "blissymbols",
+    "svg",
+    "symbols",
+    "vue"
+  ],
+  "homepage": "https://github.com/karlnorling/bci-av",
+  "bugs": "https://github.com/karlnorling/bci-av/issues",
+  "license": "MIT",
+  "author": "Karl Norling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/bci-av.git",
+    "directory": "packages/@bci-av/vue"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', JSON.stringify({type:'commonjs'})); require('fs').writeFileSync('dist/esm/package.json', JSON.stringify({type:'module'}))\"",
+    "test": "jest --passWithNoTests",
+    "type-check": "tsc --noEmit -p tsconfig.cjs.json"
+  },
+  "dependencies": {
+    "@bci-av/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.6",
+    "vue": "^3.5.0"
+  },
+  "peerDependencies": {
+    "vue": ">=3"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@bci-av/sprite",
+  "version": "0.1.0",
+  "description": "SVG symbol sheet of the BCI Authorized Vocabulary of Blissymbolics",
+  "keywords": [
+    "aac",
+    "accessibility",
+    "blissymbolics",
+    "blissymbols",
+    "sprite",
+    "svg",
+    "svg-sprite",
+    "symbols"
+  ],
+  "homepage": "https://github.com/karlnorling/bci-av",
+  "bugs": "https://github.com/karlnorling/bci-av/issues",
+  "license": "MIT",
+  "author": "Karl Norling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/bci-av.git",
+    "directory": "packages/@bci-av/sprite"
+  },
+  "files": [
+    "sprite.svg",
+    "sprite-ids.json",
+    "package.json",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "exports": {
+    "./sprite.svg": "./sprite.svg",
+    "./sprite-ids.json": "./sprite-ids.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "compile": "echo 'sprite package — no compilation needed'",
+    "test": "echo 'sprite package — no tests'",
+    "type-check": "echo 'sprite package — no type-check'"
+  }
+}
