@@ -76,6 +76,11 @@ describe('rendering', () => {
     expect(wide.querySelector('svg')?.getAttribute('height')).toBe('32');
   });
 
+  it('defaults to 64 when no size is given', () => {
+    const el = mount();
+    expect(el.querySelector('svg')?.getAttribute('width')).toBe('64');
+  });
+
   it('escapes attacker-controlled title and description', () => {
     const el = mount((e) => {
       e.setAttribute('title', '<script>x</script>');
