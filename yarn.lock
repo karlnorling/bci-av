@@ -681,7 +681,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@bci-av/core@npm:^0.0.0, @bci-av/core@workspace:^, @bci-av/core@workspace:packages/@bci-av/core":
+"@bci-av/core@npm:^0.1.0, @bci-av/core@workspace:^, @bci-av/core@workspace:packages/@bci-av/core":
   version: 0.0.0-use.local
   resolution: "@bci-av/core@workspace:packages/@bci-av/core"
   dependencies:
@@ -699,7 +699,7 @@ __metadata:
   dependencies:
     "@bci-av/assets": "workspace:^"
   peerDependencies:
-    "@bci-av/assets": ^0.0.0
+    "@bci-av/assets": ^0.1.0
   languageName: unknown
   linkType: soft
 
@@ -725,7 +725,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@bci-av/elements@workspace:packages/@bci-av/elements"
   dependencies:
-    "@bci-av/core": "npm:^0.0.0"
+    "@bci-av/core": "npm:^0.1.0"
     "@types/jest": "npm:^30.0.0"
     "@typescript/native": "npm:typescript@^7.0.2"
     jest: "npm:^30.0.0"
@@ -865,7 +865,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@bci-av/react@workspace:packages/@bci-av/react"
   dependencies:
-    "@bci-av/core": "npm:^0.0.0"
+    "@bci-av/core": "npm:^0.1.0"
     "@types/jest": "npm:^30.0.0"
     "@types/react": "npm:^19.0.0"
     "@types/react-dom": "npm:^19.3.0"
@@ -913,7 +913,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@bci-av/vue@workspace:packages/@bci-av/vue"
   dependencies:
-    "@bci-av/core": "npm:^0.0.0"
+    "@bci-av/core": "npm:^0.1.0"
     "@types/jest": "npm:^30.0.0"
     "@typescript/native": "npm:typescript@^7.0.2"
     jest: "npm:^30.0.0"
