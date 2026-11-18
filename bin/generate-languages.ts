@@ -115,7 +115,12 @@ const manifest = (code: string, language: string, covered: number) => ({
         }
       : {}),
   },
-  publishConfig: { access: 'public', provenance: true },
+  // No `provenance: true`. It makes npm demand a CI provider on every publish,
+  // including a local one, which blocks the manual bootstrap publish that has
+  // to happen before trusted publishing can be configured for a package that
+  // does not exist yet. scripts/publish.sh passes --provenance, so CI
+  // publishes are still attested. See #13.
+  publishConfig: { access: 'public' },
 });
 
 const main = (): void => {
