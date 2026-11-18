@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** lynx — (cat + ear + hair: medium sized wild cat with usually tufted ears) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26194",
+  derivation: "(cat + ear + hair: medium sized wild cat with usually tufted ears)",
+  gloss: "lynx",
+  id: "lynx",
+  names: {"en":"lynx,bobcat","sv":"lo, lodjur","no":"gaupe","de":"Luchs","af":"rooikat,eurasiese_rooikat,voskat","lt":"lūšis","pl":"ryś","eo":"linko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64M10 194h128m-97.007 63.97a15.5 15.5 0 1 0-30.985.03m94.985-.03a15.5 15.5 0 1 0-30.985.03m94.985-.03a15.5 15.5 0 1 0-30.985.03m126.988-96.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M201.172 256.534a127.5 127.5 0 0 0 63.774-94.67m48.498-.42a22 22 0 0 0 1 32.052m63-32.052a22 22 0 0 0 1 32.052m-33-32.052a22 22 0 0 0 1 32.052\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["lynx","bobcat"],
+};
+
+export default blissSymbol;

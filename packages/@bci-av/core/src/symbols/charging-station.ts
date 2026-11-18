@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** charging_station — (place + electricity +vehicle: a place for charging vehicle batteries) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29640",
+  derivation: "(place + electricity +vehicle: a place for charging vehicle batteries)",
+  gloss: "charging_station",
+  id: "charging-station",
+  names: {"en":"charging_station","sv":"laddningsstation","no":"ladestasjon","de":"Ladestation","af":"EV_laaistasie","pl":"stacja ładowania","eo":"ŝarg-stacio"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 808 644\"><g fill=\"none\"><path d=\"M20 514h256M84 450l64 64m0 0 64-64m128-64h128m0-128L340 386m128 0L340 514\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"595.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m641 404-91 91m0-91 91 91M532 386h256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"723.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m769 404-91 91m0-91 91 91\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["charging_station"],
+};
+
+export default blissSymbol;

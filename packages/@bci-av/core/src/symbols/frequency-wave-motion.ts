@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** frequency_(wave_motion) — (frequency + wave) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25310",
+  derivation: "(frequency + wave)",
+  gloss: "frequency_(wave_motion)",
+  id: "frequency-wave-motion",
+  names: {"en":"frequency_(wave_motion)","sv":"frekvens (vågrörelse)","no":"frekvens (bølgebevegelse)","fi":"aalto (fysiikka)","de":"Frequenz (Wellenbewegung)","nl":"frequentie","af":"frekwensie (golfbeweging)","ru":"частота волн","lv":"biežums (viļņu kustība)","pl":"częstotliwość fali","es":"frecuencia (movimiento de las olas)","eo":"ondofrekvenco"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M266 194h64m-64-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"265.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M42 162h128M10 226h128m-48-96L26 258m128-128L90 258m112-128v128m128-128v128m96.894-.772a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M362 194l32 32m0 0 32-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["frequency_(wave_motion)"],
+};
+
+export default blissSymbol;

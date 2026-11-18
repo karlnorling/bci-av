@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** murder — (killing + plan) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25122",
+  derivation: "(killing + plan)",
+  gloss: "murder",
+  id: "murder",
+  names: {"en":"murder","sv":"mord","no":"mord (overlagt)","fi":"murha, murhaaminen","de":"Mord","nl":"moord (met voorbedachte rade)","af":"moord (beplan)","ru":"убийство","is":"morð","lv":"slepkavība, slepkava","pl":"morderstwo","es":"asesinato","eo":"murdo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><circle cx=\"169.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M234 130 106 258m64-128v128M10 130l64 64m0 0-64 64m0-128v128m382.998-64.008a63.5 63.5 0 1 0-126.996.008M266 258l64-64m0 0 64 64m0 0H266\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["murder"],
+};
+
+export default blissSymbol;

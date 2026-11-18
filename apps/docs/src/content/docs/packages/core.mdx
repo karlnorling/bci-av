@@ -38,6 +38,36 @@ getSymbol('house-work');
 | `pos`        | Part of speech, as a colour. Bliss encodes grammatical class by colour.       |
 | `svg`        | Inline SVG with a `viewBox` and no physical dimensions.                       |
 
+## Importing one symbol
+
+`symbols` is a single array, so a bundler cannot split it: importing anything
+from the package root pulls all 6,551 symbols. Measured with esbuild, a
+consumer who wanted one symbol bundled **6.2 MB** (1.4 MB gzipped).
+
+If you need a known set rather than search, import them directly:
+
+```ts
+import houseWork from '@bci-av/core/symbols/house-work';
+
+houseWork.svg;
+houseWork.derivation; //=> "(work + house: work to maintain a house)"
+```
+
+|                            | bundled   |
+| -------------------------- | --------- |
+| one symbol via the subpath | **~1 KB** |
+| five symbols               | ~5 KB     |
+| the root entry             | 6.2 MB    |
+
+The module name is the symbol's `id`, and it exports the same `BlissSymbol`
+object the registry holds — as both a default and a named `blissSymbol` export.
+
+:::tip[Which should you use?]
+The root entry still carries the whole registry, because search and the gallery
+need every symbol and there is no way around that. Use it when you are
+searching; import directly when you already know which symbols you want.
+:::
+
 ## Lookups
 
 ```ts

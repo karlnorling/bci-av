@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** drink-(to) — (drink + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13882",
+  derivation: "(drink + action indicator)",
+  gloss: "drink-(to)",
+  id: "drink-to",
+  names: {"en":"drink-(to)","sv":"dricka","no":"drikke","fi":"juoda","hu":"inni","de":"trinken","nl":"drinken","af":"drink (om te)","ru":"пить","is":"drekka","lt":"gerti","lv":"dzert","pl":"pić","fr":"boire","es":"beber","pt":"beber","it":"bere","da":"drikker, drikke","eo":"trinki"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74.958 193.16a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978M42 258h64M58 98l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["drink-(to)"],
+};
+
+export default blissSymbol;

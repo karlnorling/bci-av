@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** drying_rack_(fish) — (drying_rack + fish) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26162",
+  derivation: "(drying_rack + fish)",
+  gloss: "drying_rack_(fish)",
+  id: "drying-rack-fish",
+  names: {"en":"drying_rack_(fish)","sv":"torkställning (för fisk)","no":"tørkestativ_(fisk),fiskehjell,hjell","de":"Fisch-Trockengestell","af":"droograk_(vis)","pl":"stelaż do suszenia ryb","eo":"sekigilo (por fiŝoj)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"M456.998 257.992a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330.002 194a63.5 63.5 0 0 0 126.996-.008m-222.104-.764a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M298 130 170 258M10 130zm0 128zm128-128zm0 128zM42 130h64M42 258h64m-96-96v64m128-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["drying_rack_(fish)"],
+};
+
+export default blissSymbol;

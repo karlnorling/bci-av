@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** footprint — (imprint,trace,track + foot) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25308",
+  derivation: "(imprint,trace,track + foot)",
+  gloss: "footprint",
+  id: "footprint",
+  names: {"en":"footprint","sv":"fotspår, fotavtryck","no":"fotavtrykk","fi":"jalanjälki","de":"Fußabdruck, Fußstapfen","nl":"voetafdruk","af":"voetspoor","ru":"след, отпечаток стопы","lv":"kāju nospiedumi","pl":"ślad stopy","es":"huella","pt":"pegadas","it":"impronte","da":"fodspor","eo":"piedsigno"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><path fill=\"none\" d=\"M170 130v128m0 0-32-32m32 32 32-32m-96 32h128M74 194l-64 64m0 0h64M10 130h64m0 0v128M10 130l64 64m192 64 64-128m0 0 64 128m-128 0h64m64 0h64m-64-48 32 32m0 0 32-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["footprint"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** chromosome — (fiber,fibre,fibril,filament,strand + atom + spiral [the latter two is a contraction of the DNA molecule]: the threadlike body in the cell nucleus that carries the DNA spiral molecule with genes in a linear order) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26143",
+  derivation: "(fiber,fibre,fibril,filament,strand + atom + spiral [the latter two is a contraction of the DNA molecule]: the threadlike body in the cell nucleus that carries the DNA spiral molecule with genes in a linear order)",
+  gloss: "chromosome",
+  id: "chromosome",
+  names: {"en":"chromosome","sv":"kromosom","no":"kromosom","de":"Chromosom","af":"chromosoom","pl":"chromosom","eo":"kromosomo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"M362 130.004a31.5 31.5 0 1 0-.015 62.992\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330.004 162a31.5 31.5 0 0 0 62.992-.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M394 162.004a31.5 31.5 0 1 0-.015 62.992\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M362.004 194a31.5 31.5 0 0 0 62.992-.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M394.004 226a31.5 31.5 0 0 0 62.992-.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M426 194.004a31.5 31.5 0 1 0-.015 62.992\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m266 226-32 32m0 0 32 32M74 194.002A63.5 63.5 0 0 0 10.002 258m63.99-65.002a63.5 63.5 0 0 0 63.006-63.006\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["chromosome"],
+};
+
+export default blissSymbol;

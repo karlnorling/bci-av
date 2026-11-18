@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Icelandic_(language) — (language + ice + fire: ice + fire representing Iceland [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25322",
+  derivation: "(language + ice + fire: ice + fire representing Iceland [contraction])",
+  gloss: "Icelandic_(language)",
+  id: "icelandic-language",
+  names: {"en":"Icelandic_(language)","sv":"isländska","no":"islandsk-(språk)","fi":"islanti (kieli)","de":"Isländisch (Sprache)","nl":"Ijslands","af":"Yslands (taal)","ru":"исландский язык","lv":"islandiešu valoda","pl":"Islandzki (język)","es":"Islandes (idioma)","eo":"islanda (lingvo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M104.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M41.238 256.64a127 127.5 0 0 0 63.712-94.776m97.944 31.364a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M170 162h64m0 0v64m0 0h-64m0 0v-64m142.82 30.82a45 45 0 0 0 .5-63.13m-.14 63.49a45 45 0 0 0 1.01 64.618\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Icelandic_(language)"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** birth_control_pill — (pill + without + egg: pill that prevents the release of an egg) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "12845",
+  derivation: "(pill + without + egg: pill that prevents the release of an egg)",
+  gloss: "birth_control_pill",
+  id: "birth-control-pill",
+  names: {"en":"birth_control_pill,pill","sv":"p-piller","no":"p-pille, prevensjonspille","fi":"ehkäisypilleri","hu":"fogamzásgátló tabletta","de":"Antibabypille, Pille","nl":"anticonceptiepil, de pil","af":"geboorte beperkings pil","ru":"противозачаточные таблетки","is":"getnaðarvarnarpilla","lt":"kontraceptinė tabletė","lv":"pretapaugļošanas tabletes","pl":"pigułki antykoncepcyjnej, pigułka","fr":"pilule contraceptive","es":"píldora anticonceptiva","pt":"pílula","it":"pillola anticoncezionale","da":"p-piller","eo":"naskiĝo kontrola pilolo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M88.82 256.82a45 45 0 0 0 .5-63.13m63.86-64.51a45 45 0 0 0 1.01 64.618m-1.37 63.022a45 45 0 0 0 .5-63.13M154 130v128m48-64h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M394.894 193.228a45 44.5 0 0 0-66.851-1.028\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330.19 193.798a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["birth_control_pill","pill"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** water_meter — (gauge + water + thing indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23246",
+  derivation: "(gauge + water + thing indicator)",
+  gloss: "water_meter",
+  id: "water-meter",
+  names: {"en":"water_meter","sv":"vattenmätare","no":"vannmåler","fi":"vesimittari","hu":"vízmérő","de":"Wassermesser, Wasseruhr, Wasserzähler","nl":"watermeter","af":"watermeter","ru":"водомер","is":"vatnsmælir","lv":"ūdensskaitītājs","pl":"wodomierz","fr":"compteur d'eau","es":"medidor de agua","it":"misuratore dell'acqua","eo":"akvo mezurilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><path fill=\"none\" d=\"M170.894 193.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M42 130v128M10 130h64m-64 64h64m-64 64h64M26 66h32m0 0v32m0 0H26m0 0V66\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["water_meter"],
+};
+
+export default blissSymbol;

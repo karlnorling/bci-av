@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** digging — (shovel + earth) - Character (superimposed) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25550",
+  derivation: "(shovel + earth) - Character (superimposed)",
+  gloss: "digging",
+  id: "digging",
+  names: {"en":"digging,excavation","sv":"grävning, utgrävning (allmän)","no":"graving, utgraving (generelt)","de":"Graben, Ausgrabung","nl":"uitgraven, spitten","af":"grawe, uitgrawing","ru":"копание, раскопка","lv":"rakšana","pl":"kopanie, wykopywanie","eo":"fosado, elfosado"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><path fill=\"none\" d=\"M10 258h128M42 130h64m-64 96h64m-32-96v96m-31.996 0a31.5 31.5 0 0 0 62.992-.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["digging","excavation"],
+};
+
+export default blissSymbol;

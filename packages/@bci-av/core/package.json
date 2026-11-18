@@ -42,6 +42,11 @@
       "import": "./dist/esm/index.js",
       "require": "./dist/cjs/index.js",
       "types": "./dist/esm/index.d.ts"
+    },
+    "./symbols/*": {
+      "import": "./dist/esm/symbols/*.js",
+      "require": "./dist/cjs/symbols/*.js",
+      "types": "./dist/esm/symbols/*.d.ts"
     }
   },
   "publishConfig": {

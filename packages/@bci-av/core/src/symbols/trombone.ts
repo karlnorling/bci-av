@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** trombone — (brass_instrument + back_and_forth) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23970",
+  derivation: "(brass_instrument + back_and_forth)",
+  gloss: "trombone",
+  id: "trombone",
+  names: {"en":"trombone","sv":"trombon","no":"trombone","fi":"pasuuna, vetopasuuna","hu":"harsona","de":"Posaune","nl":"trombone","af":"tromboon","ru":"тромбон","is":"básúna","lv":"trombons","pl":"puzon","fr":"trombone","es":"trombón","pt":"trombone","da":"trombone","eo":"trombono"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130v96m-96-64h64m0 0v64m0 0H10m0 0v-64m128 0h64m0 0v64m0 0h-64m0 0v-64m64 0h64m0 0v64m0 0h-64m0 0v-64m96 32h128m0 0-32-32m32 32-32 32m-96 32h128m-128 0 32-32m-32 32 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["trombone"],
+};
+
+export default blissSymbol;

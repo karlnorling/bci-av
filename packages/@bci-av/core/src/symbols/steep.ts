@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** steep — (sloping,sloped,slanting,slanted + intensity + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26248",
+  derivation: "(sloping,sloped,slanting,slanted + intensity + description indicator)",
+  gloss: "steep",
+  id: "steep",
+  names: {"en":"steep","sv":"brant","no":"stupbratt","de":"steil","af":"steil","lt":"status","pl":"stromy","eo":"kruta"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 212 324\"><path fill=\"none\" d=\"m10 130 128 128m-64 0h64m0-64v64m32-96v48m0 15zM58 66l16 32m0 0 16-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["steep"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** retirement — (resignation_(1) + year) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25156",
+  derivation: "(resignation_(1) + year)",
+  gloss: "retirement",
+  id: "retirement",
+  names: {"en":"retirement","sv":"pension, pensionering","no":"pensjon, pensjonering","fi":"eläkevuodet","de":"Ruhestand, Pensionierung","nl":"pensioen","af":"aftrede","ru":"уход на пенсию","is":"sestur í helgan stein","lv":"pensija (dzīves periods)","pl":"emerytura","es":"jubilación","eo":"pensiiĝo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><path d=\"m170 258 32-64m0 0 32 64m-64-64 32-64m0 0 32 64m-224 0h128m0 0-32-32m32 32-32 32m32-96v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"329.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m362 162 32 32m32-32-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["retirement"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** kayak — (boat + paddle [two blades]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22077",
+  derivation: "(boat + paddle [two blades])",
+  gloss: "kayak",
+  id: "kayak",
+  names: {"en":"kayak","sv":"kajak","no":"kajak","fi":"kajakki","hu":"kajak","de":"Kajak","nl":"kajak","af":"kajak","ru":"байдарка, каяк","is":"kajak","lv":"kajaks","pl":"kajak","fr":"kayak","es":"kayak","pt":"canoa","it":"canoa","da":"kajak","eo":"kajako"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 388 324\"><path fill=\"none\" d=\"m346 98-64 64m-32 32-64 64m96-32-64 64m-32-32 32 32m32-96 32 32m-47.106 31.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M378 130l-64 64m-16-16-32 32m80-112 32 32m-96 32 32 32m-304 0h128m-127.998 0a63.5 63.5 0 0 0 126.996-.008M74 130v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["kayak"],
+};
+
+export default blissSymbol;

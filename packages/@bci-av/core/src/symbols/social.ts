@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** social — (society + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24269",
+  derivation: "(society + description indicator)",
+  gloss: "social",
+  id: "social",
+  names: {"en":"social","sv":"social","no":"sosial","fi":"sosiaalinen, seurallinen","hu":"társadalmi, szociális","de":"sozial","nl":"sociaal","af":"sosiaal","ru":"социальный","is":"félagslyndur","lv":"sociāls","pl":"społeczny, socjalny","fr":"social","es":"social","eo":"socia"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"161.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m10 194 64 64m0-64-64 64m96 0h128m-96 0 32-64m0 0 32 64m-32-128v64M154 66l16 32m0 0 16-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["social"],
+};
+
+export default blissSymbol;

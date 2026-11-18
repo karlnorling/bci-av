@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** dyslexia — (limitation + reading: limited ability to learn to read) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26299",
+  derivation: "(limitation + reading: limited ability to learn to read)",
+  gloss: "dyslexia",
+  id: "dyslexia",
+  names: {"en":"dyslexia","sv":"dyslexi","no":"dysleksi","de":"Dyslexie","af":"disleksie","lt":"disleksija","pl":"dysleksja","eo":"disleksio, specifa legomalfacilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M202 194zm64-64h64m0 0v128m0 0h-64m0 0V130m-256 0v128m128-128v128m-32 0zm-32 0zm-32 0z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["dyslexia"],
+};
+
+export default blissSymbol;

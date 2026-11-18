@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** polisher — (machine + to polish [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22390",
+  derivation: "(machine + to polish [contraction])",
+  gloss: "polisher",
+  id: "polisher",
+  names: {"en":"polisher","sv":"polermaskin","no":"poleringsmaskin","fi":"kiillotuskone","hu":"csiszológép, fényesítő gép","de":"Poliermaschine","nl":"poetsmachine","af":"poetsmasjien","ru":"полировальная машина","lv":"spodrinātājs, pulētājs","pl":"polerka","fr":"cireuse","es":"enceradora","it":"lucidatrice","eo":"polurilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M394 130v128m-64-128 64 64m0 0-64 64m0 0h32m-32-32v32m0-128h32m-32 0v32m-160 32h128m0 0-32-32m32 32-32 32m-96 32h128m-128 0 32-32m-32 32 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m96 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["polisher"],
+};
+
+export default blissSymbol;

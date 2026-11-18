@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** two_storey_building — (two + storey) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23243",
+  derivation: "(two + storey)",
+  gloss: "two_storey_building",
+  id: "two-storey-building",
+  names: {"en":"two_storey_building","sv":"tvåvåningshus","no":"bygning toetasjes","fi":"kaksikerrostalo","hu":"kétszintes épület","de":"zweistöckiges Gebäude","nl":"gebouw (twee verdiepingen)","af":"dubbelverdieping","ru":"двухэтажный дом","is":"tveggja hæða hús","lv":"divstāvu ēka","pl":"budynek dwupoziomowy","fr":"immeuble à 2 étages","es":"edificio de dos plantas","pt":"prédio","it":"costruzione, edificio","da":"bygning","eo":"duetaĝa konstruaĵo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 260 324\"><path fill=\"none\" d=\"M74 194v64m0 0h128m0 0v-64m-128 0 64-64m0 0 64 64M74 226h128m48-16-32 32m0 0 32 32M40.993 209.97a15.5 15.5 0 1 0-30.985.03M42 210l-32 48m0 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["two_storey_building"],
+};
+
+export default blissSymbol;

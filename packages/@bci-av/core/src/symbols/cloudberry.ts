@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** cloudberry — (compound berry + marsh) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24064",
+  derivation: "(compound berry + marsh)",
+  gloss: "cloudberry",
+  id: "cloudberry",
+  names: {"en":"cloudberry","sv":"hjortron","no":"multe","fi":"lakka, suomuurain","hu":"törpemálna","de":"Moltebeere","nl":"bes (vochtige grond), vossebes","af":"braam bessie (wit blom)","ru":"морошка","is":"múltuber","lv":"lācenes","pl":"malina moroszka","fr":"mûre (des marais)","es":"mora de los pantanos","it":"camemoro","eo":"kamemoro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><circle cx=\"57.5\" cy=\"177.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"57.5\" cy=\"209.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"25.5\" cy=\"193.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M136.998 257.992A63.5 63.5 0 0 0 74 194.002m160.894 63.226a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M170 258h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["cloudberry"],
+};
+
+export default blissSymbol;

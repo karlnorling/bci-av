@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** trapeze — (swing + acrobatics [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25959",
+  derivation: "(swing + acrobatics [contraction])",
+  gloss: "trapeze",
+  id: "trapeze",
+  names: {"en":"trapeze","sv":"trapets","no":"trapes","de":"Trapez","nl":"trapeze","af":"sweefstok, hangstok","ru":"трапеция (тренажёр)","lv":"trapece (trenažieris)","pl":"trapez","eo":"trapezo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 564 324\"><g fill=\"none\"><path d=\"M234 194h64m-64-64v64m62.996-.015a31.5 31.5 0 1 0-62.992.015m222.994-.008a63.5 63.5 0 1 0-126.996.008M330 258l64-64m0 0 64 64m0 0H330\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"521.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M522 194zM90 66h32m0 0v32m0 0H90m0 0V66M42.002 194a63.5 63.5 0 0 0 126.996-.008M10 226l32-32m0 0 32 32m64 0 32-32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["trapeze"],
+};
+
+export default blissSymbol;

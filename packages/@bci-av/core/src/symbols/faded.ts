@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** faded — (to fade, wither + description indicator after the fact) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29529",
+  derivation: "(to fade, wither + description indicator after the fact)",
+  gloss: "faded",
+  id: "faded",
+  names: {"en":"faded,withered_(plant)","sv":"vissen_(växt)","no":"visnet","de":"verblasst, verwelkt (Pflanze)","af":"vervalle, verlep, verdroog","pl":"martwy, zwiędły (roślina)","eo":"morta, velkinta (planto)"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 552 644\"><g fill=\"none\"><path d=\"M404 386v128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"403.5\" cy=\"321.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M532 386.001A127.5 127.5 0 0 0 404.001 514\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"147.5\" cy=\"385.5\" r=\"127.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M276 258 20 514m128-256v256m-32-384 32 64m0 0 32-64m32 0z\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["faded","withered_(plant)"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** sperm — (pictograph) - Character */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "17226",
+  derivation: "(pictograph) - Character",
+  gloss: "sperm",
+  id: "sperm",
+  names: {"en":"sperm","sv":"spermie","no":"spermie","fi":"siittiö","hu":"hímivarsejt, ondósejt, spermium","de":"Sperma, Samen","nl":"sperma, zaadcel","af":"sperm","ru":"сперма","is":"sæði","lv":"sperma","pl":"sperma, plemnik","fr":"spermatozoïde","es":"esperma","pt":"esperma","it":"sperma","da":"sperm, sæd/befrugtning","eo":"spermo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 212 324\"><g fill=\"none\"><path d=\"M10.595 193.377a44.5 45 0 0 0 62.307-.492m65.992.343a45 44.5 0 0 0-66.851-1.028\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M202.894 193.228a45 44.5 0 0 0-66.851-1.028\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M138.19 193.798a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["sperm"],
+};
+
+export default blissSymbol;

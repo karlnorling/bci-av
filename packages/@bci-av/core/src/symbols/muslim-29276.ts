@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Muslim — (person + Muslim,Moslem,Islamic) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29276",
+  derivation: "(person + Muslim,Moslem,Islamic)",
+  gloss: "Muslim",
+  id: "muslim-29276",
+  names: {"en":"Muslim,Moslem","sv":"muslim","no":"muslim","de":"Muslim, Moslem","af":"Moslem","pl":"Muzułmanin","eo":"islamano"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 424 644\"><g fill=\"none\"><path d=\"M84 258v256m-64 0h128m192-255.999a127.5 127.5 0 1 0-.004 254.998\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M339.88 257.84a159.5 159.5 0 0 0 .479 255.677M340 354l64 64m0-64-64 64m32-96v128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Muslim","Moslem"],
+};
+
+export default blissSymbol;

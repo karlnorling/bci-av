@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** crossword — (grid, matrix + word) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29330",
+  derivation: "(grid, matrix + word)",
+  gloss: "crossword",
+  id: "crossword",
+  names: {"en":"crossword","sv":"korsord","no":"kryssord","de":"Kreuzworträtsel","af":"blokraaisel_blokkiesraaisel","pl":"krzyżówka","eo":"krucvorto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 744 644\"><g fill=\"none\"><path d=\"M20 322h256M20 450h256M84 258v256m128-256v256M20 258h256m0 0v256m0 0H20m0 0V258m0 128h256M148 258v256m192-128h128m-64-64zm0 128z\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"595.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M722.998 321.992a63.5 63.5 0 1 0-126.996.008m-.83 190.518A255.5 255.5 0 0 0 723.926 321.99\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["crossword"],
+};
+
+export default blissSymbol;

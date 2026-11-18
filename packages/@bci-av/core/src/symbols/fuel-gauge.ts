@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** fuel_gauge — (gauge + gasoline + thing indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23090",
+  derivation: "(gauge + gasoline + thing indicator)",
+  gloss: "fuel_gauge",
+  id: "fuel-gauge",
+  names: {"en":"fuel_gauge","sv":"bränslemätare","no":"brenselmåler","fi":"polttoainemittari","hu":"üzemanyag mérő","de":"Benzinanzeige, Füllstandsanzeige","nl":"brandstofmeter","af":"brandstofmeter","ru":"датчик уровня топлива","is":"gasmælitæki","lv":"degvielas skaitītājs","pl":"wskaźnik poziomu benzyny, paliwa","fr":"jauge à essence","es":"medidor de gasolina","eo":"fuelmezurilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><path d=\"M170.894 193.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m320 203-45 45m0-45 45 45M42 130v128M10 130h64m-64 64h64m-64 64h64M26 66h32m0 0v32m0 0H26m0 0V66\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["fuel_gauge"],
+};
+
+export default blissSymbol;

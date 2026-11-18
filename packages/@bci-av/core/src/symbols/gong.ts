@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** gong — (percussion instrument + 1 + musical note) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23878",
+  derivation: "(percussion instrument + 1 + musical note)",
+  gloss: "gong",
+  id: "gong",
+  names: {"en":"gong","sv":"gong-gong","no":"gonggong","fi":"gongi","hu":"gong","de":"Gong","nl":"gong","af":"gong","ru":"гонг","is":"gong","lv":"gongs","pl":"gong, sygnał dźwiękowy (dzwonek do drzwi, sygnał w kierownicy itp.)","fr":"gong","es":"gong","pt":"gongo","da":"gong gong","eo":"gongo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130v96m-96-64h64m0 0v64m0 0H10m0 0v-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M426 130v96m-112-32v64m-16 0h32m-32-48 16-16m-80-32-96 96m64-128 64 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["gong"],
+};
+
+export default blissSymbol;

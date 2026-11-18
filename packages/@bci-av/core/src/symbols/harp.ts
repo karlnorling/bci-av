@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** harp — (musical instrument + many + string + finger) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23881",
+  derivation: "(musical instrument + many + string + finger)",
+  gloss: "harp",
+  id: "harp",
+  names: {"en":"harp","sv":"harpa","no":"harpe","fi":"harppu","hu":"hárfa","de":"Harfe","nl":"harp","af":"harp","ru":"арфа","is":"harpa","lv":"arfa","pl":"harfa","fr":"harpe","es":"arpa","pt":"harpa","it":"arpa","da":"harpe","eo":"harpo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130v96m-96-64h64m0 0v64m0 0H10m0 0v-64m128 32 64 64m0-64-64 64m96-128v128m48-128-32 32m0 0 32 32m32 0 64 64m0-128v128m48-160-32 32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["harp"],
+};
+
+export default blissSymbol;

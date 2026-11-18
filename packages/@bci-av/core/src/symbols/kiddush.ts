@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** kiddush — (prayer + wine: blessing over wine) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "15147",
+  derivation: "(prayer + wine: blessing over wine)",
+  gloss: "kiddush",
+  id: "kiddush",
+  names: {"en":"kiddush,blessing_over_wine","sv":"kiddush, välsignelse av vin (Israel)","no":"kiddush (Israel)","fi":"kiddush","hu":"áldomás","de":"kiddush","nl":"kiddush (Joods)","af":"kiddush","ru":"киддуш (Израиль)","lt":"kidušas, palaiminimas per vyną","lv":"kiduss (Izraēlā vīna svētīšana)","pl":"Kiddusz ceremonia hebr.","fr":"kiddoush (prière de sanctification du vin)","es":"kidush, bendición del vino","it":"Kiddush (consacrazione)","da":"kiddush","eo":"kiduŝo (hebrea ceremonio)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 660 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m106 162 32 32m0 0-32 32m64-64v64m96-96 64 128m0 0H202m0 0 64-128m-64 64 64-128m0 0 64 128m32-64 64 64m0 0 64-64m-288 64h32m64 0h32m96 0v64m-64 0h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"553.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"617.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"585.5\" cy=\"257.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M650 130.002A63.5 63.5 0 0 0 586.002 194\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["kiddush","blessing_over_wine"],
+};
+
+export default blissSymbol;

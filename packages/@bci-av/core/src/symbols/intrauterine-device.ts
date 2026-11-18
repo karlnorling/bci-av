@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** intrauterine_device — (birth control + uterus) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14963",
+  derivation: "(birth control + uterus)",
+  gloss: "intrauterine_device",
+  id: "intrauterine-device",
+  names: {"en":"intrauterine_device,IUD","sv":"spiral (prev)","no":"prevensjonsmiddel","fi":"kierukka","hu":"spirál (méhen belül), IUD","de":"Intrauterinspirale","nl":"spiraaltje (anticonceptie)","af":"intra-uteriene apparaat","ru":"спираль внутриматочная","lt":"spiralė (prevencinė)","lv":"spirāle (dzemdes pretapaugļošanas līdzeklis)","pl":"wkładka wewnątrzmaciczna","fr":"stérilet, dispositif intra-utérin","es":"dispositivo intrauterino, DIU","pt":"aparelho intra-uterino","it":"spirale (IUD)","da":"spiral","eo":"intrauterina spiralo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 628 324\"><g fill=\"none\"><circle cx=\"329.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M457.88 129.84a79.5 79.5 0 0 0 .478 127.674m126.921-.474a79.5 79.5 0 0 0 .476-126.72m-222.861 62.908a45 44.5 0 0 0-66.851-1.028\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M298.19 193.798a45 45 0 0 0 62.63-.978m-190.63.978a45 45 0 0 0 62.63-.978m66.074.408a45 44.5 0 0 0-66.851-1.028M458 130h128M458 258h128M138 130v128M10 194h128m0 0-32-32m32 32-32 32m416-64 32 64m0 0h-64m0 0 32-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["intrauterine_device","IUD"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** hurdles — (running + jump) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21840",
+  derivation: "(running + jump)",
+  gloss: "hurdles",
+  id: "hurdles",
+  names: {"en":"hurdles","sv":"häcklöpning","no":"hekkeløp (sport)","fi":"aitajuoksu","hu":"gátfutás, akadályverseny","de":"Hürdenlauf","nl":"hordenlopen","af":"hekkie(s)","ru":"бег с препятствиями","is":"hindanahlaup","lv":"barjerskrējiens","pl":"bieg przez płotki (sport)","fr":"course de haies, course d'obstacles (sport)","es":"obstáculos, vallas","pt":"corrida de barreiras","it":"ostacoli","eo":"barokurado"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 692 324\"><path fill=\"none\" d=\"m106 258 64-128m0 0 64 128m0 0h64m-192 0h64m160-64h128m0 0-32-32m32 32-32 32m64-64v48m0 15zm158.998 32.992a63.5 63.5 0 1 0-126.996.008M618 226l32 32m0 0 32-32M10 258l32-64m0 0 32 64m0-128v128m-64-64h64m-64-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["hurdles"],
+};
+
+export default blissSymbol;

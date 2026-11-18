@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** triangular — (triangle + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "17777",
+  derivation: "(triangle + description indicator)",
+  gloss: "triangular",
+  id: "triangular",
+  names: {"en":"triangular","sv":"trekantig","no":"trekantet, triangulær","fi":"kolmion muotoinen, kolmikulmainen","hu":"háromszögű, háromszögletű","de":"dreieckig","nl":"driehoekig","af":"driehoekig","ru":"треугольный","is":"þríhyrningslaga","lv":"trīsstūrains","pl":"trójkątny","fr":"triangulaire","es":"triangular","pt":"triangular","it":"triangolare","da":"trekantet","eo":"triangula"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 162h64m0 0v64m0 0h-64m0 0v-64m160-32 64 128m0 0H202m0 0 64-128M42 194zM26 66l16 32m0 0 16-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["triangular"],
+};
+
+export default blissSymbol;

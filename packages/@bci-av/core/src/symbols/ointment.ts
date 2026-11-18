@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** ointment — (chemical_product + protection + skin [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29547",
+  derivation: "(chemical_product + protection + skin [contraction])",
+  gloss: "ointment",
+  id: "ointment",
+  names: {"en":"ointment","sv":"hudprodukt,hudkräm,salva","no":"salve","de":"Salbe","af":"salf","pl":"maść","eo":"ungvento"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1128 644\"><path fill=\"none\" d=\"M787.88 257.84a159.5 159.5 0 0 0 .479 255.677M788 514h256M788 258h256m-.72 255.04a159.5 159.5 0 0 0 .478-254.72M404 386l128-128m0 0 128 128M276 258 20 514m256-256v128m-64 0h128m0 0v128m0 0H212m0 0V386\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["ointment"],
+};
+
+export default blissSymbol;

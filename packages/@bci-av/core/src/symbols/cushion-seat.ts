@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** cushion_(seat) — (cushion + seat) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25042",
+  derivation: "(cushion + seat)",
+  gloss: "cushion_(seat)",
+  id: "cushion-seat",
+  names: {"en":"cushion_(seat)","sv":"sittdyna","no":"sittepute","fi":"istuintyyny","de":"Sitzkissen","nl":"zitkussen","af":"kussing (vir `n sitplek)","ru":"подушка для сиденья","is":"púði (sæti)","lv":"spilvens (krēsla)","pl":"poduszka do siedzenia","es":"almohadilla (asiento)","it":"cuscino","eo":"kuseno (sidloko)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><path fill=\"none\" d=\"M10 130h128m0 0v128m0 0H10m0 0V130m160 64v64m128-64v64m-127.998-64a63.5 63.5 0 0 0 126.996-.008M330 130v64m0 0h64m0 0v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["cushion_(seat)"],
+};
+
+export default blissSymbol;

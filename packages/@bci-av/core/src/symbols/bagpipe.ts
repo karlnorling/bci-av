@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** bagpipe — (wind instrument + bag) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23807",
+  derivation: "(wind instrument + bag)",
+  gloss: "bagpipe",
+  id: "bagpipe",
+  names: {"en":"bagpipe","sv":"säckpipa","no":"sekkepipe","fi":"säkkipilli","hu":"duda","de":"Dudelsack, Sackpfeife","nl":"doedelzak","af":"doedelsak","ru":"волынка","is":"sekkjapípa","lv":"dūdas","pl":"dudy","fr":"cornemuse","es":"gaita","it":"cornamusa","da":"sækkepiper","eo":"sakŝalmo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130v96m-96-64h64m0 0v64m0 0H10m0 0v-64m192-32h64m0 0-64 128m-64-128h64m0 128h64m-64-64h128m0 0-32-32m32 32-32 32m64.002-32a63.5 63.5 0 0 0 126.996-.008M362 130v64m128-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["bagpipe"],
+};
+
+export default blissSymbol;

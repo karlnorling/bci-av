@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** turquoise — (colour + sky + grass: a combination of blue and green) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25389",
+  derivation: "(colour + sky + grass: a combination of blue and green)",
+  gloss: "turquoise",
+  id: "turquoise",
+  names: {"en":"turquoise","sv":"turkos","no":"turkis","fi":"turkoosi","de":"Türkis","nl":"turkoois","af":"turkoois","ru":"бирюзовый","lv":"tirkīzs","pl":"turkus","es":"turquesa","eo":"turkiso"},
+  pos: "WHITE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><path d=\"M10 258h64m32-128h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M42 194zm288 .002A63.5 63.5 0 0 0 266.002 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["turquoise"],
+};
+
+export default blissSymbol;

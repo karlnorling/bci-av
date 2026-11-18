@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Lag_B'Omer — (night + comma + bonfire) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "15167",
+  derivation: "(night + comma + bonfire)",
+  gloss: "Lag_B'Omer",
+  id: "lag-b-omer",
+  names: {"en":"Lag_B'Omer","sv":"Lag B'Omer (Israel)","no":"Lag B'Omer (Israel)","fi":"lag baomer","hu":"Lag B'Omer (héber)","de":"Lag B'Omer","nl":"Lag B'Omer (Joods)","af":"Lag B'Omer","ru":"Лаг Бомер (Израиль)","lt":"Lag B'Omer (Izraelis)","lv":"lag bomer (Izraēla)","pl":"Lag B'Omer - święto hebr.","fr":"Lag BaOmer (fête juive)","es":"Lag B'Omer","da":"lag b'omer","eo":"Lagbomero (hebrea festo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><path fill=\"none\" d=\"M10 258h128m-64.008-1.002A63.5 63.5 0 0 0 74 130.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path fill=\"none\" d=\"M73.279 257.04a79.5 79.5 0 0 0 .476-126.72m92.537 135.933a15.5 15.5 0 0 0 2.706-8.515\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"166\" cy=\"257\" r=\"3\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round;fill:#000\"/><path fill=\"none\" d=\"M216.82 192.82a45 45 0 0 0 .5-63.13m-.14 63.49a45 45 0 0 0 1.01 64.618m47.877-95.807a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path fill=\"none\" d=\"M328.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path fill=\"none\" d=\"M329.172 256.534a127.5 127.5 0 0 0 63.774-94.67M458 130l-32 32m32-32 32 32m-32-32v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["Lag_B'Omer"],
+};
+
+export default blissSymbol;

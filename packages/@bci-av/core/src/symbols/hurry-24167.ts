@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** hurry — (hurry + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24167",
+  derivation: "(hurry + action indicator)",
+  gloss: "hurry",
+  id: "hurry-24167",
+  names: {"en":"hurry,rush-(to)","sv":"skynda sig","no":"skynde seg","fi":"pitää kiirettä, kiirehtiä","hu":"sietni","de":"beeilen","nl":"haasten, opschieten","af":"haas, gou, vinnig (om te)","ru":"спешить, торопиться","is":"flýta sér (SO)","lv":"steigties","pl":"śpieszyć się, pędzić","fr":"hâter-(se), dépêcher-(se)","es":"Apresurar, apresurarse","pt":"despachar-se","it":"affrettarsi","da":"skynde sig","eo":"rapidi"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 194h64m-64-64v64m96 0h128m0 0-32-32m32 32-32 32m64-64v48m0 15zM58 98l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["hurry","rush-(to)"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** radish — (vegetable (large-leafed) + hot: large-leafed vegetable with a hot-tasting, edible root) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "16454",
+  derivation: "(vegetable (large-leafed) + hot: large-leafed vegetable with a hot-tasting, edible root)",
+  gloss: "radish",
+  id: "radish",
+  names: {"en":"radish","sv":"rädisa","no":"reddik","fi":"retiisi","hu":"retek","de":"Radieschen","nl":"radijs","af":"radys","ru":"редис","is":"radísa","lt":"ridikas","lv":"redīsi","pl":"rzodkiew, rzodkiewka","fr":"radis","es":"rábano","pt":"rabanete","it":"ravanello","da":"radiser, radisser","eo":"rafano"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><path d=\"M73.279 257.04a79.5 79.5 0 0 0 .476-126.72\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M73.88 129.84a79.5 79.5 0 0 0 .478 127.674M74 130v128m-64 0h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"289.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m234 130-64 128m0 0h64m46.82-65.18a45 45 0 0 0 .5-63.13m-.14 63.49a45 45 0 0 0 1.01 64.618\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["radish"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** scar — (result + wound) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29806",
+  derivation: "(result + wound)",
+  gloss: "scar",
+  id: "scar",
+  names: {"en":"scar","sv":"ärr","no":"arr","de":"Narbe","af":"littekens","pl":"blizna","eo":"cikatro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1256 644\"><path fill=\"none\" d=\"M148 386 20 514m0 0h128M20 258h128m-128 0 128 128m0-128v256m64-128h128m0 0 128 128m64-128 128-128m0 0 128 128m127.88-128.16a159.5 159.5 0 0 0 .479 255.677M916 258h256M916 514h256m-.72-.96a159.5 159.5 0 0 0 .478-254.72\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["scar"],
+};
+
+export default blissSymbol;

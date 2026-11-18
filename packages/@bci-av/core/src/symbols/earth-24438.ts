@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Earth — (rock planet + water) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24438",
+  derivation: "(rock planet + water)",
+  gloss: "Earth",
+  id: "earth-24438",
+  names: {"en":"Earth,Tellus_(planet)","sv":"Tellus, Jorden","no":"Jorda (planet), Tellus","fi":"maa (planeetta)","hu":"Föld (bolygó)","de":"Erde, Tellus (Planet)","nl":"aarde, Tellus (planeet)","af":"aarde, Tellus (planeet)","ru":"Земля, Теллус (планета)","is":"jörð, Tellus (pláneta)","lv":"Zeme, Tellus planēta","pl":"Ziemia (planeta ludzi)","fr":"planète tellurique","es":"Tierra, Tellus (planeta)","pt":"planeta terra","it":"terra (pianeta)","da":"jorden","eo":"Tero (planedo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"M10 194h128m0 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"105.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M298 194v64m0 0h-64m0 0 64-64m96.894-.772a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Earth","Tellus_(planet)"],
+};
+
+export default blissSymbol;

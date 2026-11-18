@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** embarrassed — (embarrassment + description after the fact indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13926",
+  derivation: "(embarrassment + description after the fact indicator)",
+  gloss: "embarrassed",
+  id: "embarrassed",
+  names: {"en":"embarrassed","sv":"generad","no":"forlegen, brydd, flau","fi":"hämmästynyt","hu":"zavart, zavarban lévő (=kínosan érzi magát)","de":"verlegen, peinlich","nl":"beschaamd","af":"verleë","ru":"смущённый","is":"vandræðalegur","lt":"susigėdęs","lv":"apmulsis, apkaunots","pl":"zakłopotany","fr":"embarrassé, gêné, confus","es":"avergonzado","pt":"embaraçado","it":"imbarazzato, timido","da":"forlegen","eo":"embarasita"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><path d=\"m202 130-32 32m32-32 32 32m-32-32v128m64-128v128m0 0-32-32m32 32 32-32M11.046 161.864a126.5 127.5 0 0 0 63.65 94.883\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M72.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M73.238 256.64a127 127.5 0 0 0 63.712-94.776M138 130 10 258m0 0h128M58 66l16 32m0 0 16-32m16 0z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["embarrassed"],
+};
+
+export default blissSymbol;

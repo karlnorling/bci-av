@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** computer_science — (knowledge + digital world) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29760",
+  derivation: "(knowledge + digital world)",
+  gloss: "computer_science",
+  id: "computer-science",
+  names: {"en":"computer_science,computer_studies","sv":"datakunskap","no":"informatikk, datafag, computer-studier","de":"Informatik, Computerstudien","af":"rekenaarwetenskap, rekenaarstudies","pl":"informatyka, studia informatyczne","eo":"komputiko, komputilaj studoj"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 616 644\"><g fill=\"none\"><path d=\"M274.999 385.996A127.5 127.5 0 1 0 20.001 386M20 386v128m0 0h256m0 0V386m64-128h256M340 514h256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"467.5\" cy=\"449.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M468 322v64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["computer_science","computer_studies"],
+};
+
+export default blissSymbol;

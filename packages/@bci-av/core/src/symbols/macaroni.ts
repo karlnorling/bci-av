@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** macaroni — (pasta + tube) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22130",
+  derivation: "(pasta + tube)",
+  gloss: "macaroni",
+  id: "macaroni",
+  names: {"en":"macaroni","sv":"makaroner","no":"makaroni","fi":"makarooni","hu":"makaróni","de":"Makkaroni","nl":"macaroni","af":"macaroni","ru":"макароны","is":"makkaróna","lv":"makaroni","pl":"makaron (rurki)","fr":"macaroni","es":"macarrones","pt":"macarrão","it":"maccheroni","da":"makaroni","eo":"makaronoj-tubetoj"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 258h64m32 0zm64 0zm0-64zm96 .002A63.5 63.5 0 0 0 202.002 258M330 194.002A63.5 63.5 0 0 0 266.002 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"257.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M362 130v128m64-128v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["macaroni"],
+};
+
+export default blissSymbol;

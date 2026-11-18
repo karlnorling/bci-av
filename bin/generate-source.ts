@@ -21,7 +21,20 @@ import { optimize } from 'svgo';
 import { readOds } from './lib/ods';
 import { EDITION, REFERENCE_FILE, SVG_ARCHIVE } from './lib/upstream';
 
+/** One joined symbol, ready to be written out. */
+type GeneratedSymbol = {
+  id: string;
+  bciAv: string;
+  gloss: string;
+  synonyms: string[];
+  names: Record<string, string>;
+  derivation: string;
+  pos: string;
+  svg: string;
+};
+
 const OUT = path.join('packages', '@bci-av', 'core', 'src', 'symbols.generated.ts');
+const PER_SYMBOL_DIR = path.join('packages', '@bci-av', 'core', 'src', 'symbols');
 
 /**
  * Spreadsheet columns, by header name. The sheet carries 63 columns, most of
@@ -155,6 +168,65 @@ const slugify = (value: string): string =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
+/**
+ * Writes one module per symbol, so a consumer can import just the symbols they
+ * use.
+ *
+ * `symbols` is a single exported array, which a bundler cannot split: importing
+ * `getSymbol` from the package root pulls all 6,551 symbols, measured at 6.2 MB
+ * (1.4 MB gzipped) for a consumer who wanted one. These modules make that cost
+ * proportional — roughly 400 bytes of artwork plus its metadata, per symbol
+ * actually imported.
+ *
+ * The root entry still exists and still carries the whole registry, because
+ * search and the gallery genuinely need every symbol. This is the escape hatch
+ * for everyone else.
+ */
+const writePerSymbolModules = (symbols: GeneratedSymbol[]): void => {
+  // Removed wholesale so a renamed or withdrawn symbol cannot leave a stale
+  // module behind that still resolves.
+  fs.rmSync(PER_SYMBOL_DIR, { recursive: true, force: true });
+  fs.mkdirSync(PER_SYMBOL_DIR, { recursive: true });
+
+  for (const s of symbols) {
+    const doc = s.derivation ? `${s.gloss} — ${s.derivation}` : s.gloss;
+    const lines = [
+      '// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.',
+      "// Run 'yarn generate' to regenerate.",
+      '',
+      "import type { BlissSymbol } from '../types.js';",
+      '',
+      `/** ${doc.replace(/\*\//g, '*\\/')} */`,
+      'export const blissSymbol: BlissSymbol = {',
+      `  bciAv: ${JSON.stringify(s.bciAv)},`,
+      `  derivation: ${JSON.stringify(s.derivation)},`,
+      `  gloss: ${JSON.stringify(s.gloss)},`,
+      `  id: ${JSON.stringify(s.id)},`,
+      `  names: ${JSON.stringify(s.names)},`,
+      `  pos: ${JSON.stringify(s.pos)},`,
+      `  svg: ${JSON.stringify(s.svg)},`,
+      `  synonyms: ${JSON.stringify(s.synonyms)},`,
+      '};',
+      '',
+      'export default blissSymbol;',
+      '',
+    ];
+    fs.writeFileSync(path.join(PER_SYMBOL_DIR, `${s.id}.ts`), lines.join('\n'), 'utf-8');
+  }
+
+  // The package's exports map resolves ./symbols/* straight to these files, so
+  // a missing one is a broken public subpath rather than a build warning. The
+  // directory is wiped above, so this also catches an id that collides.
+  const written = fs.readdirSync(PER_SYMBOL_DIR).filter((f) => f.endsWith('.ts')).length;
+  if (written !== symbols.length) {
+    throw new Error(
+      `Expected ${symbols.length} per-symbol modules but wrote ${written} — ids are probably colliding`,
+    );
+  }
+
+  console.log(`Wrote ${written} per-symbol modules into ${PER_SYMBOL_DIR}`);
+};
+
 const main = (): void => {
   for (const file of [SVG_ARCHIVE, REFERENCE_FILE]) {
     if (!fs.existsSync(file)) {
@@ -197,17 +269,6 @@ const main = (): void => {
     .map(([name, code]) => [code, col(name)] as const);
 
   // --- join ----------------------------------------------------------------
-  type GeneratedSymbol = {
-    id: string;
-    bciAv: string;
-    gloss: string;
-    synonyms: string[];
-    names: Record<string, string>;
-    derivation: string;
-    pos: string;
-    svg: string;
-  };
-
   const symbols: GeneratedSymbol[] = [];
   const unmatched: string[] = [];
   const usedIds = new Set<string>();
@@ -300,6 +361,8 @@ const main = (): void => {
 
   const size = (fs.statSync(OUT).size / 1024 / 1024).toFixed(1);
   console.log(`\nWrote ${OUT} (${symbols.length} symbols, ${size} MB)`);
+
+  writePerSymbolModules(symbols);
   if (unmatched.length > 0) {
     console.log(`\n${unmatched.length} row(s) had no matching artwork:`);
     for (const u of unmatched) console.log(`  ${u}`);

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** remote_control — (tool + channel_(programs)) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24730",
+  derivation: "(tool + channel_(programs))",
+  gloss: "remote_control",
+  id: "remote-control",
+  names: {"en":"remote_control","sv":"fjärrkontroll","no":"fjernstyring, fjernkontroll","fi":"kauko-ohjain","hu":"távirányító, távkapcsoló","de":"Fernbedienung","nl":"afstandsbediening","af":"afstandbeheer","ru":"пульт дистанционного управления","is":"fjarstering","lv":"tālvadība, tālvadības","pl":"pilot (zdalnego sterowania)","fr":"télécommande","es":"mando a distancia, control remoto","pt":"comando à distância","it":"telecomando","da":"fjernkontrol","eo":"teleregilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 292 324\"><g fill=\"none\"><path d=\"M153.279 257.04a79.5 79.5 0 0 0 .476-126.72\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M152.82 224.82a45 45 0 0 0 .5-63.13m-16.764 46.866a22 22 0 0 0 .494-30.603M250 226z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"249.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m218 130 64 64m0-64-64 64m0 0h64M42 162h64m0 0v64m0 0H42m0 0v-64m-32 32 64 64m0 0V130\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["remote_control"],
+};
+
+export default blissSymbol;

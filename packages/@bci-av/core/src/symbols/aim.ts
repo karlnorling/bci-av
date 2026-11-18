@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** aim — (purpose + forward) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "28001",
+  derivation: "(purpose + forward)",
+  gloss: "aim",
+  id: "aim",
+  names: {"en":"aim,intention","sv":"avsikt,syfte,mening","no":"intensjon,mål","de":"Ziel, Absicht","af":"mikpunt,voorneme,intensie","lt":"tikslas, ketinimas","pl":"cel, intencja","eo":"celo, intenco"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><path fill=\"none\" d=\"m10 130 64 64m0 0-64 64m64-128 64 64m0 0-64 64m96-64h128m0 0-32-32m32 32-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["aim","intention"],
+};
+
+export default blissSymbol;

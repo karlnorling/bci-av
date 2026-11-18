@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** communication_therapist — (therapist + communication) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21595",
+  derivation: "(therapist + communication)",
+  gloss: "communication_therapist",
+  id: "communication-therapist",
+  names: {"en":"communication_therapist","sv":"kommunikationsterapeut","no":"kommunikasjonsterapeut","fi":"kommunikaatioterapeutti","hu":"kommunikációs terapeuta, AAK-terapeuta","de":"Kommunikationstherapeut, Kommunikationstherapeutin","nl":"communicatietherapeut","af":"kommunikasie terapeut","ru":"специалист по коммуникации","lv":"komunikācijas terapeits","pl":"terapeuta porozumiewania się, terapeuta komunikacji","fr":"thérapeute en communication","es":"terapeuta de comunicación","pt":"terapeuta da fala","it":"terapista della comunicazione","da":"bladhandler, bladkiosk","eo":"komunikterapiisto"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 628 324\"><g fill=\"none\"><path d=\"M106 258h64m64 0h64m-160 0 64-128m0 0 64 128M42 130v128m-32 0h64m256.002-64a63.5 63.5 0 0 0 126.996-.008m160 0a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"553.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m490 130 128 128M394 130l-32 32m32-32 32 32m-32-32v128m-32-32 32 32m0 0 32-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["communication_therapist"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** music_therapist — (therapist + music) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21598",
+  derivation: "(therapist + music)",
+  gloss: "music_therapist",
+  id: "music-therapist",
+  names: {"en":"music_therapist","sv":"musikterapeut","no":"musikkterapeut","fi":"musiikkiterapeutti","hu":"zeneterapeuta","de":"Musiktherapeut, Musiktherapeutin","nl":"muziektherapeut","af":"musiek terapeut","ru":"музыкальный терапевт","lv":"mūzikas terapeits","pl":"muzykoterapeuta","fr":"musicothérapeute","es":"terapeuta musical","pt":"terapeuta de música","it":"musicoterapeuta","da":"musikterapeut, musikpædagog","eo":"muzikterapiisto"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M392.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.172 256.534a127.5 127.5 0 0 0 63.774-94.67\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"457.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M490 130v96m-384 32h64m64 0h64m-160 0 64-128m0 0 64 128M42 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["music_therapist"],
+};
+
+export default blissSymbol;

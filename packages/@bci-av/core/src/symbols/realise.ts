@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** realise — (understand + suddenly [contraction] + action indicator */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26326",
+  derivation: "(understand + suddenly [contraction] + action indicator",
+  gloss: "realise",
+  id: "realise",
+  names: {"en":"realise,realize,comprehend-(to)","sv":"inse","no":"erkjenne","de":"erkennen, realisieren","af":"besef-(om_te)","lt":"suvokti","pl":"być świadomym","eo":"konscii"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><path fill=\"none\" d=\"M200.998 193.992A63.5 63.5 0 1 0 74.002 194M74 194v64m0 0h128m0 0v-64m-80-96 16-32m0 0 16 32M10 194h128m0 0-32-32m32 32-32 32m192-32h64m0 0-64 64m0-128h64m0 0-64 64m-64-64h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["realise","realize","comprehend-(to)"],
+};
+
+export default blissSymbol;

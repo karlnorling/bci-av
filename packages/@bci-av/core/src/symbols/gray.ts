@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** gray — (colour + night + snow: combination of black and white) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14639",
+  derivation: "(colour + night + snow: combination of black and white)",
+  gloss: "gray",
+  id: "gray",
+  names: {"en":"gray,grey","sv":"grå","no":"grå","fi":"harmaa","hu":"szürke","de":"grau","nl":"grijs","af":"grys (bci)","ru":"серый","is":"grár","lt":"pilka","lv":"pelēks","pl":"szary","fr":"gris","es":"gris","pt":"cinzento","it":"grigio","da":"grå","eo":"griza"},
+  pos: "WHITE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M42 194z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M169.279 257.04a79.5 79.5 0 0 0 .476-126.72M10 258h64m32 0h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M169.992 256.998A63.5 63.5 0 0 0 170 130.002M330 162v128m-16-48 32 32m0-32-32 32m16.894-80.772a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M330 130v32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["gray","grey"],
+};
+
+export default blissSymbol;

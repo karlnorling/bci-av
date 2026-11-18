@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** wet — (water + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "18226",
+  derivation: "(water + description indicator)",
+  gloss: "wet",
+  id: "wet",
+  names: {"en":"wet,damp,moist,watery","sv":"våt, fuktig, vattnig","no":"våt, fuktig, vannholdig","fi":"märkä, kostea, märkä, vetinen","hu":"nedves, nyirkos, vizes","de":"nass, wässrig, feucht","nl":"nat, vochtig, waterig, vloeibaar","af":"nat, waterig, vog, vogtig, vleibaar","ru":"мокрый, влажный, водянистый","is":"blautur, rakur","lv":"slapjš, mitrs","pl":"mokre, mokry, wilgotne, zmoczone, wodnisty","fr":"mouillé, humide, aqueux","es":"mojado, húmedo, acuoso","pt":"molhado","it":"bagnato","da":"våd, fugtig, våd","eo":"malseka, akva"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><path fill=\"none\" d=\"M74.958 193.16a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978M58 66l16 32m0 0 16-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["wet","damp","moist","watery"],
+};
+
+export default blissSymbol;

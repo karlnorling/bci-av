@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** prayer_book — (book + prayer) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "16238",
+  derivation: "(book + prayer)",
+  gloss: "prayer_book",
+  id: "prayer-book",
+  names: {"en":"prayer_book,Siddur","sv":"bönbok","no":"bønnebok","fi":"rukouskirja","hu":"imakönyv","de":"Gebetbuch","nl":"gebedenboek","af":"gebedsboek","ru":"молитвенник","is":"bænabók","lt":"maldaknygė","lv":"lūgšanu grāmata","pl":"modlitewnik, katechizm","fr":"livre de prières, missel, siddour","es":"libro de oraciones","pt":"livro de orações","it":"libro di preghiera","da":"bønnebog","eo":"preĝlibro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m266 162 32 32m0 0-32 32m64-64v64m96-96 64 128m0 0H362m0 0 64-128m-64 64 64-128m0 0 64 128m-128 0h32m64 0h32M74 130h64m0 0v128m0 0H74m0 0V130m-64 0h64m0 0v128m0 0H10m0 0V130\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["prayer_book","Siddur"],
+};
+
+export default blissSymbol;

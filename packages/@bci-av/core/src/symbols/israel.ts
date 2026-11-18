@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Israel — (country + Star of David) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14959",
+  derivation: "(country + Star of David)",
+  gloss: "Israel",
+  id: "israel",
+  names: {"en":"Israel","sv":"Israel","no":"Israel","fi":"Israel","hu":"Izrael","de":"Israel","nl":"Israël","af":"Israel","ru":"Израиль","is":"Ísrael","lt":"Izraelis","lv":"Izraēla","pl":"Izrael","fr":"Israël","es":"Israel","pt":"Israel","it":"Israele","da":"Israel","eo":"Israelo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><path fill=\"none\" d=\"M10 258h128M74 130h64m0 0v64m0 0H74m0 0v-64m0 64v64m160-128 64 128m0 0H170m0 0 64-128m-64 32h128m0 0-64 128m0 0-64-128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["Israel"],
+};
+
+export default blissSymbol;

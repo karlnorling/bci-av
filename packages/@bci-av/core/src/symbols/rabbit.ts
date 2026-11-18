@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** rabbit — (rodent + ear: animal known for its long ears) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "16448",
+  derivation: "(rodent + ear: animal known for its long ears)",
+  gloss: "rabbit",
+  id: "rabbit",
+  names: {"en":"rabbit,hare","sv":"hare, kanin","no":"hare, kanin","fi":"jänis, kaniini","hu":"nyúl","de":"Hase, Kaninchen","nl":"haas","af":"haas, konyn","ru":"заяц‚ кролик","is":"kanína, héri","lt":"triušis, kiškis","lv":"trusis, zaķis","pl":"królik, zając","fr":"lapin, lièvre","es":"conejo","pt":"coelho","it":"coniglio","da":"hare, kanin, kanin","eo":"kuniklo, leporo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64m32-64 32 64m0 0 32-64m0 0 32 64m0 0 32-64m-288 0h128m32 0h128m94.996-32.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.172 256.534a127.5 127.5 0 0 0 63.774-94.67\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["rabbit","hare"],
+};
+
+export default blissSymbol;

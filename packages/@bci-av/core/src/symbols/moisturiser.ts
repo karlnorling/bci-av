@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** moisturiser — (chemical product + for + moist: chemical product for the purpose of moisterizing) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29544",
+  derivation: "(chemical product + for + moist: chemical product for the purpose of moisterizing)",
+  gloss: "moisturiser",
+  id: "moisturiser",
+  names: {"en":"moisturiser,moisturizer","sv":"fuktighetskräm,lotion","no":"fuktighetskrem","de":"Feuchtigkeitscreme","af":"bevogtiger, vogroom, bevogtigingsroom","pl":"krem nawilżający","eo":"hidratiga kremo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 872 644\"><path fill=\"none\" d=\"M726.153 384.08a90 90 0 0 0-133.366-1.038m131.575 2.584a90 90 0 0 0 126.278-.986M404 322l64 64m0 0-64 64m64-128 64 64m0 0-64 64M276 258 20 514m256-256v128m-64 0h128m0 0v128m0 0H212m0 0V386\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["moisturiser","moisturizer"],
+};
+
+export default blissSymbol;

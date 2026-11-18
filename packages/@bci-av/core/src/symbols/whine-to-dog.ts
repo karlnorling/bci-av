@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** whine-(to)_(dog) — (talk + high pitch) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29105",
+  derivation: "(talk + high pitch)",
+  gloss: "whine-(to)_(dog)",
+  id: "whine-to-dog",
+  names: {"en":"whine-(to)_(dog)","sv":"gnälla","no":"klynke","de":"jammern / quengeln","af":"kerm, tjank, sanik","is":"grenja, gráta lítið (SO)","lt":"verkšlenti, verkšlenimas (į)","pl":"wzdychać","eo":"ĝemi"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1032 644\"><g fill=\"none\"><circle cx=\"83.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m52 194 32-64m0 0 32 64m160 64.002a63.5 63.5 0 1 0-.008 126.996M276 514l64-128m0 0 64 128M276 386h256M404 514l64-128m0 0 64 128m64-256h128m-128 64h128m-128 64h128m-128 64h128m-128 64h128m96-320-64 64m0 0 64 64m128-64-64 64m64-64 64 64m-64-64v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["whine-(to)_(dog)"],
+};
+
+export default blissSymbol;

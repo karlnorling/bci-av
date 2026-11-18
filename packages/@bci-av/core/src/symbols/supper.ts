@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** supper — (meal + 3: third meal of the day) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "17468",
+  derivation: "(meal + 3: third meal of the day)",
+  gloss: "supper",
+  id: "supper",
+  names: {"en":"supper,dinner","sv":"middag, kvällsmål","no":"middag, kveldsmåltid","fi":"päivällinen","hu":"vacsora","de":"Abendessen, Hauptmahlzeit, Abendbrot","nl":"diner, avondeten","af":"aandete","ru":"ужин","is":"kvöldmatur","lv":"vakariņas","pl":"kolacja (trzeci duży posiłek)","fr":"souper, repas du soir","es":"cena","pt":"ceia","it":"cena","da":"middag","eo":"vespermanĝo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><g fill=\"none\"><path d=\"m10 194 64 64m0-64-64 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"137.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 258h64m47.97-33.007A15.5 15.5 0 1 0 202.007 210m.001 32A15.5 15.5 0 1 0 218 226.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["supper","dinner"],
+};
+
+export default blissSymbol;

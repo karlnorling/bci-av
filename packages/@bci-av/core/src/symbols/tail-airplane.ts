@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** tail_(airplane) — (rear,back_of_a_thing + airplane) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25382",
+  derivation: "(rear,back_of_a_thing + airplane)",
+  gloss: "tail_(airplane)",
+  id: "tail-airplane",
+  names: {"en":"tail_(airplane)","sv":"flygplansstjärt","no":"flyhale","fi":"lentokoneen pyrstö","de":"Hinterflügel (Flugzeug)","nl":"staart (vliegtuig)","af":"stert (vliegtuig)","ru":"хвост самолёта","lv":"lidmašīnas aste","pl":"ogon (samolotu)","es":"cola de la aeronave","eo":"vosto (aviadilo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 292 324\"><g fill=\"none\"><path d=\"M58 162h64m0 0v64m0 0H58m0 0v-64m-48 0 32 32m0 0-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"217.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m240 203-45 45m0-45 45 45m42-117.998A63.5 63.5 0 0 0 218.002 194m-1.004-.008A63.5 63.5 0 0 0 154 130.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["tail_(airplane)"],
+};
+
+export default blissSymbol;

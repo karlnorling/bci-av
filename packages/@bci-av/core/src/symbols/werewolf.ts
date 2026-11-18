@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** werewolf — (imaginary person + wolf) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25218",
+  derivation: "(imaginary person + wolf)",
+  gloss: "werewolf",
+  id: "werewolf",
+  names: {"en":"werewolf","sv":"varulv","no":"varulv","fi":"Ihmissusi","de":"Werwolf","nl":"weerwolf","af":"weerwolf","ru":"оборотень","lv":"vilkacis","pl":"wilkołak","es":"hombre lobo","pt":"lobo mau","it":"trottola","eo":"homlupo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M74 130v128m-32 0h64M10 130h128M74 66v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"97.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M202 194h128m32-64v128m0 0h128m0 0V130M202 258l32-64m0 0 32 64m0 0 32-64m0 0 32 64M202 130.004a31.5 31.5 0 1 0-.015 62.992\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["werewolf"],
+};
+
+export default blissSymbol;

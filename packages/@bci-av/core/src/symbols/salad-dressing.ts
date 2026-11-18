@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** salad_dressing — (sauce + salad) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22324",
+  derivation: "(sauce + salad)",
+  gloss: "salad_dressing",
+  id: "salad-dressing",
+  names: {"en":"salad_dressing","sv":"salladsdressing","no":"salatdressing","fi":"salaattikastike","hu":"salátaöntet","de":"Salatsoße, Salatdressing","nl":"slasaus, dressing","af":"slaai sous","ru":"заправка к салату","is":"salat sósa","lv":"salātu mērce","pl":"sos sałatkowy, sos do sałatki","fr":"sauce pour salade, vinaigrette","es":"aliño de ensalada","pt":"molho de maionese para salada","it":"condimento per insalata","da":"salat dressing","eo":"salata saŭco"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M42 258h64m-64-32 32 32m0 0 32-32m-31.042-32.84a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978M234 258h128m-192-64 64 64m192-64-64 64m0-63.998A63.5 63.5 0 0 0 298.002 258m-1.004-.008A63.5 63.5 0 0 0 234 194.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["salad_dressing"],
+};
+
+export default blissSymbol;

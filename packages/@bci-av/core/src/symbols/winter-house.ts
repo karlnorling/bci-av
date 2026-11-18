@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** winter_house — (house + winter: only numbers are used, as seasons are different in different parts of the world) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25968",
+  derivation: "(house + winter: only numbers are used, as seasons are different in different parts of the world)",
+  gloss: "winter_house",
+  id: "winter-house",
+  names: {"en":"winter_house","sv":"vinterbostad","no":"vinterbolig, vinterhus","de":"Winterresidenz","nl":"winterhuis","af":"wintershuis","ru":"зимний дом","lv":"ziemas māja","pl":"dom zimowy","eo":"vintra domo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><g fill=\"none\"><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330 194v32m0 0h32m0-32v64M74 130l-64 64m0 0v64m0 0h128m0 0v-64m0 0-64-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["winter_house"],
+};
+
+export default blissSymbol;

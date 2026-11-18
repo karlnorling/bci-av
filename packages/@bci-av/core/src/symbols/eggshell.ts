@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** eggshell — (shell + egg: the shell of an egg) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26304",
+  derivation: "(shell + egg: the shell of an egg)",
+  gloss: "eggshell",
+  id: "eggshell",
+  names: {"en":"eggshell","sv":"äggskal","no":"eggeskall","de":"Eierschale","af":"eierdop","lt":"kiaušinio lukštas","pl":"skorupka jajka","eo":"ovoŝelo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 356 324\"><g fill=\"none\"><circle cx=\"281.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M314.894 193.228a45 44.5 0 0 0-66.851-1.028\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M250.19 193.798a45 45 0 0 0 62.63-.978M10 130h128m0 0v128m0 0H10m0 0V130m32 32h64m0 0v64m0 0H42m0 0v-64m144 0-32 32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["eggshell"],
+};
+
+export default blissSymbol;

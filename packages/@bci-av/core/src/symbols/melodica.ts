@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** melodica — (wind instrument + mouth + keyboard) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23901",
+  derivation: "(wind instrument + mouth + keyboard)",
+  gloss: "melodica",
+  id: "melodica",
+  names: {"en":"melodica,blow-organ","sv":"melodika","no":"melodika","fi":"melodika","hu":"orgona (levegőbefújásos)","de":"Melodica","nl":"melodika","af":"melodika","ru":"мелодическая гармоника","is":"hljómborð","lv":"stabuļu pūšaminstruments","pl":"organki (muz)","fr":"harmonica","es":"melódica","eo":"buŝharmoniko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 596 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130v96m-96-64h64m0 0v64m0 0H10m0 0v-64m192-32h64m0 0-64 128m-64-128h64m0 128h64m-64-64h128m0 0-32-32m32 32-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M458 162h128m0 0v64m0 0H458m0-64v64m32-64v64m32-64v64m32-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["melodica","blow-organ"],
+};
+
+export default blissSymbol;

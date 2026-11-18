@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** speech_therapist — (therapist + language) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21590",
+  derivation: "(therapist + language)",
+  gloss: "speech_therapist",
+  id: "speech-therapist",
+  names: {"en":"speech_therapist","sv":"logoped","no":"logoped","fi":"puheterapeutti","hu":"logopédus, beszédterapeuta","de":"Sprachtherapeut","nl":"logopedist","af":"spraak terapeut","ru":"логопед","is":"talmeinafræðingur","lv":"runas terapeits, logopēds","pl":"logopeda","fr":"logopède, orthophoniste","es":"logopeda","pt":"terapeuta da fala","it":"terapista del linguaggio","da":"tale terapeut","eo":"logopediisto"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><path d=\"M106 258h64m64 0h64m-160 0 64-128m0 0 64 128M42 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M424.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M361.172 256.534a127.5 127.5 0 0 0 63.774-94.67\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["speech_therapist"],
+};
+
+export default blissSymbol;

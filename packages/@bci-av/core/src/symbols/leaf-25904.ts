@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** leaf — (thing + fold,folding,pleating) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25904",
+  derivation: "(thing + fold,folding,pleating)",
+  gloss: "leaf",
+  id: "leaf-25904",
+  names: {"en":"leaf,flap","sv":"klaff, flik","no":"klaff, brett, lem","de":"Klappe, Lasche","nl":"flap, blad (kaft)","af":"blaar, flap","ru":"створка","lv":"vaks","pl":"klapka kartkowa","eo":"foliklapo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><path fill=\"none\" d=\"m138 226 32 32m0 0 32-32m-96-96v128m0 0h128m-65.002-.008A63.5 63.5 0 0 0 106 194.002M10 162h64m0 0v64m0 0H10m0 0v-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["leaf","flap"],
+};
+
+export default blissSymbol;

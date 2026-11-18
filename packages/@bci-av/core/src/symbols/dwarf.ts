@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** dwarf — (little person + beard: imaginary small person with beard) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23481",
+  derivation: "(little person + beard: imaginary small person with beard)",
+  gloss: "dwarf",
+  id: "dwarf",
+  names: {"en":"dwarf,gnome","sv":"dvärg, tomte (etc)","no":"fantasifigur gnom, dverg, nisse","fi":"tonttu, kääpiö","hu":"manó, gnóm, törpe","de":"Zwerg, Gnom, Wichtel","nl":"dwerg, kabouter","af":"dwerg, kabouter","ru":"гном","is":"dvergur","lv":"punduris","pl":"krasnolud, karzeł, gnom","fr":"personnage imaginaire (nain à barbe)","es":"enanos, gnomos","pt":"gnomo","it":"gnomo irlandese, folletto","da":"irsk nisse","eo":"nano, gnomo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 420 324\"><g fill=\"none\"><path d=\"M10 130h128M74 66v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"97.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 130v64m0-64v128m-32 0h64m96-64v64m-32 0h64m-64-64h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"329.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M297.444 257.444a22 22 0 0 0 1 32.052m31-32.052a22 22 0 0 0 1 32.052m31-32.052a22 22 0 0 0 1 32.052M410 258l-32 32m0 0 32 32m-80-160v64m-32 0h64m-64-64zm64 0z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["dwarf","gnome"],
+};
+
+export default blissSymbol;

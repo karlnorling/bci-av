@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** scoundrel — (person + mean,cruel) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25166",
+  derivation: "(person + mean,cruel)",
+  gloss: "scoundrel",
+  id: "scoundrel",
+  names: {"en":"scoundrel,villain","sv":"bov, skurk, buse","no":"skurk","fi":"konna, roisto, kelmi","de":"Schurke, Schurkin, Schuft, Bösewicht","nl":"schurk, boef","af":"skurk, rampokker","ru":"негодяй, злодей","is":"illmenni","lv":"nelietis, zemisks cilvēks","pl":"łobuz, kanalia","es":"bribón, villano","eo":"kanajlo, fiulo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M106.067 161.991a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M168.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M169.238 256.64a127 127.5 0 0 0 63.712-94.776M394 130 266 258m0-64 64 64M42 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["scoundrel","villain"],
+};
+
+export default blissSymbol;

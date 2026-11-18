@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** pizzeria — (restaurant [contraction] + pizza [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27109",
+  derivation: "(restaurant [contraction] + pizza [contraction])",
+  gloss: "pizzeria",
+  id: "pizzeria",
+  names: {"en":"pizzeria","sv":"pizzeria","no":"pizzeria","de":"Pizzeria","af":"pizzeria","lt":"picerija","pl":"pizzeria","eo":"picejo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"361.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m407 148-91 91m0-91 91 91m-45-109v128M138 130h128m0 0v128m0 0H138m-128 0h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["pizzeria"],
+};
+
+export default blissSymbol;

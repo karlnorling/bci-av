@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** hoodie — (shirt + protection + head) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "28039",
+  derivation: "(shirt + protection + head)",
+  gloss: "hoodie",
+  id: "hoodie",
+  names: {"en":"hoodie","sv":"huvtröja,hoodie","no":"hettegenser,hoodie","de":"Kapuzenpullover","nl":"hoodie","af":"kappie","is":"hettupeysa","lt":"džemperis","pl":"bluza z kapturem","eo":"kapuĉpulovero"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 692 324\"><g fill=\"none\"><path d=\"M10 162h128M10 226h128m-96-96v128m64-128v128m-96-64 64-64m0 0 64 64m64-64h128m-.721 127.04a79.5 79.5 0 0 0 .476-126.72m-127.875-.48a79.5 79.5 0 0 0 .478 127.674M202 258h128m-96-32 32-32m0 0 32 32m96-32 64-64m0 0 64 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"617.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M618 162v64m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["hoodie"],
+};
+
+export default blissSymbol;

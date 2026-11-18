@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** freeze — (freezing,hardening,solidifying + action indicator: to convert water to solid ice) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14397",
+  derivation: "(freezing,hardening,solidifying + action indicator: to convert water to solid ice)",
+  gloss: "freeze",
+  id: "freeze",
+  names: {"en":"freeze,solidify-(to)","sv":"frysa, stelna","no":"fryse til is, stivne","fi":"jäädyttää, jäätyä, pakastaa","hu":"megfagyni","de":"gefrieren","nl":"bevriezen, vriezen","af":"vries, bevries (om te)","ru":"замерзать","is":"frysta, frjósa","lt":"sustingti, užšaldyti","lv":"salt, sasalt","pl":"zamarzać, zamrażać","fr":"geler, solidifier-(se)","es":"congelar, solidificar","pt":"gelar","it":"congelare","da":"fryser, stivner","eo":"frostigi, solidigi"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 180 324\"><path fill=\"none\" d=\"M74.958 193.16a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978M106 162h64m0 0v64m0 0h-64m0 0v-64M74 98l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["freeze","solidify-(to)"],
+};
+
+export default blissSymbol;

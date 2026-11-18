@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** tent — (house + cloth: shelter made of cloth) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "17523",
+  derivation: "(house + cloth: shelter made of cloth)",
+  gloss: "tent",
+  id: "tent",
+  names: {"en":"tent","sv":"tält","no":"telt","fi":"teltta","hu":"sátor","de":"Zelt","nl":"tent","af":"tent","ru":"палатка","is":"tjald","lv":"telts","pl":"namiot","fr":"tente","es":"tienda, carpa","pt":"tenda","it":"tenda","da":"telt","eo":"tendo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><path fill=\"none\" d=\"M170 162h128m-128 64h128m-96-96v128m64-128v128M74 130l-64 64m0 0v64m0 0h128m0 0v-64m0 0-64-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["tent"],
+};
+
+export default blissSymbol;

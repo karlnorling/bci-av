@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** syrup — (flavouring [contraction] + liquid + sweet + thing indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22335",
+  derivation: "(flavouring [contraction] + liquid + sweet + thing indicator)",
+  gloss: "syrup",
+  id: "syrup",
+  names: {"en":"syrup","sv":"sirap","no":"sirup","fi":"siirappi","hu":"szirup","de":"Zuckersirup","nl":"siroop (limonade)","af":"stroop","ru":"сироп","is":"síróp","lv":"sīrups","pl":"syrop (gęsty, słodki płyn)","fr":"sirop","es":"jarabe","pt":"xarope doce","it":"sciroppo (sciroppo a base di zucchero)","da":"sirup","eo":"siropo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M10 194h128m-64-64v128M58 66h32m0 0v32m0 0H58m0 0V66m176.894 127.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M394 130l-64 128m0 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m458 130-32 32m32-32 32 32m-32-32v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["syrup"],
+};
+
+export default blissSymbol;

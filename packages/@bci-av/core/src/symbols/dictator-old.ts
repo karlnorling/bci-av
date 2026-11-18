@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** dictator_(OLD) — (leader + dictatorship_(country)) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25693",
+  derivation: "(leader + dictatorship_(country))",
+  gloss: "dictator_(OLD)",
+  id: "dictator-old",
+  names: {"en":"dictator_(OLD)","sv":"diktator","no":"diktator, enehersker","de":"Diktator","nl":"dictator","af":"diktator","ru":"диктатор","lv":"diktators","pl":"dyktator (STARE)","eo":"diktatoro (OLDA)"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 724 324\"><g fill=\"none\"><path d=\"M234 258h128m-64-128v128m0-128h64m0 0v64m0 0h-64m0 0v-64m222.998 63.992a63.5 63.5 0 1 0-126.996.008M458 130v128m-64-64h128m0 0-32-32m32 32-32 32m160-96 64 64m0-64-64 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"681.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M682 226zm-128-32h64m32 0h64M74 130v128m-32 0h64m30.998-64.008A63.5 63.5 0 1 0 10.002 194M138 194h64m-32-32 32 32m0 0-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["dictator_(OLD)"],
+};
+
+export default blissSymbol;

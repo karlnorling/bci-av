@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** folk_music — (music + culture) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21611",
+  derivation: "(music + culture)",
+  gloss: "folk_music",
+  id: "folk-music",
+  names: {"en":"folk_music","sv":"folkmusik","no":"folkemusikk","fi":"kansanmusiikki","hu":"népzene","de":"Volksmusik, Folk","nl":"volksmuziek","af":"volksmusiek, tradisionele musiek","ru":"народная музыка, фольклорная музыка","is":"þjóðlagatónlist","lv":"tautas mūzika","pl":"muzyka ludowa, folk","fr":"musique folklorique","es":"música folclórica","pt":"música popular","eo":"popola muziko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 532 324\"><g fill=\"none\"><path d=\"m234 258 32-64m0 0 32 64m30.998-64.008a63.5 63.5 0 1 0-126.996.008M362 194l64 64m0-64-64 64m128-128v128m-32 0h64M72.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M9.238 256.64a127 127.5 0 0 0 63.712-94.776\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"137.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M170 130v96\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["folk_music"],
+};
+
+export default blissSymbol;

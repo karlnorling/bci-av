@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** media_(digital) — (media + digital) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29880",
+  derivation: "(media + digital)",
+  gloss: "media_(digital)",
+  id: "media-digital",
+  names: {"en":"media_(digital)","sv":"media (digital)","no":"media (digital)","de":"Medien_(digital)","af":"digitale_media","pl":"media_(cyfrowe)","eo":"amaskomunikiloj_(ciferecaj)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 648 644\"><g fill=\"none\"><path d=\"M20 322h128m0 0v128m0 0H20m0 0V322m0-64h128M20 514h128M20 322l128 128m0-128L20 450m446.999-64.004a127.5 127.5 0 1 0-254.998.004M340 258l-64 64m64-64 64 64m-64-64v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"563.5\" cy=\"449.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M564 322v64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["media_(digital)"],
+};
+
+export default blissSymbol;

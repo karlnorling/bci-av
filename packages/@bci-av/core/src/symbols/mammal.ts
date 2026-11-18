@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** mammal — (animal + milk: warm-blooded vertebrate having the skin more or less covered with hair; young are born alive and nourished with milk) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26196",
+  derivation: "(animal + milk: warm-blooded vertebrate having the skin more or less covered with hair; young are born alive and nourished with milk)",
+  gloss: "mammal",
+  id: "mammal",
+  names: {"en":"mammal","sv":"däggdjur","no":"pattedyr","de":"Säugetier","af":"soogdier","lt":"žinduolis","pl":"ssak","eo":"mamulo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64M10 194h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M394 130v128m-192 0h64m-31.106-64.772a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["mammal"],
+};
+
+export default blissSymbol;

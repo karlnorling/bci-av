@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** composer — (person + tune: person who creates tunes) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13393",
+  derivation: "(person + tune: person who creates tunes)",
+  gloss: "composer",
+  id: "composer",
+  names: {"en":"composer","sv":"kompositör, tonsättare","no":"komponist","fi":"säveltäjä","hu":"zeneszerző","de":"Komponist, Komponistin","nl":"componist","af":"komponis","ru":"композитор","is":"tónskáld","lt":"kompozitorius","lv":"komponists","pl":"kompozytor","fr":"compositeur","es":"compositor","pt":"compositor","it":"compositore","da":"komponist","eo":"komponisto"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><path d=\"M42 130v128m-32 0h64m32 0 64-64m0 0 64 64m0 0H106m126.998-64.008a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330 130v96\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["composer"],
+};
+
+export default blissSymbol;

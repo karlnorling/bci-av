@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** flea — (louse,stinging_insect + to jump: stinging insect that jumps) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14199",
+  derivation: "(louse,stinging_insect + to jump: stinging insect that jumps)",
+  gloss: "flea",
+  id: "flea",
+  names: {"en":"flea","sv":"loppa","no":"loppe","fi":"kirppu","hu":"bolha","de":"Floh","nl":"vlo","af":"vlooi","ru":"блоха","is":"fló","lt":"blusa","lv":"blusa","pl":"pchła","fr":"puce","es":"pulga","pt":"pulga","it":"pulce","da":"loppe","eo":"pulo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 612 324\"><path fill=\"none\" d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64m0 0 32-64m0 0 32 64M410 98l-32 32m0 0 32 32m-48-32L234 258m0-64 64 64m240-32 32 32m0 0 32-32m-33.002 31.992a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["flea"],
+};
+
+export default blissSymbol;

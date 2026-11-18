@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Danish_(language)_(OLD) — (language + three_Danish_waters_(OLD): based on Denmark_(OLD) [contraction]) SUPERSEDED SYNONYM See Danish_(language) 25990 */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25283",
+  derivation: "(language + three_Danish_waters_(OLD): based on Denmark_(OLD) [contraction]) SUPERSEDED SYNONYM See Danish_(language) 25990",
+  gloss: "Danish_(language)_(OLD)",
+  id: "danish-language-old",
+  names: {"en":"Danish_(language)_(OLD)","sv":"danska (FD)","no":"dansk (OLD)","fi":"tanska (kieli) (vanha)","de":"Dänisch (Sprache) (ALT)","nl":"Deens (OUD)","af":"Deens (taal) (OUD)","ru":"датский язык (СТАРОЕ зн)","lv":"dāņu valoda (novec.)","pl":"duński (język ), (STARY)","es":"Danés (lenguage) (ANTIGUO)","eo":"dana lingvo (OLDA)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 276 324\"><g fill=\"none\"><path d=\"M202.894 129.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978m-61.926 64.408a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978m-61.926 64.408a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M104.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M41.238 256.64a127 127.5 0 0 0 63.712-94.776\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Danish_(language)_(OLD)"],
+};
+
+export default blissSymbol;

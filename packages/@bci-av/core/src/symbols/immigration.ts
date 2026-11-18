@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** immigration — (entering + country + another [contraction] + to live; entering another country to live) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29731",
+  derivation: "(entering + country + another [contraction] + to live; entering another country to live)",
+  gloss: "immigration",
+  id: "immigration",
+  names: {"en":"immigration","sv":"invandring, immigration","no":"innvandring, immigrasjon","de":"Einwanderung","af":"immigrasie","pl":"imigracja","eo":"enmigrado"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1192 644\"><g fill=\"none\"><path d=\"M20 386h256m0 0-64-64m64 64-64 64m-64-192h256m0 0v256m0 0H148m0 0V258m320 256h256M596 258h128m0 0v128m0 0H596m0 0V258m0 128v128m254.996-96.015a31.5 31.5 0 1 0-62.992.015M852 418l-64 96m0 0h64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"1043.5\" cy=\"385.5\" r=\"127.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M1044 258v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["immigration"],
+};
+
+export default blissSymbol;

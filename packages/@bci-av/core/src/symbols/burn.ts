@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** burn — (flame + skin) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29805",
+  derivation: "(flame + skin)",
+  gloss: "burn",
+  id: "burn",
+  names: {"en":"burn","sv":"brännsår, brännskada","no":"brannsår","de":"brennen","af":"brand","pl":"oparzenie","eo":"brulvundo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 840 644\"><path fill=\"none\" d=\"M50.718 384.708a89.5 90 0 0 0-.509-127.922M51.36 385.36a90 90 0 0 0 1.002 128.266M116 386l128-128m0 0 128 128m127.88-128.16a159.5 159.5 0 0 0 .479 255.677M500 258h256M500 514h256m-.72-.96a159.5 159.5 0 0 0 .478-254.72\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["burn"],
+};
+
+export default blissSymbol;

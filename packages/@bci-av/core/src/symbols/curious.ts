@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** curious — (curiosity + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25040",
+  derivation: "(curiosity + description indicator)",
+  gloss: "curious",
+  id: "curious",
+  names: {"en":"curious,inquisitive","sv":"nyfiken (positiv), frågvis, vetgirig","no":"nysgjerrig, vitebegjærlig","fi":"utelias, tiedonhakuinen","de":"neugierig, wissbegierig","nl":"nieuwsgierig (bijv.nw)","af":"nuuskierige","ru":"любопытный","is":"forvitin","lv":"ziņkārīgs,izbrīnīts, ieinteresēts","pl":"ciekawski","es":"curioso","pt":"curioso","it":"curioso","da":"nysgerrig","eo":"scivolema"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><path d=\"M136.998 193.992A63.5 63.5 0 1 0 10.002 194\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M72.902 192.885a44.5 45 0 0 0 .489-63.27m-.211 63.565a45 45 0 0 0 1.01 64.618M58 66l16 32m0 0 16-32m206.998 127.992a63.5 63.5 0 1 0-126.996.008M170 258h128m-128-64v64m128-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["curious","inquisitive"],
+};
+
+export default blissSymbol;

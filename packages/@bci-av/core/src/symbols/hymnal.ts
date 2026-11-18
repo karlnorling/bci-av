@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** hymnal — (book + song + religion) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21073",
+  derivation: "(book + song + religion)",
+  gloss: "hymnal",
+  id: "hymnal",
+  names: {"en":"hymnal,hymn_book","sv":"psalmbok, sångbok (religiös)","no":"salmebok, sangbok (religiøs)","fi":"virsikirja","hu":"egyházi énekeskönyv","de":"Gesangbuch","nl":"psalmboek, liedboek","af":"Psalm en Gesange boek","ru":"Псалтырь","lv":"Psalmu grāmata","pl":"śpiewnik, książka z psalmami","fr":"livre de cantiques","es":"himnario, cantoral","pt":"hinário","it":"libro di canti","eo":"himnaro, psalmaro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330 130v96m32.067-64.009a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M424.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M425.172 256.534a127.5 127.5 0 0 0 63.774-94.67M426 130l64 128m0 0H362m0 0 64-128m-416 0v128m0-128h64m0 0v128m-64 0h64m64-128v128m-64 0h64M74 130h64m224 64 64-128m0 0 64 128m-128 0h32m64 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["hymnal","hymn_book"],
+};
+
+export default blissSymbol;

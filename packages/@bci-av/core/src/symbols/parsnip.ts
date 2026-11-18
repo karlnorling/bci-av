@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** parsnip — (vegetable (wedge-shaped) + white: vegetable with a long, white, edible root) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "15971",
+  derivation: "(vegetable (wedge-shaped) + white: vegetable with a long, white, edible root)",
+  gloss: "parsnip",
+  id: "parsnip",
+  names: {"en":"parsnip","sv":"palsternacka","no":"pastinakk","fi":"palsternakka","hu":"fehérrépa, parsznip","de":"Pastinak","nl":"pastinaak,","af":"witwortel","ru":"пастернак","is":"pastínak","lt":"pastarnokas","lv":"pastinaks","pl":"pasternak","fr":"salsifis, scorsonère","es":"chirivía","pt":"cherovia","it":"pastinaca","da":"pastinak","eo":"pastinako"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M138 194.002A63.5 63.5 0 0 0 74.002 258M10 258h128m-96 0 32 64m0 0 32-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M202 194zm128.894-.772a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978M170 258h64m96-128v128m-16-16 32 32m0-32-32 32m16-48v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["parsnip"],
+};
+
+export default blissSymbol;

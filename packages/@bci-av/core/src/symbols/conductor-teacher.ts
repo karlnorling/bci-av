@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** conductor_(teacher — (person + conductive education) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24069",
+  derivation: "(person + conductive education)",
+  gloss: "conductor_(teacher",
+  id: "conductor-teacher",
+  names: {"en":"conductor_(teacher,therapist)","sv":"konduktor","no":"konduktor","fi":"konduktiivinen opettaja","hu":"konduktor, konduktív terapeuta","de":"Konduktor","nl":"conductor (Pëto)","af":"leier (onderwyser, terapeut)","ru":"кондуктивный педагог, терапист","is":"þroskaþjálfi","lv":"vadītājs, skolotājs, terapeits","pl":"przewodnik (nauczyciel terapeuta)","fr":"conducteur (pédagogie conductive), pédagogue (pédagogie conductive)","es":"conductor (profesor, terapeuta)","eo":"kondukinstruisto"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 724 324\"><path fill=\"none\" d=\"M106.002 194a63.5 63.5 0 0 0 126.996-.008m160 0a63.5 63.5 0 1 0-126.996.008m-.002 0v64m0 0h128m0 0v-64m-224-64-32 32m32-32 32 32m-32-32v128m-32-32 32 32m0 0 32-32m224-32h64m-32-32v64m64 32h64m64 0h64m-160 0 64-128m0 0 64 128M42 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["conductor_(teacher","therapist)"],
+};
+
+export default blissSymbol;

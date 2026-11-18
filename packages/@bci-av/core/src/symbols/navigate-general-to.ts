@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** navigate_(general)-(to) — (activity + sign + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27093",
+  derivation: "(activity + sign + action indicator)",
+  gloss: "navigate_(general)-(to)",
+  id: "navigate-general-to",
+  names: {"en":"navigate_(general)-(to)","sv":"navigera (allmänt)","no":"navigere-(å)_(generelt)","de":"navigieren (allgemein)","af":"navigeer-(om_te)","lt":"naviguoti","pl":"nawigować (ogólnie)","eo":"navigi (ĝenerale)"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><path fill=\"none\" d=\"M328.998 193.992a63.5 63.5 0 1 0-126.996.008M266 130l-32 32m32-32 32 32m-32-32v128m-160-96h64m0 0v64m0 0h-64m0 0v-64m-96 96 32-64m0 0 32 64M26 98l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["navigate_(general)-(to)"],
+};
+
+export default blissSymbol;

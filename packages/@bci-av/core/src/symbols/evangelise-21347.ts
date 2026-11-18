@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** evangelise — (to disseminate + news + positive + Christianity [contraction] + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21347",
+  derivation: "(to disseminate + news + positive + Christianity [contraction] + action indicator)",
+  gloss: "evangelise",
+  id: "evangelise-21347",
+  names: {"en":"evangelise,evangelize_(christian)-(to)","sv":"predika evangelium, missionera (kristendom)","no":"misjonere","fi":"saarnata evankeliumia, saarnata kristinuskoa","hu":"evangelizálni, keresztény hitre téríteni","de":"evangelisieren","nl":"evangeliseren (christelijk)","af":"evangeliseer (Christelik) (om te)","ru":"евангелизировать(христианство)","lv":"evanģelizācija","pl":"ewangelizacja chrześcijańska","fr":"évangéliser, prêcher l'Evangile","es":"evangelizar (cristiano)","pt":"pregar o evangelho (cristão)","it":"evangelizzare (Cristiano)","eo":"evangelizi (kristana)"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 564 324\"><g fill=\"none\"><path d=\"M106 226v64m0-192v64m32 32h64m-192 0h64m0 64 32 32m0 0 32-32m-96-96-32 32m0 0 32 32m32-96 32-32m0 0 32 32m32 32 32 32m0 0-32 32M90 66l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"265.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M328.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M265.172 256.534a127.5 127.5 0 0 0 63.774-94.67M266 194zm96 0h64m-32-32v64m64-64v48m0 15zm64-95v128m-32-96h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["evangelise","evangelize_(christian)-(to)"],
+};
+
+export default blissSymbol;

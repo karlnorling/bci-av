@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** victory — victory */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29706",
+  derivation: "victory",
+  gloss: "victory",
+  id: "victory",
+  names: {"en":"victory","sv":"seger","no":"seier","de":"Sieg","af":"oorwinning","pl":"zwycięstwo","eo":"venko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 744 644\"><path fill=\"none\" d=\"M20 514h256m0 0-64-64m64 64-64 64m-64-192h256m0 0-64-64m64 64-64 64m128-64h256M596 258v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["victory"],
+};
+
+export default blissSymbol;
