@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** blot — (gathering + to sacrifice: ancient Scandinavian gathering to sacrifice to the Nordic Gods) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22833",
+  derivation: "(gathering + to sacrifice: ancient Scandinavian gathering to sacrifice to the Nordic Gods)",
+  gloss: "blot",
+  id: "blot",
+  names: {"en":"blot","sv":"blot","no":"blot","fi":"blot","hu":"áldozati összejövetel az északi istenek részére","de":"Blot (nord. Opferritual)","nl":"blot (Noors)","af":"blot (Nordiese)","ru":"блот (обряд жертвоприношения)","is":"blót","lv":"blot","pl":"blot (staronordycka ceremonia ofiarna)","fr":"cérémonie de sacrifice (mythologie nordique)","es":"mancha","pt":"mancha","it":"macchia","eo":"oferfesto, bloto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 692 324\"><g fill=\"none\"><path d=\"m458 130 64 128m0 0H394m0 0 64-128m-64 64 64-128m0 0 64 128m-128 0h32m64 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"617.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m586 178 32-32m0 0 32 32m-415.998 16a63.5 63.5 0 0 0 126.996-.008M298 130l-32 32m32-32 32 32m-32-32v128M42 162l32 32m0 0-32 32m32-96 32 32m0 0 32-32m32 32-32 32m0 0 32 32m-96 32 32-32m0 0 32 32m0-64h64m-192 0h64m32-96v64m0 64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["blot"],
+};
+
+export default blissSymbol;

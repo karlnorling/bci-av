@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** elementary_school — (school [contraction] + child) Use appropriate specifier for other stages of schools */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23076",
+  derivation: "(school [contraction] + child) Use appropriate specifier for other stages of schools",
+  gloss: "elementary_school",
+  id: "elementary-school",
+  names: {"en":"elementary_school,primary_school","sv":"grundskola (låg- och mellanstadiet)","no":"grunnskole","fi":"peruskoulu","hu":"általános iskola","de":"Grundschule","nl":"lagere school, basisschool","af":"laerskool","ru":"начальная школа","is":"grunnskóli","lv":"pamatskola","pl":"szkoła podstawowa","fr":"école primaire","es":"escuela de primaria","pt":"escola primária","it":"scuola elementare","da":"folkeskolen, grundskolen","eo":"elementa lernejo, baza lernejo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M10 194v64m0 0h128m0 0v-64m-128 0 64-64m0 0 64 64m32 0v64m0 0h128m0 0v-64m-1.002-.008a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"161.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330 194h64m-32 0v64m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["elementary_school","primary_school"],
+};
+
+export default blissSymbol;

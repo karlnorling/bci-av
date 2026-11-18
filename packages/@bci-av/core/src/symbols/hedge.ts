@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** hedge — (line + many + bushes) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29621",
+  derivation: "(line + many + bushes)",
+  gloss: "hedge",
+  id: "hedge",
+  names: {"en":"hedge","sv":"häck","no":"hekk","de":"Hecke","af":"heining","pl":"żywopłot","eo":"heĝo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 552 644\"><path fill=\"none\" d=\"M20 258v256m64-128 128 128m0-128L84 514m191.996-65.001A127.5 127.5 0 0 0 403 321.996m1.001.004a127.5 127.5 0 0 0 127.995 126.999M404 322v192\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["hedge"],
+};
+
+export default blissSymbol;

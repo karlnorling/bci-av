@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** espionage — (to search + secret + information) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25057",
+  derivation: "(to search + secret + information)",
+  gloss: "espionage",
+  id: "espionage",
+  names: {"en":"espionage,spying","sv":"spionage","no":"spionasje","fi":"vakoilu, vakoileminen","de":"Spionage, Bespitzelung","nl":"spionage","af":"spioenasie, spioenerend","ru":"шпионаж","is":"njósna","lv":"spiegošana","pl":"szpiegostwo","es":"espionaje","eo":"spionado"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 532 324\"><g fill=\"none\"><path d=\"M10 130v128m0 0h128m0 0V130\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 194zm96-32v48m0 15zm32-63v48m0 15zm32-95h128m0 0v128m0 0H234m0 0V130\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M520.998 193.992a63.5 63.5 0 1 0-126.996.008M458 130l-32 32m32-32 32 32m-32-32v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["espionage","spying"],
+};
+
+export default blissSymbol;

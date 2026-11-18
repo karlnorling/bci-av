@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** fever — (body temperature + high) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24112",
+  derivation: "(body temperature + high)",
+  gloss: "fever",
+  id: "fever",
+  names: {"en":"fever,temperature","sv":"feber","no":"feber","fi":"kuume","hu":"láz","de":"Fieber","nl":"temperatuur (koorts), koorts","af":"koors, temperatuur","ru":"лихорадка, жар, высокая температура","is":"hiti","lt":"karščiavimas","lv":"drudzis, temperatūra","pl":"gorączka, temperatura","fr":"fièvre, température","es":"fiebre","pt":"febre","it":"febbre","da":"feber","eo":"febro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><path fill=\"none\" d=\"M137.88 129.84a79.5 79.5 0 0 0 .478 127.674M138 258h128M138 130h128m-.721 127.04a79.5 79.5 0 0 0 .476-126.72M42 130v128M10 130h64m-64 64h64m-64 64h64m-32 32zm288-160h64m-64 128h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["fever","temperature"],
+};
+
+export default blissSymbol;

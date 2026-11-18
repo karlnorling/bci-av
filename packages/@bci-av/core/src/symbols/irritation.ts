@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** irritation — (angry without many) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29540",
+  derivation: "(angry without many)",
+  gloss: "irritation",
+  id: "irritation",
+  names: {"en":"irritation,annoyance","sv":"irritation","no":"irritasjon","de":"Irritation, Ärger","af":"irritasie, ergenis, oorlas, beslommernis","pl":"złość, irytacja","eo":"kolero, ĝeno"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 616 644\"><g fill=\"none\"><path d=\"M21.046 321.866a254 255.5 0 0 0 127.835 190.552\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M146.998 321.992A63.5 63.5 0 1 0 20.002 322m254.996-.008a63.5 63.5 0 1 0-126.996.008m-.767 190.626A255 255.5 0 0 0 275.93 321.991M468 258 340 386m0 0 128 128m128-256L468 386m0 0 128 128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["irritation","annoyance"],
+};
+
+export default blissSymbol;

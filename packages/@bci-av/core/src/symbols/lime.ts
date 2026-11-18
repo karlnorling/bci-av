@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** lime — (citrus fruit + green) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "15211",
+  derivation: "(citrus fruit + green)",
+  gloss: "lime",
+  id: "lime",
+  names: {"en":"lime","sv":"lime","no":"lime","fi":"limejuoma","hu":"zöldcitrom, lima","de":"Limone","nl":"limoen","af":"lemmetjie","ru":"лайм","is":"límóna","lt":"žalioji citrina","lv":"laims","pl":"limetka","fr":"citron vert, lime","es":"cal (fruta)","pt":"lima","it":"lime","da":"lime","eo":"limeo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130.002A63.5 63.5 0 0 0 42.002 194m-.822-.82a45 45 0 0 0 1.01 64.618\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M40.902 256.885a44.5 45 0 0 0 .489-63.27\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"169.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M138 258h64m96-63.998A63.5 63.5 0 0 0 234.002 258M170 194z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["lime"],
+};
+
+export default blissSymbol;

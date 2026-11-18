@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** mislead-(to) — (to lead + without + truth + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25755",
+  derivation: "(to lead + without + truth + action indicator)",
+  gloss: "mislead-(to)",
+  id: "mislead-to",
+  names: {"en":"mislead-(to)","sv":"vilseleda, förvilla","no":"villede, føre vill, forlede (å)","de":"beirren, verleiten","nl":"misleiden","af":"mislei_(om_te)","ru":"вводить в заблуждение","lv":"maldināt","pl":"zwodzić","eo":"trompi"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"m394 130 64 128m0 0H330m0 0 64-128m62.998 63.992a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M393.97 208.993A15.5 15.5 0 1 0 378.007 194M394 210v16m0 15zm-257.002-47.008A63.5 63.5 0 1 0 10.002 194M58 98l16-32m0 0 16 32m48 96h64m-32-32 32 32m0 0-32 32m64-32h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["mislead-(to)"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** rickshaw — (cart + person: cart pulled by a person) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "16508",
+  derivation: "(cart + person: cart pulled by a person)",
+  gloss: "rickshaw",
+  id: "rickshaw",
+  names: {"en":"rickshaw","sv":"ricksha","no":"rickshaw","fi":"riksa","hu":"riksa","de":"Rikscha","nl":"riksja","af":"riksja","ru":"рикша","is":"(I don't know the icelandic term for this word)","lv":"rikša","pl":"riksza","fr":"pousse-pousse","es":"jinrikisha","pt":"riquexó","it":"risciò","da":"rickshaw","eo":"rikŝo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><g fill=\"none\"><path d=\"M202 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m64 203-45 45m0-45 45 45M10 130h64m0 0v64m0 0H10m0 0v-64m64 32h64m-32-32 32 32m0 0-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["rickshaw"],
+};
+
+export default blissSymbol;

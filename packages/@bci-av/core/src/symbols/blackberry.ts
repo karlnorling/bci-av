@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** blackberry — (compound berry + black) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23417",
+  derivation: "(compound berry + black)",
+  gloss: "blackberry",
+  id: "blackberry",
+  names: {"en":"blackberry","sv":"björnbär","no":"bjørnebær","fi":"karhunvatukka","hu":"szeder, földi szeder","de":"Brombeere","nl":"braambes (Vl), braam (Nl)","af":"braambessie, braambes","ru":"ежевика","is":"brómber","lv":"upenes","pl":"jeżyna","fr":"mûre","es":"zarzamora","pt":"bago negro","it":"mora","da":"brombær","eo":"rubuso"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.279 257.04a79.5 79.5 0 0 0 .476-126.72\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.992 256.998A63.5 63.5 0 0 0 330 130.002M266 258h128m-224 0h64m-32-64z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"57.5\" cy=\"177.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"57.5\" cy=\"209.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"25.5\" cy=\"193.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M136.998 257.992A63.5 63.5 0 0 0 74 194.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["blackberry"],
+};
+
+export default blissSymbol;

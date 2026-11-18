@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** flu — (illness + body + intensity: your entire body is aching) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24117",
+  derivation: "(illness + body + intensity: your entire body is aching)",
+  gloss: "flu",
+  id: "flu",
+  names: {"en":"flu,influenza","sv":"influensa","no":"influensa","fi":"flunssa, influenssa","hu":"influenza","de":"Grippe","nl":"griep","af":"griep, verkoue","ru":"грипп","is":"flensa","lt":"gripas","lv":"gripa","pl":"grypa","fr":"grippe","es":"gripe","pt":"gripe","it":"influenza","eo":"gripo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><path fill=\"none\" d=\"M201.88 129.84a79.5 79.5 0 0 0 .478 127.674M202 258h128M202 130h128m-.721 127.04a79.5 79.5 0 0 0 .476-126.72M10 258l64-64m0 0 64 64m0-64v64m256-96v48m0 15z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["flu","influenza"],
+};
+
+export default blissSymbol;

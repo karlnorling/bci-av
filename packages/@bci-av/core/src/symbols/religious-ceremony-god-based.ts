@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** religious_ceremony_(God_based) — (ceremony + religion_(God_based)) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "20574",
+  derivation: "(ceremony + religion_(God_based))",
+  gloss: "religious_ceremony_(God_based)",
+  id: "religious-ceremony-god-based",
+  names: {"en":"religious_ceremony_(God_based)","sv":"religiös ceremoni (gudsbaserad)","no":"seremoni religiøs (tro på Gud)","fi":"uskonnolliset juhlamenot","hu":"vallási szertartás (Istenhívőknél)","de":"religiöse Zeremonie (basiert auf Gott)","nl":"religieuze ceremonie (God)","af":"godsdienstige seremonie (op God gebaseer)","ru":"религиозная церемония (на основе веры в Бога)","is":"trúarleg athöfn","lv":"reliģioza ceremonija (Dievticībā)","pl":"ceremonia religijna (w wierze w Boga)","fr":"cérémonie religieuse (basée sur dieu)","es":"ceremonia religiosa (basada en un Dios)","pt":"cerimónia religiosa","eo":"religia ceremonio (Dio-bazita)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 258h64m-32-96v64m190.998-32.008a63.5 63.5 0 1 0-126.996.008M106 258l64-64m0 0 64 64m0 0H106m160.067-96.009a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M328.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.172 256.534a127.5 127.5 0 0 0 63.774-94.67M330 130l64 128m0 0H266m0 0 64-128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M266.067 161.991a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M328.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.172 256.534a127.5 127.5 0 0 0 63.774-94.67M330 130l64 128m0 0H266m0 0 64-128m0-64-64 128m64-128 64 128m-128 0h32m64 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["religious_ceremony_(God_based)"],
+};
+
+export default blissSymbol;

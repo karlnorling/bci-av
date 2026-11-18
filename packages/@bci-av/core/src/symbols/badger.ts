@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** badger — (animal + smell,odour [contraction of mustelid] + many + line) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26129",
+  derivation: "(animal + smell,odour [contraction of mustelid] + many + line)",
+  gloss: "badger",
+  id: "badger",
+  names: {"en":"badger","sv":"grävling","no":"grevling","de":"Dachs","af":"das,dassie","pl":"borsuk","eo":"melo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><path fill=\"none\" d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64M10 194h128m96-64-64 128m0 0h64m-64 32h64m32-96 64 64m0-64-64 64m96-128v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["badger"],
+};
+
+export default blissSymbol;

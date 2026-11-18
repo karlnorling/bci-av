@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** marriage — (ceremony + marriage) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "20575",
+  derivation: "(ceremony + marriage)",
+  gloss: "marriage",
+  id: "marriage-20575",
+  names: {"en":"marriage,wedding","sv":"bröllop, vigsel","no":"vielse, giftermål, bryllup","fi":"häät","hu":"esküvő, házasságkötés","de":"Ehe, Hochzeit","nl":"huwelijk","af":"huwelik, troue","ru":"свадьба","is":"gifting, hjónaband","lv":"kāzas, precības","pl":"małżeństwo, ślub (ceremonia)","fr":"mariage (cérémonie)","es":"matrimonio, boda","pt":"casamento","it":"matrimonio","da":"ægteskab, bryllup","eo":"geedziĝo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 258h64m-32-96v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"313.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"345.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m266 194 64-64m0 0 64 64m-161.002-.008a63.5 63.5 0 1 0-126.996.008M106 258l64-64m0 0 64 64m-128 0h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["marriage","wedding"],
+};
+
+export default blissSymbol;

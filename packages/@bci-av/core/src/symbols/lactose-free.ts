@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** lactose_free — (without + lactose + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29208",
+  derivation: "(without + lactose + description indicator)",
+  gloss: "lactose_free",
+  id: "lactose-free",
+  names: {"en":"lactose_free","sv":"laktosfri","no":"laktosefri","de":"laktosefrei","af":"laktose_vry","pl":"bez laktozy","eo":"senlaktoza"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1000 644\"><g fill=\"none\"><circle cx=\"531.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"851.5\" cy=\"385.5\" r=\"127.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M852 258v256m-384 0h128m-61.847-129.92a90 90 0 0 0-133.366-1.038m131.575 2.584a90 90 0 0 0 126.278-.986M212 386h128m-64-64zm0 128zM20 386h128m352-256 32 64m0 0 32-64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["lactose_free"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** crop_(agriculture) — (outcome,result + to cultivate [contraction]: the outcome of cultivation) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29601",
+  derivation: "(outcome,result + to cultivate [contraction]: the outcome of cultivation)",
+  gloss: "crop_(agriculture)",
+  id: "crop-agriculture",
+  names: {"en":"crop_(agriculture),harvest_(agriculture)","sv":"skörd","no":"avling","de":"Ernte (Landwirtschaft)","af":"oes","pl":"zbiory (rolnictwo)","eo":"rikolto (agrikulturo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 552 644\"><g fill=\"none\"><path d=\"M148 386 20 514m0 0h128M20 258h128m-128 0 128 128m0-128v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"275.5\" cy=\"321.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M276 386v128m192-256-64 64m64-64 64 64m-64-64v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["crop_(agriculture)","harvest_(agriculture)"],
+};
+
+export default blissSymbol;

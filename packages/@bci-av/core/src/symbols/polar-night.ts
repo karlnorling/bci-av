@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** polar_night — (night + north) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25927",
+  derivation: "(night + north)",
+  gloss: "polar_night",
+  id: "polar-night",
+  names: {"en":"polar_night","sv":"polarnatt, midvinternatt","no":"polarnatt","de":"Polarnacht","nl":"poolnacht","af":"polêre_nag","ru":"полярная ночь","lt":"poliarinė naktis","lv":"polārnakts","pl":"noc polarna","eo":"polusa nokto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 258h128m-64.721-.96a79.5 79.5 0 0 0 .476-126.72\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M73.992 256.998A63.5 63.5 0 0 0 74 130.002M202 178l32-32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["polar_night"],
+};
+
+export default blissSymbol;

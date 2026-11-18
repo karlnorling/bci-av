@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** used_car_dealer — (shop + car + second hand [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29100",
+  derivation: "(shop + car + second hand [contraction])",
+  gloss: "used_car_dealer",
+  id: "used-car-dealer",
+  names: {"en":"used_car_dealer","sv":"affär_för_begagnade_bilar","no":"bruktbilforretning,bruktbilforhandler","de":"Gebrauchtwagenhändler","af":"tweedehandse_motor_handelaar","is":"bílasala (notaðir bílar)","lt":"naudotų automobilių pardavėjas","pl":"sprzedawca samochodów używanych","eo":"vendisto de uzitaj aŭtoj"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1000 644\"><g fill=\"none\"><path d=\"M596 386h256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"659.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m705 404-91 91m0-91 91 91\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"787.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m833 404-91 91m0-91 91 91m-45-173 64 64m-32-96-64 64m-480-96h256m0 0v256m0 0H276m-256 0h256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"403.5\" cy=\"321.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"403.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M276.001 386a127.5 127.5 0 0 0 254.998-.004M404 258v256m512-128zm64 0z\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["used_car_dealer"],
+};
+
+export default blissSymbol;

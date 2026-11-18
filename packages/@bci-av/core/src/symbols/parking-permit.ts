@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** parking_permit — (card + parking lot) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23914",
+  derivation: "(card + parking lot)",
+  gloss: "parking_permit",
+  id: "parking-permit",
+  names: {"en":"parking_permit","sv":"parkeringstillstånd","no":"parkeringstillatelse","fi":"pysäköintilippu","hu":"parkolási engedély","de":"Parkausweis, Parkerlaubnis","nl":"parkeertoelating (Vl), bewonerskaart","af":"parkeertoelatings kaart","ru":"разрешение на стоянку","is":"bílastæðaleyfi","lv":"autostāvvietas atļauja","pl":"zezwolenie na parkowanie","fr":"carte de stationnement, permis de stationnement, vignette de stationnement","es":"permiso de estacionamiento","eo":"parkum-permeso"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"M10 162h128m0 0v64m0 0H10m0-64v64m160 32h128m-96-32 32 32m0 0 32-32m64-32h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m384 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"425.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m448 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["parking_permit"],
+};
+
+export default blissSymbol;

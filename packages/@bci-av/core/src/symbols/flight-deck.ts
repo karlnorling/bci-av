@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** flight_deck — (room + pilot) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25307",
+  derivation: "(room + pilot)",
+  gloss: "flight_deck",
+  id: "flight-deck",
+  names: {"en":"flight_deck,cockpit","sv":"cockpit","no":"cockpit","fi":"lentokoneen ohjaamo","de":"Cockpit, Flugdeck","nl":"cockpit (vliegtuig)","af":"kajuit, cockpit (vliegtuig)","ru":"место для пилота, кокпит","lv":"lidmašīnas vadības kabīne","pl":"kabina pilota","es":"cabina de piloto","eo":"pilotejo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M10 130h128m0 0v128m0 0H10m192-128v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"329.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m352 203-45 45m0-45 45 45m42-117.998A63.5 63.5 0 0 0 330.002 194m-1.004-.008A63.5 63.5 0 0 0 266 130.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["flight_deck","cockpit"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** electrician — (person + work + electricity) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29238",
+  derivation: "(person + work + electricity)",
+  gloss: "electrician",
+  id: "electrician",
+  names: {"en":"electrician","sv":"elektriker","no":"elektriker","de":"Elektriker","af":"elektrisiën","pl":"elektryk","eo":"elektristo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 552 644\"><path fill=\"none\" d=\"M532 386 404 514m128-256L404 386m0 0h128M212 514l64-128m0 0 64 128M212 386l64-128m0 0 64 128M84 258v256m-64 0h128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["electrician"],
+};
+
+export default blissSymbol;

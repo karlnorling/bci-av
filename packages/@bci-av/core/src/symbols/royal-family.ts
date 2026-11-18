@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** royal_family — (family + royal) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24251",
+  derivation: "(family + royal)",
+  gloss: "royal_family",
+  id: "royal-family",
+  names: {"en":"royal_family","sv":"kungafamilj","no":"kongefamilie","fi":"kuninkaallinen perhe, kuningassuku, kuninkaalliset","hu":"királyi család","de":"die königliche Familie","nl":"koninklijke familie","af":"koninklike familie","ru":"королевская семья","is":"konungsfjölskylda","lv":"karaliskā ģimene","pl":"rodzina królewska","fr":"famille royale","es":"familia real","eo":"reĝa familio"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><path fill=\"none\" d=\"m10 258 32-64m0 0 32 64m96-64 32 64m0 0h-64m0 0 32-64m-128 0 64-64m0 0 64 64m64 0h128M42 130v64m128-64v64m64-64v64m128-64v64m-128-64 32 32m0 0 32-32m0 0 32 32m0 0 32-32M90 178l32 32m0-32-32 32m16-48v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["royal_family"],
+};
+
+export default blissSymbol;

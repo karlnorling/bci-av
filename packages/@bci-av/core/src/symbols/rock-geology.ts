@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** rock_(geology) — (type,kind,sort,category + stone) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25932",
+  derivation: "(type,kind,sort,category + stone)",
+  gloss: "rock_(geology)",
+  id: "rock-geology",
+  names: {"en":"rock_(geology)","sv":"bergart","no":"bergart","de":"Fels","nl":"gesteente","af":"rots, geologie","ru":"горная порода","lv":"iezis","pl":"skała (geologia)","eo":"roko (geologio)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><path fill=\"none\" d=\"M234 194v64m0 0h-64m0 0 64-64M74 162zm0 64zm62.998-32.008A63.5 63.5 0 1 0 10.002 194M42 194h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["rock_(geology)"],
+};
+
+export default blissSymbol;

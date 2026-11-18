@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** pasta_wheel — (pasta + wheel) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22132",
+  derivation: "(pasta + wheel)",
+  gloss: "pasta_wheel",
+  id: "pasta-wheel",
+  names: {"en":"pasta_wheel","sv":"pastahjul","no":"pastahjul","fi":"kuviopasta (pyörä)","hu":"tészta - kerék alakú","de":"Nudelrad, Nudelrädchen","nl":"wieltjesmacaroni","af":"wieletjies pasta","ru":"паста в виде колеса","is":"pastahjól","lv":"spirālveida makaroni","pl":"makaron w kształcie kółek","fr":"pâte (roue), rotelle, rotelline","es":"rueda para cortar pasta","pt":"roda da massa","it":"pasta (con forma rotonda)","eo":"makaronoj-radetoj"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 258h64m32 0zm64 0zm0-64zm96 .002A63.5 63.5 0 0 0 202.002 258M330 194.002A63.5 63.5 0 0 0 266.002 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m416 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["pasta_wheel"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** baggage_handling_belt — (conveyor_belt + baggage, luggage, suitcase) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29314",
+  derivation: "(conveyor_belt + baggage, luggage, suitcase)",
+  gloss: "baggage_handling_belt",
+  id: "baggage-handling-belt",
+  names: {"en":"baggage_handling_belt","sv":"bagageband","no":"bagasjebånd","de":"Gepäckförderband","af":"bagasiehanteringsgordel","pl":"przenośnik taśmowy bagażu","eo":"bagaĝ-transportbendo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 744 644\"><g fill=\"none\"><circle cx=\"83.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m129 404-91 91m0-91 91 91M84 386h256M84 514h256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"339.5\" cy=\"449.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"m385 404-91 91m0-91 91 91m83-109v128m0 0h256m0 0V386m-256 0h256m-65.002-.008a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["baggage_handling_belt"],
+};
+
+export default blissSymbol;

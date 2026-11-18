@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** menopause — (end + menstruation) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "15453",
+  derivation: "(end + menstruation)",
+  gloss: "menopause",
+  id: "menopause",
+  names: {"en":"menopause","sv":"klimakteriet","no":"klimakteriet, menstruasjonsopphør","fi":"vaihdevuodet","hu":"menopauza, klimax, klimaktérium","de":"Menopause, Wechseljahre","nl":"menopauze","af":"menopouse","ru":"менопауза","is":"tíðahvörf","lt":"menopauzė","lv":"menopauze","pl":"menopauza","fr":"ménopause","es":"menopausia","pt":"menopausa","it":"menopausa","da":"menopause","eo":"menopaŭzo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 628 324\"><path fill=\"none\" d=\"M138 130v128M10 194h128m0 0-32-32m32 32-32 32m128.894-32.772a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978m65.06-62.98a79.5 79.5 0 0 0 .478 127.674M362 258h128M362 130h128m-.721 127.04a79.5 79.5 0 0 0 .476-126.72m64.237 126.678A63.5 63.5 0 0 0 554 130.002m0-.002v128m-128-96 32 64m0 0h-64m0 0 32-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["menopause"],
+};
+
+export default blissSymbol;

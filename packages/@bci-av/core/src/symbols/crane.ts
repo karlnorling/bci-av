@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** crane — (machine + up and down: equipment to raise and lower) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13434",
+  derivation: "(machine + up and down: equipment to raise and lower)",
+  gloss: "crane",
+  id: "crane",
+  names: {"en":"crane","sv":"lyft, lyftkran","no":"heisekran, kran","fi":"nostolaite, nosturi","hu":"daru (ipari)","de":"Kran","nl":"kraan (machine), hijskraan","af":"kraan (masjien), hyskraan","ru":"кран","is":"krani","lt":"kranas","lv":"celtnis","pl":"dźwig, żuraw","fr":"grue","es":"grúa","pt":"grua","it":"gru","da":"kran","eo":"gruo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 308 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m202 130-32 32m32-32 32 32m-32-32v128m64-128v128m0 0-32-32m32 32 32-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m96 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["crane"],
+};
+
+export default blissSymbol;

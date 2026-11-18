@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** ozone_layer — (layer + gas + ozone) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29755",
+  derivation: "(layer + gas + ozone)",
+  gloss: "ozone_layer",
+  id: "ozone-layer",
+  names: {"en":"ozone_layer","sv":"ozonlager","no":"ozonlag","de":"Ozonschicht","af":"osoonlaag","pl":"warstwa_ozonowa","eo":"ozona_tavolo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 648 644\"><path fill=\"none\" d=\"M20 322h128M20 386h128M20 450h128m128-192-64 64m64-64 64 64m-64-64v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"275.5\" cy=\"385.5\" r=\"63.5\" fill=\"none\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><text xml:lang=\"en\" xml:space=\"preserve\" x=\"404\" y=\"514\" style=\"dominant-baseline:alphabetic\">O</text><path fill=\"none\" d=\"M579.97 480.993A15.5 15.5 0 1 0 564.007 466m.001 32A15.5 15.5 0 1 0 580 482.008\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["ozone_layer"],
+};
+
+export default blissSymbol;

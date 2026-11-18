@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** water_creature — (water_(ground_level) + arc: pictograph that could be associated with smooth water creatures) Used in conjunction with a specifier. - Character (superimposed) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23706",
+  derivation: "(water_(ground_level) + arc: pictograph that could be associated with smooth water creatures) Used in conjunction with a specifier. - Character (superimposed)",
+  gloss: "water_creature",
+  id: "water-creature",
+  names: {"en":"water_creature","sv":"vattendjur","no":"vannskapning","fi":"vesieläin","hu":"vízilény","de":"Wasserlebewesen, Lebewesen (im Wasser)","nl":"waterdier","af":"water dier","ru":"водный обитатель","is":"vatns vera","lv":"zemūdens radījumi","pl":"stworzenie wodne","fr":"créature marine","es":"criatura de agua","eo":"akvo/besto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><g fill=\"none\"><path d=\"M136.998 257.992A63.5 63.5 0 1 0 10.002 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74.958 257.16a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["water_creature"],
+};
+
+export default blissSymbol;

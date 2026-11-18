@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** gill — (organ,inner_organ,inner_body_part + breath + fish: The respiratory organ of fish and other aquatic animals) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26176",
+  derivation: "(organ,inner_organ,inner_body_part + breath + fish: The respiratory organ of fish and other aquatic animals)",
+  gloss: "gill",
+  id: "gill",
+  names: {"en":"gill","sv":"gäl","no":"gjelle","de":"Kieme","af":"kieu_(kiewe)","lt":"žiaunos","pl":"skrzela","eo":"branko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M41.88 129.84a79.5 79.5 0 0 0 .478 127.674m62.921-.474a79.5 79.5 0 0 0 .476-126.72M42 130h64M42 258h64m-32-64zm160-64-64 128m0 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M488.998 257.992a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M362.002 194a63.5 63.5 0 0 0 126.996-.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["gill"],
+};
+
+export default blissSymbol;

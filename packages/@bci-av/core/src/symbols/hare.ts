@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** hare — (rodent + ear + big) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25725",
+  derivation: "(rodent + ear + big)",
+  gloss: "hare",
+  id: "hare",
+  names: {"en":"hare","sv":"hare","no":"hare","de":"Hase","nl":"haas","af":"haas_(wild)","ru":"заяц","lv":"zaķis","pl":"zając","eo":"leporo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64m32-64 32 64m0 0 32-64m0 0 32 64m0 0 32-64m-288 0h128m32 0h128m94.996-32.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M329.172 256.534a127.5 127.5 0 0 0 63.774-94.67M458 130v128m-32 0h64m-64-128h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["hare"],
+};
+
+export default blissSymbol;

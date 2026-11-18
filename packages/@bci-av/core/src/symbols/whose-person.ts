@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** whose_(person) — (who,whom,that-(relative) + belongs to: relative pronoun, possessive form) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "18247",
+  derivation: "(who,whom,that-(relative) + belongs to: relative pronoun, possessive form)",
+  gloss: "whose_(person)",
+  id: "whose-person",
+  names: {"en":"whose_(person)","sv":"vems, vars","no":"hvem sin","fi":"kenen, joiden","hu":"akié","de":"von wem","nl":"wiens (betrekkelijk vnw.),","af":"wie sin (persoon)","ru":"чей, который","is":"hvers","lv":"kura, kuras","pl":"czyjeś (osoba)","fr":"dont (personne)","es":"cuyo (persona)","pt":"de quem?","it":"di chi, il quale","da":"hvis","eo":"kies (persono)"},
+  pos: "WHITE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><path fill=\"none\" d=\"M106 130v128m-32 0h64m-99.708-55.747a15.5 15.5 0 0 0 2.706-8.515\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"38\" cy=\"193\" r=\"3\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round;fill:#000\"/><path fill=\"none\" d=\"M6.68 201.658a15.5 15.5 0 0 0 2.318-7.92\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"7\" cy=\"193\" r=\"3\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round;fill:#000\"/><path fill=\"none\" d=\"M170 258h64m-32-32v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["whose_(person)"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** training — (to learn + activity) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29220",
+  derivation: "(to learn + activity)",
+  gloss: "training",
+  id: "training",
+  names: {"en":"training,practice","sv":"övning","no":"opplæring,øving,praksis","de":"Ausbildung, Praxis","af":"opleiding","pl":"szkolenie, praktyka","eo":"trejnado, praktiko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 808 644\"><path fill=\"none\" d=\"M20.001 386a127.5 127.5 0 0 0 254.998-.004m320 0a127.5 127.5 0 1 0-254.998.004m-.001 0v128m0 0h256m0 0V386M148 258v256m0 0-64-64m64 64 64-64m448 64 64-128m0 0 64 128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["training","practice"],
+};
+
+export default blissSymbol;

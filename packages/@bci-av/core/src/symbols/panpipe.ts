@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** panpipe — (wood instrument + many + tube) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23912",
+  derivation: "(wood instrument + many + tube)",
+  gloss: "panpipe",
+  id: "panpipe",
+  names: {"en":"panpipe","sv":"panflöjt","no":"panfløyte","fi":"panhuilu","hu":"pánsíp","de":"Panflöte","nl":"panfluit","af":"panfluit","ru":"панфлейта","lv":"pānflauta (vienkāršs stabuļu mūzikas instruments)","pl":"fujarka","fr":"flûte de Pan","es":"zampoña","eo":"panfluto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 130v96m-96-64h64m0 0v64m0 0H10m0 0v-64m127.992 30.998a63.5 63.5 0 0 0 63.006-63.006m1.004.008a63.5 63.5 0 0 0 63.99 62.998M202 130v128m96-64 64 64m0-64-64 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"425.5\" cy=\"257.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M394 130v128m64-128v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["panpipe"],
+};
+
+export default blissSymbol;

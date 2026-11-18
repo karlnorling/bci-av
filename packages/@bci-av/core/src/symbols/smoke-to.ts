@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** smoke-(to) — (smoking_(cigarette) + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "17185",
+  derivation: "(smoking_(cigarette) + action indicator)",
+  gloss: "smoke-(to)",
+  id: "smoke-to",
+  names: {"en":"smoke-(to)","sv":"röka","no":"røyke","fi":"tupakoida","hu":"dohányozni","de":"rauchen (Zigarette)","nl":"roken","af":"rook (om te)","ru":"курить","is":"reykja","lt":"rūkyti","lv":"smēķēt","pl":"palić (papierosy)","fr":"fumer","es":"fumar","pt":"fumar","it":"fumare","da":"ryger, ryge","eo":"fumi (cigaredon)"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 196 324\"><g fill=\"none\"><path d=\"M42 258h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M168.82 192.82a45 45 0 0 0 .5-63.13m-.14 63.49a45 45 0 0 0 1.01 64.618M74 98l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["smoke-(to)"],
+};
+
+export default blissSymbol;

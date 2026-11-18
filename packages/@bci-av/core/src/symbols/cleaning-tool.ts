@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** cleaning_tool — (tool + to clean) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22397",
+  derivation: "(tool + to clean)",
+  gloss: "cleaning_tool",
+  id: "cleaning-tool",
+  names: {"en":"cleaning_tool","sv":"städredskap","no":"rengjøringsredskap","fi":"puhdistusväline","hu":"takarító eszköz","de":"Reinigungsutensil","nl":"poetsgerief","af":"skoonmaakmiddel","ru":"чистящее средство","is":"hreinsitæki","lv":"trauku mazgājamais šķīdums","pl":"przyrząd do czyszczenia","fr":"ustensile de nettoyage, outil de nettoyage","es":"elemento de limpieza","pt":"material de limpeza","it":"oggetti per la pulizia","da":"rengøringsartikler","eo":"purigilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M42 162h64m0 0v64m0 0H42m0 0v-64m-32 32 64 64m0 0V130m64 64h128m32 0 64 64m0-64-64 64m128-64z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"425.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M490 194z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["cleaning_tool"],
+};
+
+export default blissSymbol;

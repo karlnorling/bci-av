@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** ancestor — (parent + past) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21327",
+  derivation: "(parent + past)",
+  gloss: "ancestor",
+  id: "ancestor",
+  names: {"en":"ancestor","sv":"anfader","no":"avstamming, ane","fi":"esivanhempi","hu":"előd, ős, őselőd","de":"Vorfahr, Vorfahrin","nl":"voorouder","af":"voorouer","ru":"предок","is":"forfeður","lv":"ciltstēvs/māte, priekštecis/-e, sencis/-e","pl":"przodek","fr":"ancêtre","es":"antepasado","pt":"antepassado","it":"avo","eo":"praulo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 212 324\"><path fill=\"none\" d=\"m10 194 64-64m0 0 64 64m31.279 63.04a79.5 79.5 0 0 0 .476-126.72M74 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["ancestor"],
+};
+
+export default blissSymbol;

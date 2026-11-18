@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** term — (limited time + to govern) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29727",
+  derivation: "(limited time + to govern)",
+  gloss: "term",
+  id: "term-29727",
+  names: {"en":"term,reign","sv":"regeringstid","no":"regjeringstid","de":"Amtszeit, Herrschaft","af":"termyn, heerskappy","pl":"termin,panowanie","eo":"periodo, regado"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1064 644\"><g fill=\"none\"><circle cx=\"147.5\" cy=\"385.5\" r=\"127.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M20 258v256m128-128h128M148 258v128m128-128v256m318.999-128.004a127.5 127.5 0 1 0-254.998.004M596 386h128m-64-64 64 64m0 0-64 64m128 64h256M916 258h128m0 0v128m0 0H916m0 0V258m0 0v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["term","reign"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** drilling_rig_(gas) — (machine + rotation + gas) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25049",
+  derivation: "(machine + rotation + gas)",
+  gloss: "drilling_rig_(gas)",
+  id: "drilling-rig-gas",
+  names: {"en":"drilling_rig_(gas)","sv":"borrigg (för gas)","no":"borerigg (for gass)","fi":"kaasunporaustorni","de":"Bohrturm (nach Gas)","nl":"boormachine (gas)","af":"boormasjien (gas)","ru":"буровая установка (газ)","is":"gaspallur","lv":"urbšanas ierīce (gāzei)","pl":"platforma wiertnicza (gaz)","es":"plataforma de perforación (gas)","eo":"borplatformo (gaso)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m96 203-45 45m0-45 45 45m169.992 8.998A63.5 63.5 0 0 0 266 130.002M202.002 194a63.5 63.5 0 0 0 63.99 62.998M170 226l32-32m0 0 32 32m160-96-32 32m32-32 32 32m-32-32v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["drilling_rig_(gas)"],
+};
+
+export default blissSymbol;

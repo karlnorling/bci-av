@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** wide — (wideness,broadness + description indicator: the pointers point outward to the widest space bounded by the reference lines) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "18250",
+  derivation: "(wideness,broadness + description indicator: the pointers point outward to the widest space bounded by the reference lines)",
+  gloss: "wide",
+  id: "wide",
+  names: {"en":"wide,broad","sv":"bred, vid","no":"vid, bred","fi":"leveä, laaja, avara","hu":"széles","de":"weit, breit","nl":"breed","af":"wyd, breed, breë","ru":"широкий","is":"víður, breiður","lv":"plats","pl":"szeroki, gruby","fr":"large","es":"ancho","pt":"largo","it":"ampio, largo","da":"bred","eo":"larĝa"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><path fill=\"none\" d=\"m58 66 16 32m0 0 16-32m-80 64v128m128-128v128m-32-96 32 32m0 0-32 32m-64-64-32 32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["wide","broad"],
+};
+
+export default blissSymbol;

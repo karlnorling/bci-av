@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** crutches — (tools + medical + to walk + plural indicator: medical devices for walking) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13617",
+  derivation: "(tools + medical + to walk + plural indicator: medical devices for walking)",
+  gloss: "crutches",
+  id: "crutches",
+  names: {"en":"crutches","sv":"kryckor","no":"krykker","fi":"kainalosauvat","hu":"mankó","de":"Krücken, Gehhilfen","nl":"krukken","af":"krukke","ru":"костыли","is":"hækjur","lt":"ramentai","lv":"kruķis, kruķi","pl":"kule (inwalidzkie)","fr":"béquilles","es":"muletas","pt":"muletas","it":"stampelle","da":"krykker, stokke, krykker","eo":"lambastonoj"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><path fill=\"none\" d=\"m10 194 64 64m0 0V130m128 128 64-128m0 0 64 128M42 162h64m0 0v64m0 0H42m0 0v-64m16-96 32 32m0-32L58 98m96 32v128m-.82-128.82a45 45 0 0 0 1.01 64.618m-1.37 63.022a45 45 0 0 0 .5-63.13M202 258h64m64 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["crutches"],
+};
+
+export default blissSymbol;

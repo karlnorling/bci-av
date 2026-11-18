@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** psychologist_(researcher) — (person + psychology: researcher + psychology [contraction]) Preferred NEW SYNONYM, replacing 21586 */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23182",
+  derivation: "(person + psychology: researcher + psychology [contraction]) Preferred NEW SYNONYM, replacing 21586",
+  gloss: "psychologist_(researcher)",
+  id: "psychologist-researcher",
+  names: {"en":"psychologist_(researcher)","sv":"psykolog (forskare)","no":"psykolog (forsker)","fi":"psykologi","hu":"kutatópszichológus","de":"Psychologe, Psychologin (Forscher)","nl":"psycholoog (onderzoeker)","af":"sielkundige (navorser)","ru":"психолог (научный)","is":"sálfræðingur","lv":"psihologs (pētnieks)","pl":"psycholog (naukowiec)","fr":"psychologue (chercheur)","es":"psicólogo (investigador)","pt":"psicólogo","it":"psicologo","eo":"psikologo (sciencisto)"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 564 324\"><g fill=\"none\"><path d=\"M42 130v128m-32 0h64m318.998-64.008a63.5 63.5 0 1 0-126.996.008m160.065-32.009a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M488.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M489.172 256.534a127.5 127.5 0 0 0 63.774-94.67M170 130l64 128m0 0H106m0 0 64-128m62.998 63.992a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["psychologist_(researcher)"],
+};
+
+export default blissSymbol;

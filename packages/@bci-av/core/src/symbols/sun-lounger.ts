@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** sun_lounger — (sofa + sun) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24764",
+  derivation: "(sofa + sun)",
+  gloss: "sun_lounger",
+  id: "sun-lounger",
+  names: {"en":"sun_lounger,deck_chair","sv":"solstol","no":"solseng","fi":"aurinkotuoli, rantatuoli","hu":"napozóágy, napozószék","de":"Liege, Liegestuhl, Deckstuhl","nl":"ligzetel (zon), ligstoel","af":"dekstoel","ru":"шезлонг, лежак","is":"sólbekkur","lv":"sauļošanās krēsls","pl":"leżak","fr":"transat","es":"tumbona","eo":"sunseĝo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><g fill=\"none\"><circle cx=\"297.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 194v64m0-64h128m0 0v64M10 130l64 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["sun_lounger","deck_chair"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** coffee — (drink + bean: drink made from coffee beans) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13373",
+  derivation: "(drink + bean: drink made from coffee beans)",
+  gloss: "coffee",
+  id: "coffee",
+  names: {"en":"coffee","sv":"kaffe","no":"kaffe","fi":"kahvi","hu":"kávé","de":"Kaffee","nl":"koffie","af":"koffie","ru":"кофе","is":"kaffi","lt":"kava","lv":"kafija","pl":"kawa","fr":"café (boisson)","es":"café","pt":"café","it":"caffè","da":"kaffe","eo":"kafo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 276 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M42 258h64m-31.042-64.84a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978m65.06-62.98a79.5 79.5 0 0 0 .478 127.674m30.921-.474a79.5 79.5 0 0 0 .476-126.72\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"217.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["coffee"],
+};
+
+export default blissSymbol;

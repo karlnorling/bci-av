@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** poison — (chemical product + death: chemical product that kills) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "16215",
+  derivation: "(chemical product + death: chemical product that kills)",
+  gloss: "poison",
+  id: "poison",
+  names: {"en":"poison","sv":"gift","no":"gift","fi":"myrkky","hu":"méreg","de":"Gift","nl":"vergif, gif","af":"gif","ru":"яд, отрава","is":"eitur","lt":"nuodai","lv":"inde","pl":"trucizna","fr":"poison","es":"veneno","pt":"venenoso","it":"velenoso, pericoloso","da":"gift","eo":"veneno"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><circle cx=\"265.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M106 194h64m0 0v64m0 0h-64m0 0v-64m224-64L202 258m-64-128L10 258m128-128v64m128-64v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["poison"],
+};
+
+export default blissSymbol;

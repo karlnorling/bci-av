@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Frigg — (wife + Woden) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22651",
+  derivation: "(wife + Woden)",
+  gloss: "Frigg",
+  id: "frigg",
+  names: {"en":"Frigg","sv":"Frigg","no":"Frigg","fi":"Frigg, Frigga","hu":"Frigg (északi istenség)","de":"Frigg (nordische Göttin)","nl":"Frigg (Noorse God)","af":"Frigg (Nordise God)","ru":"Фригг (жена Одина)","is":"Frigg","lv":"Ziemeļu Dieva sieva, Friga","pl":"Frigg - nordycka bogini, bogini małżeństwa, rodziny i deszczu, żona Odyna","fr":"Frigg (mythologie nordique)","es":"Frigg","pt":"frigg (mulher de woden)","it":"Frigg (moglie di Odino)","eo":"Frigo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 596 324\"><g fill=\"none\"><path d=\"m266 130 64 128m0 0H202m0 0 64-128m-64 64 64-128m0 0 64 128m-128 0h32m64 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"425.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m394 178 32-32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"553.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M554 194zm-416 0 32 64m0 0h-64m0 0 32-64m-128 0 64-64m0 0 64 64m0-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Frigg"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** count — (measurement + number) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23050",
+  derivation: "(measurement + number)",
+  gloss: "count",
+  id: "count",
+  names: {"en":"count","sv":"räknemått, antal","no":"opptelling, sum","fi":"laskenta","hu":"számlálás, számolás, megszámolás","de":"Vermessung, Anzahl","nl":"aantal","af":"tel","ru":"количество","is":"telja","lv":"skaits, numurs","pl":"rachunek, kalkulacja","fr":"compte (mesure)","es":"cuenta, número","it":"calcolo","eo":"kalkulo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 344 324\"><path fill=\"none\" d=\"M10 194h64m-64-32v64m64-32h64m0-32v64m-64-64v64m128-64h128m-160 64h128m-48-96-64 128m128-128-64 128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><text xml:lang=\"en\" xml:space=\"preserve\" x=\"298\" y=\"226\" style=\"dominant-baseline:alphabetic\"> </text></svg>",
+  synonyms: ["count"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** exploration — (search [contraction] + new) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27053",
+  derivation: "(search [contraction] + new)",
+  gloss: "exploration",
+  id: "exploration",
+  names: {"en":"exploration","sv":"utforskning","no":"utforsking","de":"Erforschung","af":"eksplorasie","lt":"tyrinėjimas, žvalgyba","pl":"badania","eo":"esplorado"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><g fill=\"none\"><path d=\"M10 130v128m0 0h128m0 0V130\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 194z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M234 130v128m0-64h128m0 0-32-32m32 32-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["exploration"],
+};
+
+export default blissSymbol;

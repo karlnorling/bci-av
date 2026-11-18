@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** country_music — (music + countryside) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23841",
+  derivation: "(music + countryside)",
+  gloss: "country_music",
+  id: "country-music",
+  names: {"en":"country_music","sv":"countrymusik","no":"countrymusikk","fi":"countrymusiikki, kantri","hu":"countryzene","de":"Country Musik","nl":"countrymuziek","af":"volksmusiek, country musiek","ru":"кантри-музыка","is":"kántrítónlist","lv":"kantri mūzika","pl":"mucyka country","fr":"musique country","es":"música country","pt":"música country","it":"musica country","da":"country musik","eo":"kontreo muziko"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><path d=\"M72.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M9.238 256.64a127 127.5 0 0 0 63.712-94.776\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"137.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M170 130v96m32 32h128m-128.008-65.002a63.5 63.5 0 0 0 63.006-63.006M266 130v128m.002-128a63.5 63.5 0 0 0 63.99 62.998\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["country_music"],
+};
+
+export default blissSymbol;

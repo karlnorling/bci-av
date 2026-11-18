@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** reading_lesson — (lesson + reading) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23188",
+  derivation: "(lesson + reading)",
+  gloss: "reading_lesson",
+  id: "reading-lesson",
+  names: {"en":"reading_lesson","sv":"läslektion","no":"lesetime","fi":"lukutunti","hu":"olvasásóra","de":"Leseunterricht","nl":"lezen (les)","af":"leesles","ru":"урок чтения","is":"lestrar tími","lv":"lasīšanas stunda","pl":"lekcja czytania","fr":"leçon de lecture","es":"lección de lectura","pt":"aula de leitura","it":"aula lettura","da":"dansktime","eo":"legado-leciono"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><circle cx=\"361.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M362 194zm64-64h64m0 0v128m0 0h-64m0 0V130m-129.002 63.992a63.5 63.5 0 1 0-126.996.008M170 258h128m-128-64v64m128-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 130v64m0 0h64m0-64v128M10 130v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["reading_lesson"],
+};
+
+export default blissSymbol;

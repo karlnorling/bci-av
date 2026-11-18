@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** whiteboard — (enclosed_space + pen + white) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29106",
+  derivation: "(enclosed_space + pen + white)",
+  gloss: "whiteboard",
+  id: "whiteboard",
+  names: {"en":"whiteboard","sv":"whiteboard","no":"whiteboard","de":"Whiteboard","af":"witbord","is":"tússtafla","lt":"balta lenta","pl":"biała tablica","eo":"blanktabulo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1128 644\"><g fill=\"none\"><path d=\"M20 258h256m0 0v256m0 0H20m0 0V258m320 0 256 256m384-256v256m-32-32 64 64m0-64-64 64m34.153-161.92a90 90 0 0 0-133.366-1.038m131.575 2.584a90 90 0 0 0 126.278-.986M724 386z\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"723.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M660 514h128m192 0v64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["whiteboard"],
+};
+
+export default blissSymbol;

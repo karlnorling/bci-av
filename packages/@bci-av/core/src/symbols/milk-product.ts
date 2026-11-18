@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** milk_product — (man-maid_item, product + milk) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29210",
+  derivation: "(man-maid_item, product + milk)",
+  gloss: "milk_product",
+  id: "milk-product",
+  names: {"en":"milk_product,dairy_product","sv":"mjölkprodukt","no":"melkeprodukt","de":"Milchprodukt","af":"suiwelproduk","pl":"produkt mleczny","eo":"laktoprodukto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 936 644\"><g fill=\"none\"><path d=\"m20 514 128-128m0 0 128 128m0 0H20m96-384h64m0 0v64m0 0h-64m0 0v-64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"467.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"787.5\" cy=\"385.5\" r=\"127.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M788 258v256m-384 0h128m-61.847-129.92a90 90 0 0 0-133.366-1.038m131.575 2.584a90 90 0 0 0 126.278-.986\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["milk_product","dairy_product"],
+};
+
+export default blissSymbol;

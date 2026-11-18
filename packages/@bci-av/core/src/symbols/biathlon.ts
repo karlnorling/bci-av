@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** biathlon — (sport + skies + gun) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25266",
+  derivation: "(sport + skies + gun)",
+  gloss: "biathlon",
+  id: "biathlon",
+  names: {"en":"biathlon","sv":"skidskytte","no":"skiskyting","fi":"ampumahiihto","de":"Biathlon","nl":"biathlon","af":"biathlon, tweekamp","ru":"биатлон","lv":"biatlons","pl":"biatlon","es":"biathlon","eo":"biatlono"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 596 324\"><path fill=\"none\" d=\"m10 258 32-64m0 0 32 64m0-128v128m-64-64h64m-64-64v64m160 64h128m-.008-1.002a63.5 63.5 0 0 0 63.006-63.006M136.993 209.97a15.5 15.5 0 1 0-30.985.03M138 210l-32 48m0 0h32m320-64h128m-192 0h64m-47.996 0a31.5 31.5 0 0 0 62.992-.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["biathlon"],
+};
+
+export default blissSymbol;

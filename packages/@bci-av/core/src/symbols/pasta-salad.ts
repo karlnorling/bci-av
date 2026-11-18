@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** pasta_salad — (salad + pasta [contraction])) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22306",
+  derivation: "(salad + pasta [contraction]))",
+  gloss: "pasta_salad",
+  id: "pasta-salad",
+  names: {"en":"pasta_salad","sv":"pastasallad","no":"pastasalat","fi":"pastasalaatti","hu":"tésztasaláta","de":"Nudelsalat","nl":"pastasalade","af":"pasta slaai","ru":"салат с пастой","is":"pastasalad","lv":"pastas/makaronu salāti","pl":"sałatka z makaronem","fr":"salade de pâtes","es":"ensalada de pasta","pt":"salada de massa","it":"insalata di pasta","eo":"nudelsalato"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 532 324\"><path fill=\"none\" d=\"M74 258h128M10 194l64 64m192-64-64 64m0-63.998A63.5 63.5 0 0 0 138.002 258m-1.004-.008A63.5 63.5 0 0 0 74 194.002M298 258zm64 0zm0-64zm96 .002A63.5 63.5 0 0 0 394.002 258M522 194.002A63.5 63.5 0 0 0 458.002 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["pasta_salad"],
+};
+
+export default blissSymbol;

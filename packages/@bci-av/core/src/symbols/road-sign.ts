@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** road_sign — (sign + vehicle) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24735",
+  derivation: "(sign + vehicle)",
+  gloss: "road_sign",
+  id: "road-sign",
+  names: {"en":"road_sign,traffic_signal","sv":"vägmärke","no":"veiskilt","fi":"liikennemerkki, tienviitta","hu":"jelzőtábla, közlekedési jelzés, útjelző tábla","de":"Verkehrsschild","nl":"verkeersbord","af":"padteken","ru":"дорожный знак","is":"umferðamerki","lv":"ceļaļazīme","pl":"znak drogowy","fr":"panneau de signalisation","es":"señal de tráfico","pt":"sinais de trânsito","it":"segnale stradale","da":"vejskilt, trafiktavle","eo":"trafiksignalo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M232.998 193.992a63.5 63.5 0 1 0-126.996.008M170 130l-32 32m32-32 32 32m-32-32v128M10 162h64m0 0v64m0 0H10m0 0v-64m256 32h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m320 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m384 203-45 45m0-45 45 45\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["road_sign","traffic_signal"],
+};
+
+export default blissSymbol;

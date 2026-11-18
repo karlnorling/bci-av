@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** anaesthetic — (medication + end + feeling) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27008",
+  derivation: "(medication + end + feeling)",
+  gloss: "anaesthetic",
+  id: "anaesthetic",
+  names: {"en":"anaesthetic,anesthetic","sv":"bedövningsmedel","no":"bedøvingsmiddel","de":"Narkose","af":"narkose","lt":"anestetikas","pl":"znieczulenie, utrata czucia","eo":"anestezilo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 564 324\"><g fill=\"none\"><path d=\"M138 130 10 258m128-128v64m-32 0h64m0 0v64m0 0h-64m0 0v-64m111.18-64.82a45 45 0 0 0 1.01 64.618m-1.37 63.022a45 45 0 0 0 .5-63.13M218 130v128m48-64h128m0 0-32-32m32 32-32 32m32-96v128m32.067-96.009a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M488.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M489.172 256.534a127.5 127.5 0 0 0 63.774-94.67\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["anaesthetic","anesthetic"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** icy — (ice + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14925",
+  derivation: "(ice + description indicator)",
+  gloss: "icy",
+  id: "icy",
+  names: {"en":"icy,frozen","sv":"frusen, isig, djupfryst","no":"frossen, iset, dypfryst","fi":"jäinen, pakastettu","hu":"jeges, fagyott","de":"eiskalt","nl":"ijskoud, bevroren","af":"ysig, gevries, yskoud","ru":"ледяной, замороженный","is":"frosið","lt":"ledinis, sušalęs","lv":"ledusauksts, sasalis","pl":"zamrożone, zmrożone","fr":"glacial, gelé","es":"helado, congelado","pt":"gelado","it":"congelato","da":"frosset, frysende","eo":"glacia, frosta"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><path fill=\"none\" d=\"M42 162h64m0 0v64m0 0H42m0 0v-64m32.958 31.16a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978M58 66l16 32m0 0 16-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["icy","frozen"],
+};
+
+export default blissSymbol;

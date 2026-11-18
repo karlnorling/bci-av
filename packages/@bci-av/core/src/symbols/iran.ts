@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Iran — (country + poetry) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25330",
+  derivation: "(country + poetry)",
+  gloss: "Iran",
+  id: "iran",
+  names: {"en":"Iran","sv":"Iran","no":"Iran","fi":"Iran","de":"Iran","nl":"Iran","af":"Iran","ru":"Иран","lv":"Irāna","pl":"Iran","es":"Irán","pt":"Irão","da":"Iran","eo":"Irano"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"M234 130v128m-32 0h64m32-127.998A63.5 63.5 0 0 0 234.002 194m-1.004-.008A63.5 63.5 0 0 0 170 130.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"97.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330.067 161.991a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M392.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M393.172 256.534a127.5 127.5 0 0 0 63.774-94.67M10 258h128m-64-64v64m0-128h64m0 0v64m0 0H74m0 0v-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Iran"],
+};
+
+export default blissSymbol;

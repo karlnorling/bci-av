@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** rot — (rot,decomposition,rotting_matter + action indicator + thing indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26230",
+  derivation: "(rot,decomposition,rotting_matter + action indicator + thing indicator)",
+  gloss: "rot",
+  id: "rot",
+  names: {"en":"rot,decompose-(to)","sv":"ruttna, kompostera","no":"nedbryte","de":"verrotten, zersetzen","af":"vrot,ontbind_(om_te)","lt":"pūti, suirti (į)","pl":"gnić, rozkładać się","eo":"putri, putriĝi"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 130v128m.958-64.84a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978M58 98l16-32m0 0 16 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M202 162v64M186 66h32m0 0v32m0 0h-32m0 0V66m208 64L266 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["rot","decompose-(to)"],
+};
+
+export default blissSymbol;

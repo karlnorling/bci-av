@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Persian_(language) — (language + poetry: poetry representing Iran [contraction] */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25358",
+  derivation: "(language + poetry: poetry representing Iran [contraction]",
+  gloss: "Persian_(language)",
+  id: "persian-language",
+  names: {"en":"Persian_(language)","sv":"persiska","no":"persisk (språk)","fi":"persia (kieli)","de":"Persisch, Farsi (Sprache)","nl":"Perzisch (taal)","af":"Persies (taal)","ru":"персидский язык","lv":"persiešu valoda","pl":"Perski (język)","es":"persa (idioma)","eo":"persa (lingvo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M104.996 161.985a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M41.238 256.64a127 127.5 0 0 0 63.712-94.776M202 130v128m-32 0h64m32-127.998A63.5 63.5 0 0 0 202.002 194m-1.004-.008A63.5 63.5 0 0 0 138 130.002\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"97.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M298.067 161.991a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M360.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M361.172 256.534a127.5 127.5 0 0 0 63.774-94.67\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Persian_(language)"],
+};
+
+export default blissSymbol;

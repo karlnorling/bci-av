@@ -63,6 +63,29 @@ mean thousands of modules for no benefit, so you pass a symbol from the registry
 instead. (The sibling `@ghs-hazard-pictograms` packages do generate per-symbol
 components, because there are 38 of them.)
 
+## Importing one symbol
+
+`symbols` is a single array, so importing anything from the package root pulls
+all 6,551 — measured at **6.2 MB** (1.4 MB gzipped) for a consumer who wanted
+one. If you need a known set rather than search, import them directly:
+
+```ts
+import houseWork from '@bci-av/core/symbols/house-work';
+
+houseWork.svg;
+houseWork.derivation; //=> "(work + house: work to maintain a house)"
+```
+
+|                                         | bundled   |
+| --------------------------------------- | --------- |
+| one symbol via `@bci-av/core/symbols/…` | **~1 KB** |
+| five symbols                            | ~5 KB     |
+| the root entry                          | 6.2 MB    |
+
+The root entry still carries the whole registry, because search and the gallery
+genuinely need every symbol. Use it when you are searching; import directly
+when you are not.
+
 ## Lookups
 
 |                           |                                                                              |

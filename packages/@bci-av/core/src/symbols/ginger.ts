@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** ginger — (flavouring + roots + thing indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22318",
+  derivation: "(flavouring + roots + thing indicator)",
+  gloss: "ginger",
+  id: "ginger",
+  names: {"en":"ginger","sv":"ingefära","no":"ingefær","fi":"inkivääri","hu":"gyömbér","de":"Ingwer","nl":"gember","af":"gemmer","ru":"имбирь","is":"engifer","lv":"ingvers","pl":"imbir","fr":"gingembre","es":"jengibre","pt":"gengibre","it":"zenzero","eo":"zingibro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M10 194h128m-64-64v128M58 66h32m0 0v32m0 0H58m0 0V66\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m234 130-64 128m0 0h64m31.992 62.998a63.5 63.5 0 0 0 63.006-63.006m1.004.008a63.5 63.5 0 0 0 63.99 62.998M266 258h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["ginger"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** luggage_strap — (strap + luggage) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29339",
+  derivation: "(strap + luggage)",
+  gloss: "luggage_strap",
+  id: "luggage-strap",
+  names: {"en":"luggage_strap","sv":"bagagerem","no":"bagasjerem","de":"Gepäckgurt","af":"bagasieband, kofferband","pl":"Pasek do bagażu","eo":"bagaĝrimeno"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 712 644\"><path fill=\"none\" d=\"M20 130h64m0 0v64m0 0H20m0 0v-64m32 128v256m64-256v256m64-128h128m-64-64v128m128-192v256m64-128v128m0 0h256m0 0V386m-256 0h256m-65.002-.008a63.5 63.5 0 1 0-126.996.008\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["luggage_strap"],
+};
+
+export default blissSymbol;

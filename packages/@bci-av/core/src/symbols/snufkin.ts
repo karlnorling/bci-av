@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Snufkin — (imaginary person + boy + musical_instrument: Literary figure in the Moomin books by Tove Jansson - Moomintroll's best friend, who lives in a tent, smokes a pipe, and plays the harmonica.) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25171",
+  derivation: "(imaginary person + boy + musical_instrument: Literary figure in the Moomin books by Tove Jansson - Moomintroll's best friend, who lives in a tent, smokes a pipe, and plays the harmonica.)",
+  gloss: "Snufkin",
+  id: "snufkin",
+  names: {"en":"Snufkin","sv":"Snusmumriken","no":"Snusmumriken","fi":"Nuuskamuikkunen","de":"Snufkin","nl":"Snufkin (fantasiefiguur)","af":"Snufkin","ru":"Снусмумрик","lv":"Murmulis","pl":"Snufkin","es":"Snufkin","eo":"Snufkino"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><g fill=\"none\"><path d=\"M74 130v128m-32 0h64M10 130h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"97.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74 66v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"161.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m170 258 32-64m0 0 32 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"329.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M362 130v96m-96-64h64m0 0v64m0 0h-64m0 0v-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Snufkin"],
+};
+
+export default blissSymbol;

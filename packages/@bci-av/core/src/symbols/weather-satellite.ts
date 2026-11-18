@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** weather_satellite — (communication satellite + camera) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24779",
+  derivation: "(communication satellite + camera)",
+  gloss: "weather_satellite",
+  id: "weather-satellite",
+  names: {"en":"weather_satellite,spy_satellite","sv":"vädersatellit, spionsatellit","no":"værsatelitt","fi":"sääsatelliitti, vakoilusatelliitti","hu":"időjárásjelző műhold, kém műhold","de":"Wettersatellit, Spionensatellit","nl":"weersateliet, spionagesateliet","af":"weer satelliet, spioenasie satelliet","ru":"метеорологический спутник, спутник-шпион","is":"samskipta gervihnöttur","lv":"laika ziņu satelīts","pl":"satelita meteorologiczny, satelita szpiegowski","fr":"satellite météo, satellite espion","es":"satélite climático, satélite espía","pt":"satélite","eo":"vetersatelito, spionsatelito"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><circle cx=\"73.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 194h128m32.002 0a63.5 63.5 0 0 0 126.996-.008M234 130l-32 32m32-32 32 32m-32-32v128m-32-32 32 32m0 0 32-32m64-96h128m0 0v128m0 0H330m0 0V130\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"393.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M394 194z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["weather_satellite","spy_satellite"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** cycle_of_life — (rotation,circulation,orbit,lap,circle,round + life: the cycle of generation of life, life span, death, and regeneration of new life) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "26152",
+  derivation: "(rotation,circulation,orbit,lap,circle,round + life: the cycle of generation of life, life span, death, and regeneration of new life)",
+  gloss: "cycle_of_life",
+  id: "cycle-of-life",
+  names: {"en":"cycle_of_life,life_cycle","sv":"livscykel,","no":"livssyklus","de":"Lebenszyklus","af":"siklus_van_die_lewe,lewens siklus","pl":"cykl życia","eo":"ciklo de vivo, vivciklo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 340 324\"><g fill=\"none\"><path d=\"M105.992 256.998A63.5 63.5 0 0 0 106 130.002M42.002 194a63.5 63.5 0 0 0 63.99 62.998M10 226l32-32m0 0 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"265.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M266 130v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["cycle_of_life","life_cycle"],
+};
+
+export default blissSymbol;

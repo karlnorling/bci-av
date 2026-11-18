@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** zoo — (park + animal) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "18475",
+  derivation: "(park + animal)",
+  gloss: "zoo",
+  id: "zoo",
+  names: {"en":"zoo","sv":"djurpark, zoo","no":"zoologisk hage, dyrepark","fi":"eläintarha, eläinpuisto","hu":"állatkert","de":"Zoologischer Garten, Zoo","nl":"dierentuin","af":"dieretuin","ru":"зоопарк","is":"dýragarður","lv":"zooloģiskais darzs","pl":"ZOO","fr":"zoo","es":"zoo, zoológico","pt":"jardim zoológico","da":"zoo","eo":"zoo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"m266 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64m-128-64h128m-352 0v64m0 0h128m0 0v-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"161.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M105.992 192.998a63.5 63.5 0 0 0 63.006-63.006m1.004.008a63.5 63.5 0 0 0 63.99 62.998M170 130v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["zoo"],
+};
+
+export default blissSymbol;

@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** beef — (food + bovine: food that comes from a steer or cow. The symbol also can be explained as: combination of meat and bovine) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "12652",
+  derivation: "(food + bovine: food that comes from a steer or cow. The symbol also can be explained as: combination of meat and bovine)",
+  gloss: "beef",
+  id: "beef",
+  names: {"en":"beef","sv":"nötkött","no":"oksekjøtt, storfekjøtt","fi":"pihvi, naudanliha, häränliha","hu":"marhahús","de":"Rindfleisch, Rind","nl":"rundvlees","af":"beesvleis","ru":"говядина","is":"nautakjöt","lt":"jautiena","lv":"liellopu gaļa","pl":"wołowina","fr":"viande de boeuf","es":"carne de res","pt":"carne de vaca","it":"carne di bovino","da":"oksekød, bøfkød","eo":"bovaĵo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><g fill=\"none\"><circle cx=\"41.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M170.004 162a31.5 31.5 0 0 0 62.992-.015M10 258h64m32-64h128m-128 64 32-64m0 0 32 64m0 0 32-64m0 0 32 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["beef"],
+};
+
+export default blissSymbol;

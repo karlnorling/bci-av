@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** eggplant — (vegetable_(oval-shaped) + purple) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "13913",
+  derivation: "(vegetable_(oval-shaped) + purple)",
+  gloss: "eggplant",
+  id: "eggplant",
+  names: {"en":"eggplant,aubergine,brinjal","sv":"aubergine, äggplanta","no":"aubergine","fi":"munakoiso","hu":"padlizsán","de":"Aubergine","nl":"aubergine","af":"eiervrug","ru":"баклажан","is":"eggaldin","lt":"baklažanas","lv":"baklažāns","pl":"bakłażan, oberżyna (warzywo)","fr":"aubergine","es":"berenjena","pt":"planta em forma de ovo","it":"melanzana","da":"aubergine","eo":"melongeno"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><g fill=\"none\"><path d=\"M10 258h128m-33.004-96.015a31.5 31.5 0 1 0-62.992.015m0 64a31.5 31.5 0 0 0 62.992-.015M42 162v64m64-64v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"201.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M202 194zm160-64h128M9.992 320.998a63.5 63.5 0 0 0 63.006-63.006M170 258h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"297.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["eggplant","aubergine","brinjal"],
+};
+
+export default blissSymbol;

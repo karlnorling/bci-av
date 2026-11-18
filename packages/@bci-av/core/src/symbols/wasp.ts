@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** wasp — (stinging insect + wings + intensity) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27153",
+  derivation: "(stinging insect + wings + intensity)",
+  gloss: "wasp",
+  id: "wasp",
+  names: {"en":"wasp","sv":"geting","no":"veps","de":"Wespe","af":"perdeby","lt":"vapsva","pl":"osa","eo":"vespo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 500 324\"><path fill=\"none\" d=\"m10 258 32-64m0 0 32 64m0 0 32-64m0 0 32 64m0 0 32-64m0 0 32 64m32-64 64 64m0-64-64 64m128-128-64 64m112-96-32 32m0 0 32 32m-240-31.998A63.5 63.5 0 0 0 106.002 194m-1.004-.008A63.5 63.5 0 0 0 42 130.002M458 162v48m0 15z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["wasp"],
+};
+
+export default blissSymbol;

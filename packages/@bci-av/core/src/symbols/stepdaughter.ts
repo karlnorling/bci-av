@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** stepdaughter — (daughter + step-parent) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25811",
+  derivation: "(daughter + step-parent)",
+  gloss: "stepdaughter",
+  id: "stepdaughter",
+  names: {"en":"stepdaughter","sv":"styvdotter","no":"stedatter","de":"Stieftochter","nl":"stiefdochter","af":"stiefdogter","ru":"падчерица","lv":"audžu meita","pl":"pasierbica","eo":"vicfilino"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><path fill=\"none\" d=\"M202 130v128m-32 0h64m160-128v128m-32 0h64m-224-64 64-64m0 0 64 64m0 0 64-64m0 0 64 64m-448 0 64-64m0 0 64 64m-64 0 32 64m0 0H42m0 0 32-64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["stepdaughter"],
+};
+
+export default blissSymbol;

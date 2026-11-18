@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** star_(shape) — (shape + star) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29090",
+  derivation: "(shape + star)",
+  gloss: "star_(shape)",
+  id: "star-shape",
+  names: {"en":"star_(shape)","sv":"stjärnform","no":"stjerneform","de":"Stern (Form)","af":"ster_vorm","is":"stjarna (form)","lt":"žvaigždė (forma)","pl":"gwiazda (kształt)","eo":"stelo (formo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 360 644\"><g fill=\"none\"><path d=\"M308 322v128m-32-96 64 64m0-64-64 64\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"83.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M84 386zm0-64h128m0 0v128m-128 0h128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["star_(shape)"],
+};
+
+export default blissSymbol;

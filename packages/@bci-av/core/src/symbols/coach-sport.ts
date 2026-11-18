@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** coach_(sport) — (leader, coach + sport) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29227",
+  derivation: "(leader, coach + sport)",
+  gloss: "coach_(sport)",
+  id: "coach-sport",
+  names: {"en":"coach_(sport)","sv":"coach,tränare_(sport)","no":"trener_(sport)","de":"Trainer (Sport)","af":"afrigter_(sport)","pl":"trener (sport)","eo":"trejnisto (sporto)"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 616 644\"><path fill=\"none\" d=\"M148 258v256m-64 0h128m62.999-128.004A127.5 127.5 0 1 0 20.001 386M276 386h128m-64-64 64 64m0 0-64 64m128 64 64-128m0 0 64 128m0-256v256M468 386h128M468 258v128\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["coach_(sport)"],
+};
+
+export default blissSymbol;

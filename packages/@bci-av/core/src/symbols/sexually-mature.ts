@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** sexually_mature — (mature + gender,sex + description indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24260",
+  derivation: "(mature + gender,sex + description indicator)",
+  gloss: "sexually_mature",
+  id: "sexually-mature",
+  names: {"en":"sexually_mature","sv":"könsmogen","no":"kjønnsmoden","fi":"sukukypsä aikuinen","hu":"szexuálisan érett, nemileg érett","de":"geschlechtsreif","nl":"geslachtsrijp","af":"seksueel volwasse","ru":"половозрелый","is":"kynþroski","lv":"dzimumnobriedis","pl":"dojrzały płciowo","fr":"mâture (sexuellement)","es":"sexualmente maduro","eo":"sekse matura"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 244 324\"><g fill=\"none\"><path d=\"m106 258 32-64m0 0 32 64m32-64 32 64m0 0h-64m0 0 32-64m-160 0v64m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"41.5\" cy=\"161.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 130h64M26 66l16 32m0 0 16-32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["sexually_mature"],
+};
+
+export default blissSymbol;

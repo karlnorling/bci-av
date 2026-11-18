@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Frey — (Nordic God + plant: the God of growing power) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22818",
+  derivation: "(Nordic God + plant: the God of growing power)",
+  gloss: "Frey",
+  id: "frey",
+  names: {"en":"Frey","sv":"Frej, Frö","no":"Frøy (bror til Frøya)","fi":"Frey, Freyr","hu":"Frey (északi istenség)","de":"Frej (nordischer Gott)","nl":"Frey (Noorse God)","af":"Frey (Nordiese God)","ru":"Фрей (господин, Бог плодородия и любви)","is":"Freyr","lv":"Frejs","pl":"Frej - nordycki bóg urodzaju, płodności oraz pokoju, brat Freji","fr":"Frey (mythologie nordique)","es":"Frey","pt":"frej (deus nórdico do poder crescente)","it":"Frej (dio Nordico della fertilità)","eo":"Frejo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 436 324\"><g fill=\"none\"><path d=\"m74 130 64 128m0 0H10m0 0 64-128m-64 64L74 66m0 0 64 128m-128 0h32m64 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m202 178 32-32m0 0 32 32m96 16v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"161.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M426 194.002A63.5 63.5 0 0 0 362.002 258\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Frey"],
+};
+
+export default blissSymbol;

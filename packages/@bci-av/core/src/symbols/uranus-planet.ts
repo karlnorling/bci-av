@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Uranus_(planet) — (gas planet + ice) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24521",
+  derivation: "(gas planet + ice)",
+  gloss: "Uranus_(planet)",
+  id: "uranus-planet",
+  names: {"en":"Uranus_(planet)","sv":"Uranus","no":"Uranus (planet)","fi":"uranus (planeetta)","hu":"Uranusz (bolygó)","de":"Uranus (Planet)","nl":"Uranus","af":"Uranus (planeet)","ru":"Уран (планета)","is":"Úranus (reikistjarna)","lv":"Urāns (planēta)","pl":"Uran (planeta)","fr":"planète Uranus","es":"Urano","pt":"úrano","it":"Urano","da":"Uranus","eo":"Urano (planedo)"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 468 324\"><g fill=\"none\"><path d=\"M10 194h128m0 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"105.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m266 130-32 32m32-32 32 32m-32-32v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"265.5\" cy=\"193.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M362 162h64m0 0v64m0 0h-64m0 0v-64m32.894 31.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Uranus_(planet)"],
+};
+
+export default blissSymbol;

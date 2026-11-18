@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Iceland — (country + ice + fire: country characterized by ice and fiery volcanoes) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "14923",
+  derivation: "(country + ice + fire: country characterized by ice and fiery volcanoes)",
+  gloss: "Iceland",
+  id: "iceland",
+  names: {"en":"Iceland","sv":"Island","no":"Island","fi":"Islanti","hu":"Izland","de":"Island","nl":"IJsland","af":"Ysland","ru":"Исландия","is":"Ísland","lt":"Islandija","lv":"Islande","pl":"Islandia","fr":"Islande","es":"Islandia","pt":"Islândia","it":"Islanda","da":"Island","eo":"Islando"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><path fill=\"none\" d=\"M10 258h128M74 130h64m0 0v64m0 0H74m0 0v-64m0 64v64m128-96h64m0 0v64m0 0h-64m0 0v-64m32.894 31.228a45 44.5 0 0 0-66.851-1.028m66.147 1.598a45 45 0 0 0 62.63-.978m48 0a45 45 0 0 0 .5-63.13m-.14 63.49a45 45 0 0 0 1.01 64.618\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["Iceland"],
+};
+
+export default blissSymbol;

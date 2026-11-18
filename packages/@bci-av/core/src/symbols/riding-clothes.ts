@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** riding_clothes — (clothes + horse: where horse represents riding [contraction]) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24244",
+  derivation: "(clothes + horse: where horse represents riding [contraction])",
+  gloss: "riding_clothes",
+  id: "riding-clothes",
+  names: {"en":"riding_clothes","sv":"ridkläder","no":"rideklær","fi":"ratsastusvaatteet","hu":"lovaglóruha","de":"Reitbekleidung","nl":"paardrijkledij","af":"ryklere","ru":"одежда для верховой езды","is":"hestaföt","lv":"jāšanas apģērbs","pl":"strój do jazdy konnej","fr":"tenue d'équitation","es":"ropa de montar","eo":"rajdvestaĵo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><path fill=\"none\" d=\"M10 162h128M10 226h128m-96-96v128m64-128v128m-96-64 64-64m0 0 64 64m32 64 32-64m0 0 32 64m0 0 32-64m0 0 32 64m-128-64h128m64-64-64 64m64-64 32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["riding_clothes"],
+};
+
+export default blissSymbol;

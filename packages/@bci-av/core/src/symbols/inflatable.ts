@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** inflatable — (to inflate + description before the fact indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27073",
+  derivation: "(to inflate + description before the fact indicator)",
+  gloss: "inflatable",
+  id: "inflatable",
+  names: {"en":"inflatable","sv":"uppblåsbar","no":"oppblåsbar","de":"aufblasbar","af":"opblaasbaar","lt":"pripučiamas","pl":"nadmuchiwany","eo":"blovebla"},
+  pos: "GREEN",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 372 324\"><path fill=\"none\" d=\"M10 194h128m0 0-32-32m32 32-32 32m-32-96h128m0 0v128m0 0H74m0 0V130m48-64 16 32m0 0 16-32m80 64h128m0 0-64 128m0 0h64M106 66z\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["inflatable"],
+};
+
+export default blissSymbol;

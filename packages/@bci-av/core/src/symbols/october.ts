@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** October — (month + 10: tenth month of the year) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "15910",
+  derivation: "(month + 10: tenth month of the year)",
+  gloss: "October",
+  id: "october",
+  names: {"en":"October","sv":"oktober","no":"oktober","fi":"sairaanhoitaja","hu":"október","de":"Oktober","nl":"oktober","af":"Oktober","ru":"октябрь","is":"október","lt":"Spalis","lv":"oktobris","pl":"październik","fr":"octobre","es":"Octubre","pt":"Outubro","it":"Ottobre","da":"oktober","eo":"oktobro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 196 324\"><path fill=\"none\" d=\"M10 130v128m-.008-1.002A63.5 63.5 0 0 0 10 130.002M122 194v64m-16 0h32m-32-48 16-16m62.993 15.97a15.5 15.5 0 1 0-30.985.03m0 32a15.5 15.5 0 0 0 30.985-.03M154 210v32m32-32v32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></svg>",
+  synonyms: ["October"],
+};
+
+export default blissSymbol;

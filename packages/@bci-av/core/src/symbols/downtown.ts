@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** downtown — (middle,centre + city; the centre of a city) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29870",
+  derivation: "(middle,centre + city; the centre of a city)",
+  gloss: "downtown",
+  id: "downtown",
+  names: {"en":"downtown,city_centre,city_center","sv":"centrum (ort,stad)","no":"sentrum_(by)","de":"Innenstadt, Stadtzentrum","af":"onder_dorp","pl":"centrum miasta","eo":"urbocentro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 1000 644\"><path fill=\"none\" d=\"M20 258h256m0 0v256m0 0H20m0 0V258m64 64 64 64m0 0 64-64m128 64 128 128m0-128L340 514m192-128 128 128m0-128L532 514m320-256L724 386m0 0v128m0 0h256m0 0V386m0 0L852 258\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></svg>",
+  synonyms: ["downtown","city_centre","city_center"],
+};
+
+export default blissSymbol;

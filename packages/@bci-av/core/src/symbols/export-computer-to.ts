@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** export_(computer)-(to) — (out_of,exit_(forward) + digits_(computer) + action indicator) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "23491",
+  derivation: "(out_of,exit_(forward) + digits_(computer) + action indicator)",
+  gloss: "export_(computer)-(to)",
+  id: "export-computer-to",
+  names: {"en":"export_(computer)-(to)","sv":"exportera (dator)","no":"eksportere (PC)","fi":"viedä (tietokone)","hu":"exportálni, áthelyezni (szgépen)","de":"exportieren (Daten), auslesen (Daten)","nl":"exporteren (computer)","af":"uitvoer (rekenaar) (om te)","ru":"экспорт (компьютер)","is":"færa úr tölvu (data)","lv":"eksportēt (darbība datorā)","pl":"wysyłać, przesyłać (informatyczne)","fr":"exporter (informatique)","es":"exportar (ordenador)","it":"esportare","eo":"eksporti (komputilo)"},
+  pos: "RED",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 452 324\"><g fill=\"none\"><path d=\"m58 98 16-32m0 0 16 32m-80 32h128m0 0v128m0 0H10m0 0V130m64 64h128m0 0-32-32m32 32-32 32m190.998-32.008a63.5 63.5 0 1 0-126.996.008M298 130l-32 32m32-32 32 32m-32-32v128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"409.5\" cy=\"225.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M410 162v32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["export_(computer)-(to)"],
+};
+
+export default blissSymbol;

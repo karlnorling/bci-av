@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** tadpole — (pictograph: the symbol also incorporates water) - Character */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24302",
+  derivation: "(pictograph: the symbol also incorporates water) - Character",
+  gloss: "tadpole",
+  id: "tadpole",
+  names: {"en":"tadpole","sv":"grodyngel","no":"rumpetroll","fi":"nuijapää, sammakonpoikanen","hu":"ebihal","de":"Kaulquappe","nl":"kikkervisje","af":"paddavis","ru":"головастик","is":"froskungi","lv":"kurkulis","pl":"kijanka","fr":"têtard","es":"renacuajo","pt":"girino","it":"girino","eo":"ranido"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 148 324\"><g fill=\"none\"><path d=\"M138.894 193.228a45 44.5 0 0 0-66.851-1.028\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M74.958 193.16a44.5 44.5 0 0 0-66.456-.516m65.688 1.154a45 45 0 0 0 62.63-.978\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["tadpole"],
+};
+
+export default blissSymbol;

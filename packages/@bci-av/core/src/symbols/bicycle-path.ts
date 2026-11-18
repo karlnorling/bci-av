@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** bicycle_path — (place + activity + bicycle) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24022",
+  derivation: "(place + activity + bicycle)",
+  gloss: "bicycle_path",
+  id: "bicycle-path",
+  names: {"en":"bicycle_path","sv":"cykelbana","no":"sykkelsti, sykkelbane","fi":"pyörätie","hu":"kerékpárút","de":"Fahrradweg, Radweg","nl":"fietspad","af":"fietsry pad, baan","ru":"велосипедная дорожка","is":"hjólastígur","lv":"riteņbraucēju celiņš","pl":"ścieżka rowerowa","fr":"piste cyclable","es":"carril de bicicletas","pt":"caminho para bicicletas","it":"pista ciclabile","da":"cykelsti","eo":"bicikla vojo"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M10 258h128m-96-32 32 32m0 0 32-32m64 32 32-64m0 0 32 64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"361.5\" cy=\"225.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m384 203-45 45m0-45 45 45m-87.007-38.03a15.5 15.5 0 1 0-30.985.03M298 210l-32 48m0 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["bicycle_path"],
+};
+
+export default blissSymbol;

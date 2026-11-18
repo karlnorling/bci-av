@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** Freya — (Nordic_God,Nordic_Goddess + love: the Goddess of love) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22819",
+  derivation: "(Nordic_God,Nordic_Goddess + love: the Goddess of love)",
+  gloss: "Freya",
+  id: "freya",
+  names: {"en":"Freya","sv":"Freja, Fröja","no":"Frøya","fi":"Freya, Freyja, Frea","hu":"Freya (északi istenség)","de":"Freya, Freia, Freyja (nordische Göttin)","nl":"Freya (Noorse God)","af":"Freya (Nordiese God)","ru":"Фрейя (госпожа, Богиня любви и плодородия)","is":"Freyja","lv":"Freja","pl":"Freja - nordycka bogini płodności, miłości, magii i wojny","fr":"Freya (mythologie nordique)","es":"Freya","pt":"freja (deusa nórdica do amor)","it":"Freja (dea Nordica dell'amore)","eo":"Freja"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 596 324\"><g fill=\"none\"><path d=\"m74 130 64 128m0 0H10m0 0 64-128m-64 64L74 66m0 0 64 128m-128 0h32m64 0h32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"m202 178 32-32m0 0 32 32m128.067-16.009a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M456.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M457.172 256.534a127.5 127.5 0 0 0 63.774-94.67M330 194h64m64 0h128m0 0-32-32m32 32-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["Freya"],
+};
+
+export default blissSymbol;

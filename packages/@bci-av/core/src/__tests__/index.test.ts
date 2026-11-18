@@ -127,3 +127,23 @@ describe('names', () => {
     expect(getName(s, 'zz')).toBe(getName(s, 'en'));
   });
 });
+
+describe('per-symbol modules', () => {
+  // `symbols` is one exported array, so importing anything from the package
+  // root pulls all 6,551 — measured at 6.2 MB (1.4 MB gzipped) for a consumer
+  // who wanted one symbol. These modules make the cost proportional.
+  it('a per-symbol module matches the registry entry exactly', async () => {
+    const mod = await import('../symbols/house-work');
+    const fromRegistry = getSymbol('house-work');
+    expect(mod.blissSymbol).toEqual(fromRegistry);
+    expect(mod.default).toBe(mod.blissSymbol);
+  });
+
+  it('carries the full symbol, not a reduced one', async () => {
+    const { blissSymbol } = await import('../symbols/house-work');
+    expect(blissSymbol.svg).toMatch(/^<svg/);
+    expect(blissSymbol.derivation).toBeTruthy();
+    expect(Object.keys(blissSymbol.names).length).toBeGreaterThan(10);
+    expect(blissSymbol.synonyms.length).toBeGreaterThan(1);
+  });
+});

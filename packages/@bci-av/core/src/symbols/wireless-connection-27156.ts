@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** wireless_connection — (digital signal + without + fiber) Bliss-word synonym */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "27156",
+  derivation: "(digital signal + without + fiber) Bliss-word synonym",
+  gloss: "wireless_connection",
+  id: "wireless-connection-27156",
+  names: {"en":"wireless_connection","sv":"trådlöst nätverk, wifi, trådlös uppkoppling","no":"trådløst_nettverk,wifi,trådløs_kobling","de":"drahtlose Verbindung","af":"draadlose_verbinding","lt":"bevielis ryšys","pl":"połączenie bezprzewodowe","eo":"sendrata konekto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 388 324\"><g fill=\"none\"><path d=\"M314 194.002A63.5 63.5 0 0 0 250.002 258m63.99-65.002a63.5 63.5 0 0 0 63.006-63.006M106 162v32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"105.5\" cy=\"225.5\" r=\"15.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M25.279 257.04a79.5 79.5 0 0 0 .476-126.72\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M24.902 224.885a44.5 45 0 0 0 .489-63.27M8.65 208.61a21.5 22 0 0 0 .47-30.727M154 194h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["wireless_connection"],
+};
+
+export default blissSymbol;

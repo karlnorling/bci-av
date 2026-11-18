@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** psychology_room — (room + psychology_(class)) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "24226",
+  derivation: "(room + psychology_(class))",
+  gloss: "psychology_room",
+  id: "psychology-room",
+  names: {"en":"psychology_room","sv":"psykologrum","no":"psykologirom","fi":"psykologin huone","hu":"pszichológia szoba","de":"Psychologenraum","nl":"spreekkamer (psycholoog), lokaal (psycholoog)","af":"sielkunde spreekkamer","ru":"комната психолога","is":"sálfræðistofa","lv":"psihologa telpa","pl":"gabinet psychologiczny","fr":"salle de psychologie","es":"sala de psicología","eo":"psikologia ĉambro"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 628 324\"><g fill=\"none\"><path d=\"M296.998 193.992a63.5 63.5 0 1 0-126.996.008M170 258h128m-128-64v64m128-64v64m158.998-64.008a63.5 63.5 0 1 0-126.996.008m160.065-32.009a127 127.5 0 0 0 64.45 95.072\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M552.996 161.985a31.5 31.5 0 1 0-62.992.015m126.992-.015a31.5 31.5 0 1 0-62.992.015\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M553.172 256.534a127.5 127.5 0 0 0 63.774-94.67M10 130h128m0 0v128m0 0H10\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["psychology_room"],
+};
+
+export default blissSymbol;

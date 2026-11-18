@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** biologist — (person + biology) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "21564",
+  derivation: "(person + biology)",
+  gloss: "biologist",
+  id: "biologist",
+  names: {"en":"biologist","sv":"biolog","no":"biolog","fi":"biologi","hu":"biológus","de":"Biologe, Biologin","nl":"bioloog","af":"bioloog","ru":"биолог","is":"líffræðingur","lv":"biologs","pl":"biolog","fr":"biologiste","es":"biólogo","pt":"biólogo","it":"biologo","eo":"biologo"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"M232.998 193.992a63.5 63.5 0 1 0-126.996.008M106 258l64-128m0 0 64 128m-128 0h128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"329.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M330 130v128M42 130v128m-32 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["biologist"],
+};
+
+export default blissSymbol;

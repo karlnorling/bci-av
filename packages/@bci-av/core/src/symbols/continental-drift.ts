@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** continental_drift — (continent + back and forth) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "22621",
+  derivation: "(continent + back and forth)",
+  gloss: "continental_drift",
+  id: "continental-drift",
+  names: {"en":"continental_drift","sv":"kontinentaldrift","no":"kontinentaldrift","fi":"mannerten liikkuminen","hu":"kontinensek vándorlása, földrészek elmozdulása","de":"Kontinentaldrift","nl":"continentverschuiving","af":"kontinentale drywing","ru":"континентальный дрейф","is":"jarðflekahræringar","lv":"kontinentu lēna virzīšanās","pl":"ruchy, przesuwanie się kontynentów, dryft kontynentalny","fr":"dérive de continent, dérive continentale, déplacement continental","es":"deriva continental","pt":"movimento da placa continental","it":"fluttuazione dei continenti","eo":"kontinento-drifto"},
+  pos: "YELLOW",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 404 324\"><g fill=\"none\"><path d=\"m106 130 128 128\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"169.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M10 194h64m-32 32zm0-64zm224 96h128m-128 0 32-32m-32 32 32 32m-32-96h128m0 0-32-32m32 32-32 32\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["continental_drift"],
+};
+
+export default blissSymbol;

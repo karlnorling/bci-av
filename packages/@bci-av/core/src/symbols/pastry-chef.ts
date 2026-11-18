@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** pastry_chef — (person + cake: the person making pastry) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "29875",
+  derivation: "(person + cake: the person making pastry)",
+  gloss: "pastry_chef",
+  id: "pastry-chef",
+  names: {"en":"pastry_chef,pastry_cook","sv":"konditor","no":"konditor","de":"Konditor","af":"banketbakker, fynbakkker, pastry_-_sjef","pl":"cukiernik","eo":"sukeraĵisto"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 936 644\"><g fill=\"none\"><path d=\"M84 258v256m-64 0h128m95.36-128.64a90 90 0 0 0 1.002 128.266M244 386h256M244 514h256m-1.36-1.36a90 90 0 0 0-.503-127.779\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><circle cx=\"659.5\" cy=\"385.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/><path d=\"M724 258 596 514m0 0h128m128-256-64 64m64-64 64 64m-64-64v256\" style=\"stroke:#000;stroke-width:14;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["pastry_chef","pastry_cook"],
+};
+
+export default blissSymbol;

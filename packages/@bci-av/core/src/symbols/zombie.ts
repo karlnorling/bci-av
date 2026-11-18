@@ -1,0 +1,18 @@
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
+// Run 'yarn generate' to regenerate.
+
+import type { BlissSymbol } from '../types.js';
+
+/** zombie — (imaginary person + dead + walk) */
+export const blissSymbol: BlissSymbol = {
+  bciAv: "25222",
+  derivation: "(imaginary person + dead + walk)",
+  gloss: "zombie",
+  id: "zombie",
+  names: {"en":"zombie","sv":"zombie","no":"zombie","fi":"Zombie, Zombi, elävä kuollut","de":"Zombie","nl":"zombie","af":"zombie","ru":"зомби","lv":"zombijs","pl":"zombi","es":"zombie","eo":"zombio"},
+  pos: "BLUE",
+  svg: "<svg xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" stroke-linecap=\"round\" viewBox=\"0 0 532 324\"><g fill=\"none\"><path d=\"M74 130v128m-32 0h64M10 130h128M74 66v64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"73.5\" cy=\"97.5\" r=\"31.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><circle cx=\"233.5\" cy=\"193.5\" r=\"63.5\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/><path d=\"M234 130v128m64-128L170 258m160 0 64-128m0 0 64 128m-128 0h64m64 0h64\" style=\"stroke:#000;stroke-width:7;stroke-linejoin:round\"/></g></svg>",
+  synonyms: ["zombie"],
+};
+
+export default blissSymbol;
