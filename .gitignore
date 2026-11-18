@@ -31,3 +31,4 @@ data/
 
 # Symbol SVGs copied into the docs site by its prebuild step
 apps/docs/public/symbols/
+apps/docs/public/symbol-index.json
