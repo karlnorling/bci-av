@@ -1,0 +1,39 @@
+# NOTICE
+
+This repository packages two separately licensed things. Please keep them apart.
+
+## The code — MIT
+
+Everything in `bin/`, `scripts/`, the package sources, build configuration and
+documentation is licensed MIT. See LICENSE.
+
+## The Blissymbols — CC BY-SA 4.0, by BCI
+
+The symbol artwork and all accompanying metadata (BCI-AV numbers, glosses in 19
+languages, derivations, part-of-speech classifications) come from the **BCI
+Authorized Vocabulary**, published by **Blissymbolics Communication
+International (BCI)** and licensed under
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+
+- Source: <https://www.blissymbolics.org/>
+- Edition packaged here: see `EDITION` exported from `@bci-av/core`
+- Licence text: <https://creativecommons.org/licenses/by-sa/4.0/>
+
+### What this obliges you to do
+
+If you ship these symbols in a product, CC BY-SA 4.0 requires that you:
+
+1. **Attribute BCI.** Credit "Blissymbolics Communication International" and
+   link the licence. Crediting this package instead of BCI does not satisfy it.
+2. **Share alike.** If you modify the symbols — redraw them, recolour them,
+   build new symbols from them — you must release those modifications under
+   CC BY-SA 4.0 as well.
+3. **Indicate changes** if you made any.
+
+Share-alike applies to the **symbols**, not to your application. Using them to
+render a user interface does not make your code CC BY-SA. Editing the artwork
+and redistributing it does.
+
+Blissymbolics is a semantic graphical language, and BCI exists to standardise
+it. If you are building something substantial with it, they are worth talking
+to: <https://www.blissymbolics.org/>

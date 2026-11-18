@@ -1,0 +1,54 @@
+{
+  "name": "@bci-av/pt",
+  "version": "0.0.0",
+  "description": "Portuguese glosses for the BCI Authorized Vocabulary of Blissymbolics — 3,950 of 6,551 symbols",
+  "keywords": [
+    "aac",
+    "accessibility",
+    "blissymbolics",
+    "blissymbols",
+    "glosses",
+    "i18n",
+    "portuguese",
+    "pt"
+  ],
+  "homepage": "https://karlnorling.github.io/bci-av/",
+  "bugs": "https://github.com/karlnorling/bci-av/issues",
+  "license": "MIT",
+  "author": "Karl Norling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/bci-av.git",
+    "directory": "packages/@bci-av/pt"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "compile": "rm -rf dist && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', JSON.stringify({type:'commonjs'})); require('fs').writeFileSync('dist/esm/package.json', JSON.stringify({type:'module'}))\"",
+    "test": "echo 'pt package — no tests'",
+    "type-check": "tsc --noEmit -p tsconfig.cjs.json"
+  },
+  "devDependencies": {
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "typescript": "npm:@typescript/typescript6@^6.0.2"
+  }
+}

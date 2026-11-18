@@ -666,6 +666,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@bci-av/af@workspace:packages/@bci-av/af":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/af@workspace:packages/@bci-av/af"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
 "@bci-av/assets@workspace:^, @bci-av/assets@workspace:packages/@bci-av/assets":
   version: 0.0.0-use.local
   resolution: "@bci-av/assets@workspace:packages/@bci-av/assets"
@@ -694,6 +703,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@bci-av/da@workspace:packages/@bci-av/da":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/da@workspace:packages/@bci-av/da"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/de@workspace:packages/@bci-av/de":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/de@workspace:packages/@bci-av/de"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
 "@bci-av/elements@workspace:packages/@bci-av/elements":
   version: 0.0.0-use.local
   resolution: "@bci-av/elements@workspace:packages/@bci-av/elements"
@@ -704,6 +731,132 @@ __metadata:
     jest: "npm:^30.0.0"
     jest-environment-jsdom: "npm:^30.0.0"
     ts-jest: "npm:^29.4.6"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/en@workspace:packages/@bci-av/en":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/en@workspace:packages/@bci-av/en"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/eo@workspace:packages/@bci-av/eo":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/eo@workspace:packages/@bci-av/eo"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/es@workspace:packages/@bci-av/es":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/es@workspace:packages/@bci-av/es"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/fi@workspace:packages/@bci-av/fi":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/fi@workspace:packages/@bci-av/fi"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/fr@workspace:packages/@bci-av/fr":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/fr@workspace:packages/@bci-av/fr"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/hu@workspace:packages/@bci-av/hu":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/hu@workspace:packages/@bci-av/hu"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/is@workspace:packages/@bci-av/is":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/is@workspace:packages/@bci-av/is"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/it@workspace:packages/@bci-av/it":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/it@workspace:packages/@bci-av/it"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/lt@workspace:packages/@bci-av/lt":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/lt@workspace:packages/@bci-av/lt"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/lv@workspace:packages/@bci-av/lv":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/lv@workspace:packages/@bci-av/lv"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/nl@workspace:packages/@bci-av/nl":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/nl@workspace:packages/@bci-av/nl"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/no@workspace:packages/@bci-av/no":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/no@workspace:packages/@bci-av/no"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/pl@workspace:packages/@bci-av/pl":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/pl@workspace:packages/@bci-av/pl"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/pt@workspace:packages/@bci-av/pt":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/pt@workspace:packages/@bci-av/pt"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
     typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
@@ -728,9 +881,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@bci-av/ru@workspace:packages/@bci-av/ru":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/ru@workspace:packages/@bci-av/ru"
+  dependencies:
+    "@typescript/native": "npm:typescript@^7.0.2"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
+  languageName: unknown
+  linkType: soft
+
 "@bci-av/sprite@workspace:packages/@bci-av/sprite":
   version: 0.0.0-use.local
   resolution: "@bci-av/sprite@workspace:packages/@bci-av/sprite"
+  languageName: unknown
+  linkType: soft
+
+"@bci-av/sv@workspace:packages/@bci-av/sv":
+  version: 0.0.0-use.local
+  resolution: "@bci-av/sv@workspace:packages/@bci-av/sv"
+  dependencies:
+    "@bci-av/core": "workspace:^"
+    "@types/jest": "npm:^30.0.0"
+    "@typescript/native": "npm:typescript@^7.0.2"
+    jest: "npm:^30.0.0"
+    ts-jest: "npm:^29.4.6"
+    typescript: "npm:@typescript/typescript6@^6.0.2"
   languageName: unknown
   linkType: soft
 

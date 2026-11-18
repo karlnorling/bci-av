@@ -28,13 +28,14 @@
     "format:check": "oxfmt --check --ignore-path=.oxfmtignore .",
     "generate": "tsx bin/generate-source.ts",
     "generate-assets": "tsx bin/generate-assets.ts",
+    "generate-languages": "tsx bin/generate-languages.ts",
     "lint": "oxlint .",
     "prepare": "lefthook install",
     "publish": "yarn changeset publish",
     "test": "yarn workspaces foreach -A run test",
     "type-check": "yarn workspaces foreach -A --include '@bci-av/*' run type-check",
     "type-check:bin": "tsc --noEmit -p tsconfig.bin.json",
-    "update": "yarn fetch && yarn generate && yarn generate-assets",
+    "update": "yarn fetch && yarn generate && yarn generate-assets && yarn generate-languages",
     "version-packages": "changeset version && yarn install --mode=update-lockfile"
   },
   "devDependencies": {
