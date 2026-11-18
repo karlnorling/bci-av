@@ -1,6 +1,6 @@
 {
   "name": "@bci-av/css",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CSS sprite for the BCI Authorized Vocabulary of Blissymbolics — one class per symbol",
   "keywords": [
     "aac",
@@ -43,6 +43,6 @@
     "@bci-av/assets": "workspace:^"
   },
   "peerDependencies": {
-    "@bci-av/assets": "^0.0.0"
+    "@bci-av/assets": "^0.1.0"
   }
 }
